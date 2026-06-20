@@ -1,0 +1,21 @@
+{
+  "name": "bare-fakta-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape:kmquant": "tsx scrape-kmquant.ts",
+    "scrape:newhedge": "tsx scrape-newhedge.ts"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "is-ci": "latest",
+    "moderndash": "latest",
+    "puppeteer-real-browser": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
