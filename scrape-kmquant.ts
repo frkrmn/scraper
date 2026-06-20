@@ -13,13 +13,15 @@ import {
   TopAltcoinPerformance,
 } from "./getTopAltcoinPerformanceData";
 import { getMarketPulseCryptoData } from "./getMarketPulseCryptoData";
+import { NormalizedDecision } from "./getAlgoData";
 
 if (!isCI) {
   dotenv.config({ path: ".env.local" });
 }
 
 type CryptoPosition = {
-  decision: string;
+  decision: NormalizedDecision;
+  rawDecision: string;
 };
 
 export type KmquantData = {
