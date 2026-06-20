@@ -1,0 +1,42 @@
+name: Daily Crypto Data Scrape
+
+on:
+  schedule:
+    # 06:00 UTC = 09:00 Türkiye saati
+    - cron: "0 6 * * *"
+  workflow_dispatch: # GitHub arayüzünden elle de tetiklenebilsin diye
+
+permissions:
+  contents: write # sonucu repoya geri yazabilmek için
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repoyu indir
+        uses: actions/checkout@v4
+
+      - name: Node kurulumu
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Bağımlılıkları kur
+        run: npm install
+
+      - name: KMquant verisini topla
+        run: npx tsx scrape-kmquant.ts
+        env:
+          KMQUANT_EMAIL: ${{ secrets.KMQUANT_EMAIL }}
+          KMQUANT_PASSWORD: ${{ secrets.KMQUANT_PASSWORD }}
+
+      - name: NewHedge verisini topla
+        run: npx tsx scrape-newhedge.ts
+
+      - name: Güncel veriyi repoya kaydet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/api/latest.json public/api/newhedge.json
+          git diff --staged --quiet || git commit -m "Günlük veri güncellemesi"
+          git push
