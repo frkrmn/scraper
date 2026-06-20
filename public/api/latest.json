@@ -1,0 +1,79 @@
+{
+  "btc": {
+    "name": "BTC",
+    "today": "63,488$",
+    "maxPain": "72,000$",
+    "short": {
+      "decision": "Al"
+    },
+    "mid": {
+      "decision": "İşlem yok"
+    },
+    "long": {
+      "decision": "buy"
+    },
+    "speedometer": "10"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "1,710$",
+    "maxPain": "2,000$",
+    "short": {
+      "decision": "Sat"
+    },
+    "mid": {
+      "decision": "Güçlü Al"
+    },
+    "long": {
+      "decision": "buy"
+    },
+    "speedometer": "21"
+  },
+  "topAltcoinPerformance": {
+    "period": "60",
+    "data": [
+      {
+        "symbol": "GRAM",
+        "performance": "91677.30%"
+      },
+      {
+        "symbol": "WLD",
+        "performance": "149.09%"
+      },
+      {
+        "symbol": "HYPE",
+        "performance": "96.25%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "72.32%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "67.78%"
+      },
+      {
+        "symbol": "ONDO",
+        "performance": "51.44%"
+      },
+      {
+        "symbol": "DEXE",
+        "performance": "42.70%"
+      },
+      {
+        "symbol": "XLM",
+        "performance": "37.18%"
+      },
+      {
+        "symbol": "U",
+        "performance": "16.08%"
+      },
+      {
+        "symbol": "DAI",
+        "performance": "15.96%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "14%",
+  "lastUpdated": "2026-06-20T13:04:17.211Z"
+}
