@@ -14,6 +14,7 @@ import {
 } from "./getTopAltcoinPerformanceData";
 import { getMarketPulseCryptoData } from "./getMarketPulseCryptoData";
 import { NormalizedDecision } from "./getAlgoData";
+import { createClient } from "@supabase/supabase-js";
 
 if (!isCI) {
   dotenv.config({ path: ".env.local" });
@@ -87,7 +88,6 @@ async function main(): Promise<KmquantData> {
 
     await sleep(6000);
 
-    // this have to come first since data is in /app page
     const { btc: btcTodayAndMaxPain, eth: ethTodayAndMaxPain } =
       await getTodayAndMaxPainCryptoData({ page });
 
@@ -130,7 +130,7 @@ async function main(): Promise<KmquantData> {
       long: await getAlgoData({ page, url: KMAQUANT_PAGES.ETH_LONG_ALGO_PAGE }),
       speedometer: ethSpeedometerData,
     };
-    console.log("Extracted ETH data:", btcData);
+    console.log("Extracted ETH data:", ethData);
 
     return {
       btc: btcData,
@@ -147,14 +147,45 @@ async function main(): Promise<KmquantData> {
 async function run() {
   const res = await main();
 
+  // 1. JSON dosyasına kaydet (anlık veri için)
   const apiDir = path.join(process.cwd(), "public", "api");
   if (!fs.existsSync(apiDir)) {
     fs.mkdirSync(apiDir, { recursive: true });
   }
-
   const filePath = path.join(apiDir, "latest.json");
   fs.writeFileSync(filePath, JSON.stringify(res, null, 2), "utf-8");
   console.log("✓ Data saved to", filePath);
+
+  // 2. Supabase max_pain_history tablosuna günlük kayıt at
+  const supabaseUrl = process.env.SUPABASE_URL;
+  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+
+  if (supabaseUrl && supabaseKey) {
+    const supabase = createClient(supabaseUrl, supabaseKey);
+    const today = new Date().toISOString().split("T")[0]; // "2026-06-22"
+
+    const { error } = await supabase
+      .from("max_pain_history")
+      .upsert(
+        {
+          date: today,
+          btc_price: res.btc.today,
+          btc_max_pain: res.btc.maxPain,
+          eth_price: res.eth.today,
+          eth_max_pain: res.eth.maxPain,
+        },
+        { onConflict: "date" } // aynı güne iki kez yazılmasın
+      );
+
+    if (error) {
+      console.error("✗ Failed to save to Supabase max_pain_history:", error);
+    } else {
+      console.log(`✓ Max pain history saved for ${today}`);
+    }
+  } else {
+    console.warn("⚠ SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY not set, skipping Supabase write.");
+  }
+
   console.log("Final data:", res);
 }
 

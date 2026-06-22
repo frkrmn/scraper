@@ -8,6 +8,7 @@
     "scrape:newhedge": "tsx scrape-newhedge.ts"
   },
   "dependencies": {
+    "@supabase/supabase-js": "latest",
     "dotenv": "latest",
     "is-ci": "latest",
     "moderndash": "latest",
