@@ -1,3 +1,4 @@
+cat > /mnt/user-data/outputs/scrape-amsflow.ts << 'ENDOFFILE'
 import * as fs from "fs";
 import * as path from "path";
 import { connect, PageWithCursor } from "puppeteer-real-browser";
