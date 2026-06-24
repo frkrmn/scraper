@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "GRAM",
-        "performance": "88466.52%"
+        "performance": "87963.80%"
       },
       {
         "symbol": "WLD",
-        "performance": "127.77%"
+        "performance": "124.46%"
       },
       {
         "symbol": "DEXE",
-        "performance": "86.76%"
+        "performance": "84.86%"
       },
       {
         "symbol": "HYPE",
-        "performance": "69.48%"
+        "performance": "69.59%"
       },
       {
         "symbol": "NEAR",
-        "performance": "58.92%"
+        "performance": "58.63%"
       },
       {
         "symbol": "ONDO",
-        "performance": "37.21%"
+        "performance": "36.94%"
       },
       {
         "symbol": "ZEC",
-        "performance": "35.02%"
+        "performance": "34.89%"
       },
       {
         "symbol": "XLM",
-        "performance": "31.52%"
+        "performance": "31.65%"
       },
       {
         "symbol": "TRX",
-        "performance": "21.19%"
+        "performance": "21.26%"
       },
       {
         "symbol": "U",
-        "performance": "19.18%"
+        "performance": "19.25%"
       }
     ]
   },
   "marketpulseCrypto": "13%",
-  "lastUpdated": "2026-06-24T09:19:43.771Z"
+  "lastUpdated": "2026-06-24T09:32:29.041Z"
 }
