@@ -4,8 +4,8 @@
     "today": "62,656$",
     "maxPain": "72,000$",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "unknown"
+      "decision": "BUY",
+      "rawDecision": "Al"
     },
     "mid": {
       "decision": "STRONG_BUY",
@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "GRAM",
-        "performance": "89751.68%"
+        "performance": "89640.23%"
       },
       {
         "symbol": "WLD",
-        "performance": "123.90%"
+        "performance": "124.41%"
       },
       {
         "symbol": "DEXE",
-        "performance": "86.04%"
+        "performance": "86.52%"
       },
       {
         "symbol": "HYPE",
-        "performance": "69.81%"
+        "performance": "69.05%"
       },
       {
         "symbol": "NEAR",
-        "performance": "58.95%"
+        "performance": "58.16%"
       },
       {
         "symbol": "ONDO",
-        "performance": "36.27%"
+        "performance": "36.43%"
       },
       {
         "symbol": "ZEC",
-        "performance": "34.71%"
+        "performance": "34.39%"
       },
       {
         "symbol": "XLM",
-        "performance": "31.13%"
+        "performance": "30.82%"
       },
       {
         "symbol": "TRX",
-        "performance": "21.41%"
+        "performance": "21.75%"
       },
       {
         "symbol": "U",
-        "performance": "19.42%"
+        "performance": "19.71%"
       }
     ]
   },
   "marketpulseCrypto": "13%",
-  "lastUpdated": "2026-06-24T10:33:23.274Z"
+  "lastUpdated": "2026-06-24T11:17:54.347Z"
 }
