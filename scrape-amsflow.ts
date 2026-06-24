@@ -43,11 +43,8 @@ function extractYearly(text: string, keyword: string) {
 
 function extractHistory(text: string) {
   const history: { date: string; score: number | null; classification: string; assetPrice: string }[] = [];
-
-  // Tablo: "Jun 24, 2026\t21\tExtreme Fear – 21\t4,098" formatinda
   const tableSection = text.match(/Date\s+Fear & Greed\s+Classification[\s\S]+?(?=Track Global|$)/);
   if (!tableSection) return history;
-
   const rowRegex = /([A-Za-z]+ \d+, \d{4})\s+(\d+)\s+([\w ]+?)\s*[–\-]\s*\d+\s+([\d,]+)/g;
   let m;
   while ((m = rowRegex.exec(tableSection[0])) !== null) {
@@ -61,16 +58,35 @@ function extractHistory(text: string) {
   return history;
 }
 
+async function waitForContent(page: PageWithCursor, maxWait = 30000): Promise<string> {
+  const start = Date.now();
+  while (Date.now() - start < maxWait) {
+    const text: string = await page.evaluate(() => document.body.innerText);
+    // "FEAR & GREED INDEX" gorunce sayfa yuklendi demektir
+    if (text.includes("FEAR & GREED INDEX")) {
+      return text;
+    }
+    console.log("  Page not ready yet, waiting 3s...");
+    await delay(3000);
+  }
+  // Son deneme - ne geliyorsa onu don
+  const text: string = await page.evaluate(() => document.body.innerText);
+  console.log("  TIMEOUT - text sample:", text.slice(0, 200));
+  return text;
+}
+
 async function scrapeMarket(page: PageWithCursor, slug: string, label: string) {
   const url = `${BASE_URL}/${slug}`;
-  console.log(`→ ${label} (${url})`);
+  console.log(`\n→ ${label}`);
 
   await page.goto(url, { waitUntil: "domcontentloaded" });
-  await delay(8000);
+  await delay(5000);
 
-  const text: string = await page.evaluate(() => document.body.innerText);
+  // Sayfa hazir olana kadar bekle (max 30sn)
+  const text = await waitForContent(page);
 
-  // Ana skor
+  console.log(`  text sample: "${text.slice(0, 150).replace(/\n/g, " | ")}"`);
+
   const mainMatch = text.match(/FEAR\s*&\s*GREED\s*INDEX[\s\n]+(\d+)[\s\n]+([A-Z][A-Z ]+)/);
   const score = mainMatch ? parseInt(mainMatch[1], 10) : null;
   const classification = mainMatch
@@ -87,7 +103,7 @@ async function scrapeMarket(page: PageWithCursor, slug: string, label: string) {
   const yearlyLow  = extractYearly(text, "Yearly\\s+Low");
   const history    = extractHistory(text);
 
-  console.log(`✓ ${label}: score=${score}, class=${classification}, history=${history.length} rows`);
+  console.log(`  score=${score}, class=${classification}, history=${history.length} rows`);
 
   return { score, classification, historical, yearlyHigh, yearlyLow, history };
 }
@@ -128,7 +144,8 @@ async function run() {
         });
       }
 
-      await delay(3000);
+      // Sayfalar arasi礼貌 delay - Cloudflare icin onemli
+      await delay(5000);
     }
   } finally {
     await browser.close();
@@ -139,7 +156,7 @@ async function run() {
   const apiDir = path.join(process.cwd(), "public", "api");
   if (!fs.existsSync(apiDir)) fs.mkdirSync(apiDir, { recursive: true });
   fs.writeFileSync(path.join(apiDir, "amsflow.json"), JSON.stringify(output, null, 2), "utf-8");
-  console.log("✓ Saved to public/api/amsflow.json");
+  console.log("\n✓ Saved to public/api/amsflow.json");
 }
 
 run().catch(console.error);
