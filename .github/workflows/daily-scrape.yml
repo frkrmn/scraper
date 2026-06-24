@@ -2,44 +2,45 @@ name: Daily Crypto Data Scrape
 
 on:
   schedule:
-    # 06:00 UTC = 09:00 Türkiye saati
     - cron: "13 6 * * *"
-  workflow_dispatch: # GitHub arayüzünden elle de tetiklenebilsin diye
+  workflow_dispatch:
 
 permissions:
-  contents: write # sonucu repoya geri yazabilmek için
+  contents: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - name: Repoyu indir
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Node kurulumu
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - name: Bağımlılıkları kur
+      - name: Install dependencies
         run: npm install
 
-      - name: KMquant verisini topla
+      - name: Run KMquant scraper
         run: npx tsx scrape-kmquant.ts
         env:
           KMQUANT_EMAIL: ${{ secrets.KMQUANT_EMAIL }}
           KMQUANT_PASSWORD: ${{ secrets.KMQUANT_PASSWORD }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 
-      - name: NewHedge verisini topla
+      - name: Run NewHedge scraper
         run: npx tsx scrape-newhedge.ts
-       
-     - name: Amsflow verisini topla
+
+      - name: Run Amsflow scraper
         run: npx tsx scrape-amsflow.ts
 
- - name: Güncel veriyi repoya kaydet
+      - name: Commit and push updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/api/latest.json public/api/newhedge.json public/api/amsflow.json
-          git diff --staged --quiet || git commit -m "Günlük veri güncellemesi"
+          git diff --staged --quiet || git commit -m "Daily data update"
           git push
