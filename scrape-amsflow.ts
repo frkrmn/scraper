@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import * as cheerio from "cheerio";
+import { connect, PageWithCursor } from "puppeteer-real-browser";
 import isCI from "is-ci";
 import dotenv from "dotenv";
 
@@ -11,265 +11,170 @@ if (!isCI) {
 const BASE_URL = "https://amsflow.com/data-reports/sentiment";
 
 const MARKETS = [
-  { key: "us",          label: "US Market",    slug: "us" },
-  { key: "eu",          label: "EU Market",    slug: "eu" },
-  { key: "uk",          label: "UK Market",    slug: "uk" },
-  { key: "japan",       label: "Japan",        slug: "japan" },
-  { key: "china",       label: "China",        slug: "china" },
-  { key: "australia",   label: "Australia",    slug: "australia" },
-  { key: "canada",      label: "Canada",       slug: "canada" },
-  { key: "gold",        label: "Gold",         slug: "gold" },
-  { key: "silver",      label: "Silver",       slug: "silver" },
-  { key: "southkorea",  label: "South Korea",  slug: "southkorea" },
+  { key: "us",         label: "US Market",   slug: "us" },
+  { key: "eu",         label: "EU Market",   slug: "eu" },
+  { key: "uk",         label: "UK Market",   slug: "uk" },
+  { key: "japan",      label: "Japan",       slug: "japan" },
+  { key: "china",      label: "China",       slug: "china" },
+  { key: "australia",  label: "Australia",   slug: "australia" },
+  { key: "canada",     label: "Canada",      slug: "canada" },
+  { key: "gold",       label: "Gold",        slug: "gold" },
+  { key: "silver",     label: "Silver",      slug: "silver" },
+  { key: "southkorea", label: "South Korea", slug: "southkorea" },
 ];
-
-type HistoryRow = {
-  date: string;
-  score: number | null;
-  classification: string;
-  assetPrice: string;
-};
-
-type HistoricalValue = {
-  score: number | null;
-  classification: string;
-};
-
-type YearlyExtreme = {
-  date: string;
-  score: number | null;
-  classification: string;
-};
-
-type MarketSentiment = {
-  key: string;
-  label: string;
-  score: number | null;
-  classification: string;
-  historical: {
-    yesterday: HistoricalValue;
-    lastWeek: HistoricalValue;
-    lastMonth: HistoricalValue;
-  };
-  yearlyHigh: YearlyExtreme;
-  yearlyLow: YearlyExtreme;
-  history: HistoryRow[];
-};
-
-type AmsflowData = {
-  markets: MarketSentiment[];
-  lastUpdated: string;
-};
 
 const delay = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-function parseScore(text: string): number | null {
-  const match = text.match(/\d+/);
-  return match ? parseInt(match[0], 10) : null;
-}
+async function scrapeMarket(page: PageWithCursor, slug: string, label: string) {
+  const url = `${BASE_URL}/${slug}`;
+  console.log(`Navigating to ${url}...`);
 
-// "Extreme Fear – 22"  →  { score: 22, classification: "Extreme Fear" }
-function parseClassificationAndScore(text: string): HistoricalValue {
-  const dashMatch = text.match(/^(.*?)\s*[–-]\s*(\d+)$/);
-  if (dashMatch) {
-    return {
-      classification: dashMatch[1].trim(),
-      score: parseInt(dashMatch[2], 10),
-    };
-  }
-  return { classification: text.trim(), score: null };
-}
+  await page.goto(url, { waitUntil: "domcontentloaded" });
+  await delay(5000);
 
-async function scrapeMarket(market: typeof MARKETS[number]): Promise<MarketSentiment> {
-  const url = `${BASE_URL}/${market.slug}`;
-  console.log(`Fetching ${url}...`);
+  const data = await page.evaluate(() => {
+    // --- Current score & classification ---
+    // Score: büyük standalone sayı (0-100 arası)
+    let score: number | null = null;
+    let classification = "unknown";
 
-  const res = await fetch(url, {
-    headers: {
-      "User-Agent":
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-      "Accept": "text/html,application/xhtml+xml",
-    },
-  });
-
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-  const html = await res.text();
-  const $ = cheerio.load(html);
-
-  // --- Current score ---
-  // Look for h2 "Fear & Greed Index" section, then find the score number
-  let score: number | null = null;
-  let classification = "unknown";
-
-  // The score is a large standalone number, classification is text right after
-  // Try common patterns
-  $("h2, h1").each((_, el) => {
-    const text = $(el).text().trim();
-    if (text.includes("Fear") && text.includes("Greed")) {
-      // Score is often in a sibling element
-      const parent = $(el).parent();
-      parent.find("p, div, span").each((_, child) => {
-        const t = $(child).text().trim();
-        if (/^\d+$/.test(t) && score === null) {
-          score = parseInt(t, 10);
-        }
-      });
-    }
-  });
-
-  // Fallback: search for standalone 1-3 digit number in a prominent element
-  if (score === null) {
-    $("p, span, div").each((_, el) => {
-      const text = $(el).text().trim();
+    // Sayfadaki tüm metin node'larına bak, tek başına 1-3 haneli sayı ara
+    document.querySelectorAll("h1,h2,h3,h4,p,span,div").forEach((el) => {
+      const text = el.textContent?.trim() ?? "";
       if (/^\d{1,3}$/.test(text) && score === null) {
         const num = parseInt(text, 10);
-        if (num >= 0 && num <= 100) score = num;
+        if (num >= 0 && num <= 100 && el.children.length === 0) {
+          score = num;
+        }
       }
     });
-  }
 
-  // Classification words
-  const classWords = ["Extreme Fear", "Extreme Greed", "Fear", "Greed", "Neutral"];
-  $("p, span, h3, h4").each((_, el) => {
-    const text = $(el).text().trim();
-    if (classWords.includes(text) && classification === "unknown") {
-      classification = text;
-    }
-  });
-
-  // --- Historical values ---
-  const yesterday: HistoricalValue = { score: null, classification: "unknown" };
-  const lastWeek: HistoricalValue = { score: null, classification: "unknown" };
-  const lastMonth: HistoricalValue = { score: null, classification: "unknown" };
-
-  const fullText = $("body").text();
-
-  const yesterdayMatch = fullText.match(/Yesterday\s+([\w\s]+?)\s*[–-]\s*(\d+)/);
-  if (yesterdayMatch) {
-    yesterday.classification = yesterdayMatch[1].trim();
-    yesterday.score = parseInt(yesterdayMatch[2], 10);
-  }
-
-  const lastWeekMatch = fullText.match(/Last\s+Week\s+([\w\s]+?)\s*[–-]\s*(\d+)/);
-  if (lastWeekMatch) {
-    lastWeek.classification = lastWeekMatch[1].trim();
-    lastWeek.score = parseInt(lastWeekMatch[2], 10);
-  }
-
-  const lastMonthMatch = fullText.match(/Last\s+Month\s+([\w\s]+?)\s*[–-]\s*(\d+)/);
-  if (lastMonthMatch) {
-    lastMonth.classification = lastMonthMatch[1].trim();
-    lastMonth.score = parseInt(lastMonthMatch[2], 10);
-  }
-
-  // --- Yearly high & low ---
-  const yearlyHigh: YearlyExtreme = { date: "unknown", score: null, classification: "unknown" };
-  const yearlyLow: YearlyExtreme = { date: "unknown", score: null, classification: "unknown" };
-
-  const highMatch = fullText.match(/Yearly\s+High\s+([\w,\s]+?\d{4})\s*([\w\s]+?)\s*[–-]\s*(\d+)/);
-  if (highMatch) {
-    yearlyHigh.date = highMatch[1].trim();
-    yearlyHigh.classification = highMatch[2].trim();
-    yearlyHigh.score = parseInt(highMatch[3], 10);
-  }
-
-  const lowMatch = fullText.match(/Yearly\s+Low\s+([\w,\s]+?\d{4})\s*([\w\s]+?)\s*[–-]\s*(\d+)/);
-  if (lowMatch) {
-    yearlyLow.date = lowMatch[1].trim();
-    yearlyLow.classification = lowMatch[2].trim();
-    yearlyLow.score = parseInt(lowMatch[3], 10);
-  }
-
-  // --- Historical table (last 30 days) ---
-  const history: HistoryRow[] = [];
-
-  $("table").each((_, table) => {
-    const headers: string[] = [];
-    $(table).find("thead th").each((_, th) => {
-      headers.push($(th).text().trim().toLowerCase());
+    const classWords = ["Extreme Fear", "Extreme Greed", "Fear", "Greed", "Neutral"];
+    document.querySelectorAll("h1,h2,h3,h4,p,span,div").forEach((el) => {
+      const text = el.textContent?.trim() ?? "";
+      if (classWords.includes(text) && classification === "unknown" && el.children.length === 0) {
+        classification = text;
+      }
     });
 
-    // Check if this is the sentiment table (has "fear" or "greed" column)
-    const isSentimentTable = headers.some(
-      (h) => h.includes("fear") || h.includes("greed") || h.includes("date")
-    );
-    if (!isSentimentTable) return;
+    // --- Historical values ---
+    const fullText = document.body.innerText;
 
-    $(table)
-      .find("tbody tr")
-      .each((_, tr) => {
-        const cells = $(tr)
-          .find("td")
-          .map((_, td) => $(td).text().trim())
-          .get();
+    function extractHistorical(keyword: string) {
+      const regex = new RegExp(keyword + "\\s*([\\w\\s]+?)\\s*[\\u2013\\-]\\s*(\\d+)");
+      const m = fullText.match(regex);
+      if (m) return { score: parseInt(m[2], 10), classification: m[1].trim() };
+      return { score: null, classification: "unknown" };
+    }
 
+    const yesterday = extractHistorical("Yesterday");
+    const lastWeek  = extractHistorical("Last\\s+Week");
+    const lastMonth = extractHistorical("Last\\s+Month");
+
+    // --- Yearly high & low ---
+    function extractYearly(keyword: string) {
+      const regex = new RegExp(keyword + "\\s+([\\w,\\s]+?\\d{4})\\s*([\\w\\s]+?)\\s*[\\u2013\\-]\\s*(\\d+)");
+      const m = fullText.match(regex);
+      if (m) return { date: m[1].trim(), classification: m[2].trim(), score: parseInt(m[3], 10) };
+      return { date: "unknown", classification: "unknown", score: null };
+    }
+
+    const yearlyHigh = extractYearly("Yearly\\s+High");
+    const yearlyLow  = extractYearly("Yearly\\s+Low");
+
+    // --- History table ---
+    const history: { date: string; score: number | null; classification: string; assetPrice: string }[] = [];
+
+    document.querySelectorAll("table").forEach((table) => {
+      const headers = Array.from(table.querySelectorAll("thead th")).map(
+        (th) => th.textContent?.trim().toLowerCase() ?? ""
+      );
+      const hasDate = headers.some((h) => h.includes("date"));
+      if (!hasDate) return;
+
+      table.querySelectorAll("tbody tr").forEach((tr) => {
+        const cells = Array.from(tr.querySelectorAll("td")).map(
+          (td) => td.textContent?.trim() ?? ""
+        );
         if (cells.length >= 3) {
-          const rowScore = parseScore(cells[1]);
-          const parsed = parseClassificationAndScore(cells[2]);
+          const scoreMatch = cells[1].match(/\d+/);
+          const dashMatch = cells[2].match(/^(.*?)\s*[–\-]\s*(\d+)$/);
           history.push({
             date: cells[0],
-            score: rowScore,
-            classification: parsed.classification || cells[2],
+            score: scoreMatch ? parseInt(scoreMatch[0], 10) : null,
+            classification: dashMatch ? dashMatch[1].trim() : cells[2],
             assetPrice: cells[3] ?? "",
           });
         }
       });
+    });
+
+    return { score, classification, yesterday, lastWeek, lastMonth, yearlyHigh, yearlyLow, history };
   });
 
-  console.log(
-    `✓ ${market.label}: score=${score}, classification=${classification}, history=${history.length} rows`
-  );
-
-  return {
-    key: market.key,
-    label: market.label,
-    score,
-    classification,
-    historical: { yesterday, lastWeek, lastMonth },
-    yearlyHigh,
-    yearlyLow,
-    history,
-  };
+  console.log(`✓ ${label}: score=${data.score}, classification=${data.classification}, history=${data.history.length} rows`);
+  return data;
 }
 
 async function run() {
-  const results: MarketSentiment[] = [];
+  const { browser, page } = await connect({
+    headless: false,
+    args: [],
+    customConfig: {},
+    turnstile: true,
+    connectOption: {},
+    disableXvfb: false,
+    ignoreAllFlags: false,
+  });
 
-  for (const market of MARKETS) {
-    try {
-      const data = await scrapeMarket(market);
-      results.push(data);
-    } catch (err) {
-      console.error(`✗ Failed to scrape ${market.label}:`, err);
-      results.push({
-        key: market.key,
-        label: market.label,
-        score: null,
-        classification: "unknown",
-        historical: {
-          yesterday: { score: null, classification: "unknown" },
-          lastWeek: { score: null, classification: "unknown" },
-          lastMonth: { score: null, classification: "unknown" },
-        },
-        yearlyHigh: { date: "unknown", score: null, classification: "unknown" },
-        yearlyLow: { date: "unknown", score: null, classification: "unknown" },
-        history: [],
-      });
+  const results = [];
+
+  try {
+    for (const market of MARKETS) {
+      try {
+        const data = await scrapeMarket(page, market.slug, market.label);
+        results.push({
+          key: market.key,
+          label: market.label,
+          score: data.score,
+          classification: data.classification,
+          historical: {
+            yesterday: data.yesterday,
+            lastWeek: data.lastWeek,
+            lastMonth: data.lastMonth,
+          },
+          yearlyHigh: data.yearlyHigh,
+          yearlyLow: data.yearlyLow,
+          history: data.history,
+        });
+      } catch (err) {
+        console.error(`Failed to scrape ${market.label}:`, err);
+        results.push({
+          key: market.key,
+          label: market.label,
+          score: null,
+          classification: "unknown",
+          historical: {
+            yesterday: { score: null, classification: "unknown" },
+            lastWeek:  { score: null, classification: "unknown" },
+            lastMonth: { score: null, classification: "unknown" },
+          },
+          yearlyHigh: { date: "unknown", score: null, classification: "unknown" },
+          yearlyLow:  { date: "unknown", score: null, classification: "unknown" },
+          history: [],
+        });
+      }
+
+      await delay(3000);
     }
-
-    // Polite delay between requests
-    await delay(2000);
+  } finally {
+    await browser.close();
   }
 
-  const output: AmsflowData = {
-    markets: results,
-    lastUpdated: new Date().toISOString(),
-  };
+  const output = { markets: results, lastUpdated: new Date().toISOString() };
 
   const apiDir = path.join(process.cwd(), "public", "api");
-  if (!fs.existsSync(apiDir)) {
-    fs.mkdirSync(apiDir, { recursive: true });
-  }
+  if (!fs.existsSync(apiDir)) fs.mkdirSync(apiDir, { recursive: true });
 
   const filePath = path.join(apiDir, "amsflow.json");
   fs.writeFileSync(filePath, JSON.stringify(output, null, 2), "utf-8");
