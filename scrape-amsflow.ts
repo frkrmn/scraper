@@ -1,3 +1,6 @@
+waitForFunction ile content yüklenmesini bekleyen versiyon
+bash
+
 cat > /mnt/user-data/outputs/scrape-amsflow.ts << 'ENDOFFILE'
 import * as fs from "fs";
 import * as path from "path";
@@ -44,11 +47,8 @@ function extractYearly(text: string, keyword: string) {
 
 function extractHistory(text: string) {
   const history: { date: string; score: number | null; classification: string; assetPrice: string }[] = [];
-
-  // Tablo: "Jun 24, 2026\t21\tExtreme Fear – 21\t4,098" formatinda
   const tableSection = text.match(/Date\s+Fear & Greed\s+Classification[\s\S]+?(?=Track Global|$)/);
   if (!tableSection) return history;
-
   const rowRegex = /([A-Za-z]+ \d+, \d{4})\s+(\d+)\s+([\w ]+?)\s*[–\-]\s*\d+\s+([\d,]+)/g;
   let m;
   while ((m = rowRegex.exec(tableSection[0])) !== null) {
@@ -64,14 +64,26 @@ function extractHistory(text: string) {
 
 async function scrapeMarket(page: PageWithCursor, slug: string, label: string) {
   const url = `${BASE_URL}/${slug}`;
-  console.log(`→ ${label} (${url})`);
+  console.log(`→ ${label}`);
 
   await page.goto(url, { waitUntil: "domcontentloaded" });
-  await delay(8000);
+
+  // Sayfada "FEAR & GREED INDEX" metni görünene kadar bekle (max 20 saniye)
+  try {
+    await page.waitForFunction(
+      () => document.body.innerText.includes("FEAR & GREED INDEX"),
+      { timeout: 20000 }
+    );
+    console.log(`  ✓ Content loaded for ${label}`);
+  } catch {
+    console.warn(`  ⚠ Timeout waiting for content on ${label}, trying anyway...`);
+    await delay(5000);
+  }
+
+  await delay(2000); // kisa ek bekleme
 
   const text: string = await page.evaluate(() => document.body.innerText);
 
-  // Ana skor
   const mainMatch = text.match(/FEAR\s*&\s*GREED\s*INDEX[\s\n]+(\d+)[\s\n]+([A-Z][A-Z ]+)/);
   const score = mainMatch ? parseInt(mainMatch[1], 10) : null;
   const classification = mainMatch
@@ -88,7 +100,7 @@ async function scrapeMarket(page: PageWithCursor, slug: string, label: string) {
   const yearlyLow  = extractYearly(text, "Yearly\\s+Low");
   const history    = extractHistory(text);
 
-  console.log(`✓ ${label}: score=${score}, class=${classification}, history=${history.length} rows`);
+  console.log(`  score=${score}, class=${classification}, history=${history.length} rows`);
 
   return { score, classification, historical, yearlyHigh, yearlyLow, history };
 }
@@ -128,8 +140,7 @@ async function run() {
           history: [],
         });
       }
-
-      await delay(3000);
+      await delay(2000);
     }
   } finally {
     await browser.close();
@@ -144,3 +155,5 @@ async function run() {
 }
 
 run().catch(console.error);
+ENDOFFILE
+echo "done"
