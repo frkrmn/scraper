@@ -1,0 +1,315 @@
+{
+  "markets": [
+    {
+      "key": "us",
+      "label": "US Market",
+      "score": null,
+      "classification": "unknown",
+      "historical": {
+        "yesterday": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastWeek": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastMonth": {
+          "score": null,
+          "classification": "unknown"
+        }
+      },
+      "yearlyHigh": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "yearlyLow": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "history": []
+    },
+    {
+      "key": "eu",
+      "label": "EU Market",
+      "score": null,
+      "classification": "unknown",
+      "historical": {
+        "yesterday": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastWeek": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastMonth": {
+          "score": null,
+          "classification": "unknown"
+        }
+      },
+      "yearlyHigh": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "yearlyLow": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "history": []
+    },
+    {
+      "key": "uk",
+      "label": "UK Market",
+      "score": null,
+      "classification": "unknown",
+      "historical": {
+        "yesterday": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastWeek": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastMonth": {
+          "score": null,
+          "classification": "unknown"
+        }
+      },
+      "yearlyHigh": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "yearlyLow": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "history": []
+    },
+    {
+      "key": "japan",
+      "label": "Japan",
+      "score": null,
+      "classification": "unknown",
+      "historical": {
+        "yesterday": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastWeek": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastMonth": {
+          "score": null,
+          "classification": "unknown"
+        }
+      },
+      "yearlyHigh": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "yearlyLow": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "history": []
+    },
+    {
+      "key": "china",
+      "label": "China",
+      "score": null,
+      "classification": "unknown",
+      "historical": {
+        "yesterday": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastWeek": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastMonth": {
+          "score": null,
+          "classification": "unknown"
+        }
+      },
+      "yearlyHigh": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "yearlyLow": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "history": []
+    },
+    {
+      "key": "australia",
+      "label": "Australia",
+      "score": null,
+      "classification": "unknown",
+      "historical": {
+        "yesterday": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastWeek": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastMonth": {
+          "score": null,
+          "classification": "unknown"
+        }
+      },
+      "yearlyHigh": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "yearlyLow": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "history": []
+    },
+    {
+      "key": "canada",
+      "label": "Canada",
+      "score": null,
+      "classification": "unknown",
+      "historical": {
+        "yesterday": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastWeek": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastMonth": {
+          "score": null,
+          "classification": "unknown"
+        }
+      },
+      "yearlyHigh": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "yearlyLow": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "history": []
+    },
+    {
+      "key": "gold",
+      "label": "Gold",
+      "score": null,
+      "classification": "unknown",
+      "historical": {
+        "yesterday": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastWeek": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastMonth": {
+          "score": null,
+          "classification": "unknown"
+        }
+      },
+      "yearlyHigh": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "yearlyLow": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "history": []
+    },
+    {
+      "key": "silver",
+      "label": "Silver",
+      "score": null,
+      "classification": "unknown",
+      "historical": {
+        "yesterday": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastWeek": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastMonth": {
+          "score": null,
+          "classification": "unknown"
+        }
+      },
+      "yearlyHigh": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "yearlyLow": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "history": []
+    },
+    {
+      "key": "southkorea",
+      "label": "South Korea",
+      "score": null,
+      "classification": "unknown",
+      "historical": {
+        "yesterday": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastWeek": {
+          "score": null,
+          "classification": "unknown"
+        },
+        "lastMonth": {
+          "score": null,
+          "classification": "unknown"
+        }
+      },
+      "yearlyHigh": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "yearlyLow": {
+        "date": "unknown",
+        "score": null,
+        "classification": "unknown"
+      },
+      "history": []
+    }
+  ],
+  "lastUpdated": "2026-06-24T09:21:09.286Z"
+}
