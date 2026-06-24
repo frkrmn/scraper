@@ -21,13 +21,13 @@
       },
       "yearlyHigh": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "yearlyLow": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "history": []
     },
@@ -52,13 +52,13 @@
       },
       "yearlyHigh": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "yearlyLow": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "history": []
     },
@@ -83,13 +83,13 @@
       },
       "yearlyHigh": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "yearlyLow": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "history": []
     },
@@ -114,13 +114,13 @@
       },
       "yearlyHigh": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "yearlyLow": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "history": []
     },
@@ -145,13 +145,13 @@
       },
       "yearlyHigh": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "yearlyLow": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "history": []
     },
@@ -176,13 +176,13 @@
       },
       "yearlyHigh": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "yearlyLow": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "history": []
     },
@@ -207,13 +207,13 @@
       },
       "yearlyHigh": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "yearlyLow": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "history": []
     },
@@ -238,13 +238,13 @@
       },
       "yearlyHigh": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "yearlyLow": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "history": []
     },
@@ -269,13 +269,13 @@
       },
       "yearlyHigh": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "yearlyLow": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "history": []
     },
@@ -300,16 +300,16 @@
       },
       "yearlyHigh": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "yearlyLow": {
         "date": "unknown",
-        "score": null,
-        "classification": "unknown"
+        "classification": "unknown",
+        "score": null
       },
       "history": []
     }
   ],
-  "lastUpdated": "2026-06-24T10:07:06.313Z"
+  "lastUpdated": "2026-06-24T10:26:39.335Z"
 }
