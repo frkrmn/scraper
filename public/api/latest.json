@@ -12,8 +12,8 @@
       "rawDecision": "Güçlü Al"
     },
     "long": {
-      "decision": "UNKNOWN",
-      "rawDecision": "unknown"
+      "decision": "BUY",
+      "rawDecision": "buy"
     },
     "speedometer": "13"
   },
@@ -40,39 +40,39 @@
     "data": [
       {
         "symbol": "GRAM",
-        "performance": "88690.23%"
+        "performance": "89751.68%"
       },
       {
         "symbol": "WLD",
-        "performance": "123.12%"
+        "performance": "123.90%"
       },
       {
         "symbol": "DEXE",
-        "performance": "84.98%"
+        "performance": "86.04%"
       },
       {
         "symbol": "HYPE",
-        "performance": "69.57%"
+        "performance": "69.81%"
       },
       {
         "symbol": "NEAR",
-        "performance": "58.88%"
+        "performance": "58.95%"
       },
       {
         "symbol": "ONDO",
-        "performance": "36.19%"
+        "performance": "36.27%"
       },
       {
         "symbol": "ZEC",
-        "performance": "34.88%"
+        "performance": "34.71%"
       },
       {
         "symbol": "XLM",
-        "performance": "31.07%"
+        "performance": "31.13%"
       },
       {
         "symbol": "TRX",
-        "performance": "21.34%"
+        "performance": "21.41%"
       },
       {
         "symbol": "U",
@@ -81,5 +81,5 @@
     ]
   },
   "marketpulseCrypto": "13%",
-  "lastUpdated": "2026-06-24T10:23:45.083Z"
+  "lastUpdated": "2026-06-24T10:33:23.274Z"
 }
