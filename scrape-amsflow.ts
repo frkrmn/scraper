@@ -28,77 +28,85 @@ const delay = (ms: number) => new Promise((r) => setTimeout(r, ms));
 async function scrapeMarket(page: PageWithCursor, slug: string, label: string) {
   const url = `${BASE_URL}/${slug}`;
   console.log(`Navigating to ${url}...`);
-
   await page.goto(url, { waitUntil: "domcontentloaded" });
-  await delay(5000);
+  await delay(6000);
 
   const data = await page.evaluate(() => {
-    // --- Current score & classification ---
-    // Score: büyük standalone sayı (0-100 arası)
+    const bodyText = document.body.innerText;
+
+    // --- Ana skor ve classification ---
+    // "FEAR & GREED INDEX\n\n21\n\nEXTREME FEAR" formatında geliyor
     let score: number | null = null;
     let classification = "unknown";
 
-    // Sayfadaki tüm metin node'larına bak, tek başına 1-3 haneli sayı ara
-    document.querySelectorAll("h1,h2,h3,h4,p,span,div").forEach((el) => {
-      const text = el.textContent?.trim() ?? "";
-      if (/^\d{1,3}$/.test(text) && score === null) {
-        const num = parseInt(text, 10);
-        if (num >= 0 && num <= 100 && el.children.length === 0) {
-          score = num;
-        }
-      }
-    });
-
-    const classWords = ["Extreme Fear", "Extreme Greed", "Fear", "Greed", "Neutral"];
-    document.querySelectorAll("h1,h2,h3,h4,p,span,div").forEach((el) => {
-      const text = el.textContent?.trim() ?? "";
-      if (classWords.includes(text) && classification === "unknown" && el.children.length === 0) {
-        classification = text;
-      }
-    });
+    const fgiMatch = bodyText.match(/FEAR & GREED INDEX\s+(\d+)\s+([A-Z ]+)/);
+    if (fgiMatch) {
+      score = parseInt(fgiMatch[1], 10);
+      // "EXTREME FEAR" -> "Extreme Fear" formatına çevir
+      classification = fgiMatch[2].trim()
+        .toLowerCase()
+        .replace(/\b\w/g, (c) => c.toUpperCase());
+    }
 
     // --- Historical values ---
-    const fullText = document.body.innerText;
-
+    // "Yesterday\nExtreme Fear – 22" formatında
     function extractHistorical(keyword: string) {
-      const regex = new RegExp(keyword + "\\s*([\\w\\s]+?)\\s*[\\u2013\\-]\\s*(\\d+)");
-      const m = fullText.match(regex);
+      const regex = new RegExp(keyword + "\\s+([\\w ]+?)\\s*[–\\-]\\s*(\\d+)");
+      const m = bodyText.match(regex);
       if (m) return { score: parseInt(m[2], 10), classification: m[1].trim() };
       return { score: null, classification: "unknown" };
     }
 
     const yesterday = extractHistorical("Yesterday");
-    const lastWeek  = extractHistorical("Last\\s+Week");
-    const lastMonth = extractHistorical("Last\\s+Month");
+    const lastWeek  = extractHistorical("Last Week");
+    const lastMonth = extractHistorical("Last Month");
 
     // --- Yearly high & low ---
+    // "Yearly High\nJan 27, 2026\nExtreme Greed – 91"
     function extractYearly(keyword: string) {
-      const regex = new RegExp(keyword + "\\s+([\\w,\\s]+?\\d{4})\\s*([\\w\\s]+?)\\s*[\\u2013\\-]\\s*(\\d+)");
-      const m = fullText.match(regex);
-      if (m) return { date: m[1].trim(), classification: m[2].trim(), score: parseInt(m[3], 10) };
+      const regex = new RegExp(
+        keyword + "\\s+([A-Za-z]+ \\d+, \\d{4})\\s+([\\w ]+?)\\s*[–\\-]\\s*(\\d+)"
+      );
+      const m = bodyText.match(regex);
+      if (m) return {
+        date: m[1].trim(),
+        classification: m[2].trim(),
+        score: parseInt(m[3], 10),
+      };
       return { date: "unknown", classification: "unknown", score: null };
     }
 
-    const yearlyHigh = extractYearly("Yearly\\s+High");
-    const yearlyLow  = extractYearly("Yearly\\s+Low");
+    const yearlyHigh = extractYearly("Yearly High");
+    const yearlyLow  = extractYearly("Yearly Low");
 
-    // --- History table ---
+    // --- Sidebar market listesi (tüm piyasalar buradan alınabilir) ---
+    // "US Market\n43\nFear" formatında
+    const sidebarMarkets: { label: string; score: number; classification: string }[] = [];
+    const sidebarLinks = document.querySelectorAll("a.block.p-2.rounded-lg");
+    sidebarLinks.forEach((link) => {
+      const spans = link.querySelectorAll("span");
+      if (spans.length >= 3) {
+        const lbl = spans[0].textContent?.trim() ?? "";
+        const sc  = parseInt(spans[1].textContent?.trim() ?? "0", 10);
+        const cls = spans[2].textContent?.trim() ?? "";
+        if (lbl && sc) sidebarMarkets.push({ label: lbl, score: sc, classification: cls });
+      }
+    });
+
+    // --- History tablosu ---
     const history: { date: string; score: number | null; classification: string; assetPrice: string }[] = [];
 
     document.querySelectorAll("table").forEach((table) => {
-      const headers = Array.from(table.querySelectorAll("thead th")).map(
-        (th) => th.textContent?.trim().toLowerCase() ?? ""
-      );
-      const hasDate = headers.some((h) => h.includes("date"));
-      if (!hasDate) return;
+      const headers = Array.from(table.querySelectorAll("thead th"))
+        .map((th) => th.textContent?.trim().toLowerCase() ?? "");
+      if (!headers.some((h) => h.includes("date"))) return;
 
       table.querySelectorAll("tbody tr").forEach((tr) => {
-        const cells = Array.from(tr.querySelectorAll("td")).map(
-          (td) => td.textContent?.trim() ?? ""
-        );
+        const cells = Array.from(tr.querySelectorAll("td"))
+          .map((td) => td.textContent?.trim() ?? "");
         if (cells.length >= 3) {
           const scoreMatch = cells[1].match(/\d+/);
-          const dashMatch = cells[2].match(/^(.*?)\s*[–\-]\s*(\d+)$/);
+          const dashMatch  = cells[2].match(/^(.*?)\s*[–\-]\s*(\d+)$/);
           history.push({
             date: cells[0],
             score: scoreMatch ? parseInt(scoreMatch[0], 10) : null,
@@ -109,10 +117,10 @@ async function scrapeMarket(page: PageWithCursor, slug: string, label: string) {
       });
     });
 
-    return { score, classification, yesterday, lastWeek, lastMonth, yearlyHigh, yearlyLow, history };
+    return { score, classification, yesterday, lastWeek, lastMonth, yearlyHigh, yearlyLow, history, sidebarMarkets };
   });
 
-  console.log(`✓ ${label}: score=${data.score}, classification=${data.classification}, history=${data.history.length} rows`);
+  console.log(`✓ ${label}: score=${data.score}, class=${data.classification}, history=${data.history.length} rows`);
   return data;
 }
 
@@ -140,11 +148,11 @@ async function run() {
           classification: data.classification,
           historical: {
             yesterday: data.yesterday,
-            lastWeek: data.lastWeek,
+            lastWeek:  data.lastWeek,
             lastMonth: data.lastMonth,
           },
           yearlyHigh: data.yearlyHigh,
-          yearlyLow: data.yearlyLow,
+          yearlyLow:  data.yearlyLow,
           history: data.history,
         });
       } catch (err) {
