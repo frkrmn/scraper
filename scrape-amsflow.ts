@@ -65,8 +65,20 @@ async function scrapeMarket(page: PageWithCursor, slug: string, label: string) {
   const url = `${BASE_URL}/${slug}`;
   console.log(`→ ${label} (${url})`);
 
-  await page.goto(url, { waitUntil: "domcontentloaded" });
-  await delay(8000);
+  await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
+
+  // Wait longer in CI since machines are slower and bot checks take more time
+  const waitTime = isCI ? 18000 : 8000;
+  await delay(waitTime);
+
+  // Simulate human-like behaviour: random mouse movement + scroll
+  await page.mouse.move(
+    200 + Math.floor(Math.random() * 400),
+    200 + Math.floor(Math.random() * 300)
+  );
+  await delay(500);
+  await page.evaluate(() => window.scrollBy(0, 300 + Math.floor(Math.random() * 200)));
+  await delay(1000);
 
   const text: string = await page.evaluate(() => document.body.innerText);
 
@@ -106,6 +118,14 @@ async function run() {
   const results = [];
 
   try {
+    // Warm up session on homepage first — cold-jumping to a deep URL looks suspicious
+    console.log("→ Warming up session on amsflow.com...");
+    await page.goto("https://amsflow.com", { waitUntil: "networkidle2", timeout: 60000 });
+    await delay(isCI ? 8000 : 4000);
+    await page.evaluate(() => window.scrollBy(0, 400));
+    await delay(1500);
+    console.log("✓ Session ready");
+
     for (const market of MARKETS) {
       try {
         const data = await scrapeMarket(page, market.slug, market.label);
@@ -128,7 +148,8 @@ async function run() {
         });
       }
 
-      await delay(3000);
+      // Longer pause between markets in CI to avoid rate limiting
+      await delay(isCI ? 6000 : 3000);
     }
   } finally {
     await browser.close();
