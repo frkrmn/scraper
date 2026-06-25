@@ -1,85 +1,85 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "62,656$",
+    "today": "60,989$",
     "maxPain": "72,000$",
     "short": {
       "decision": "UNKNOWN",
       "rawDecision": "unknown"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
-    },
-    "long": {
-      "decision": "BUY",
-      "rawDecision": "buy"
-    },
-    "speedometer": "13"
-  },
-  "eth": {
-    "name": "ETH",
-    "today": "1,665$",
-    "maxPain": "2,000$",
-    "short": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
     },
+    "long": {
+      "decision": "BUY",
+      "rawDecision": "buy"
+    },
+    "speedometer": "15"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "1,620$",
+    "maxPain": "2,000$",
+    "short": {
+      "decision": "BUY",
+      "rawDecision": "Al"
+    },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "18"
+    "speedometer": "20"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "GRAM",
-        "performance": "87798.65%"
+        "performance": "92695.63%"
       },
       {
         "symbol": "WLD",
-        "performance": "126.53%"
+        "performance": "121.72%"
       },
       {
         "symbol": "DEXE",
-        "performance": "84.33%"
+        "performance": "89.40%"
       },
       {
         "symbol": "HYPE",
-        "performance": "72.72%"
+        "performance": "74.12%"
       },
       {
         "symbol": "NEAR",
-        "performance": "60.23%"
+        "performance": "63.28%"
       },
       {
         "symbol": "ONDO",
-        "performance": "40.13%"
+        "performance": "40.87%"
       },
       {
         "symbol": "ZEC",
-        "performance": "35.90%"
+        "performance": "37.78%"
       },
       {
         "symbol": "XLM",
-        "performance": "30.83%"
+        "performance": "31.30%"
       },
       {
         "symbol": "TRX",
-        "performance": "22.52%"
+        "performance": "22.82%"
       },
       {
         "symbol": "U",
-        "performance": "21.71%"
+        "performance": "21.21%"
       }
     ]
   },
-  "marketpulseCrypto": "13%",
-  "lastUpdated": "2026-06-24T21:11:42.386Z"
+  "marketpulseCrypto": "11%",
+  "lastUpdated": "2026-06-25T06:26:24.477Z"
 }
