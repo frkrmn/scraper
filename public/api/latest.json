@@ -4,16 +4,16 @@
     "today": "59,703$",
     "maxPain": "71,000$",
     "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "unknown"
     },
     "mid": {
       "decision": "STRONG_BUY",
       "rawDecision": "Güçlü Al"
     },
     "long": {
-      "decision": "BUY",
-      "rawDecision": "buy"
+      "decision": "UNKNOWN",
+      "rawDecision": "unknown"
     },
     "speedometer": "13"
   },
@@ -26,8 +26,8 @@
       "rawDecision": "Al"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "unknown"
     },
     "long": {
       "decision": "BUY",
@@ -39,47 +39,47 @@
     "period": "60",
     "data": [
       {
-        "symbol": "GRAM",
-        "performance": "91491.87%"
-      },
-      {
         "symbol": "WLD",
-        "performance": "113.08%"
+        "performance": "109.23%"
       },
       {
         "symbol": "DEXE",
-        "performance": "80.31%"
+        "performance": "84.01%"
       },
       {
         "symbol": "HYPE",
-        "performance": "73.11%"
+        "performance": "74.50%"
       },
       {
         "symbol": "NEAR",
-        "performance": "56.47%"
+        "performance": "56.73%"
       },
       {
         "symbol": "ONDO",
-        "performance": "40.57%"
+        "performance": "41.22%"
       },
       {
         "symbol": "ZEC",
-        "performance": "39.04%"
+        "performance": "36.87%"
       },
       {
         "symbol": "XLM",
-        "performance": "28.48%"
+        "performance": "29.09%"
       },
       {
         "symbol": "U",
-        "performance": "22.23%"
+        "performance": "22.39%"
       },
       {
         "symbol": "DAI",
-        "performance": "22.08%"
+        "performance": "22.28%"
+      },
+      {
+        "symbol": "TRX",
+        "performance": "21.21%"
       }
     ]
   },
   "marketpulseCrypto": "11%",
-  "lastUpdated": "2026-06-26T06:07:49.310Z"
+  "lastUpdated": "2026-06-26T09:52:00.893Z"
 }
