@@ -1,29 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "60,176$",
+    "today": "58,541$",
     "maxPain": "65,000$",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "unknown"
-    },
-    "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
-    },
-    "long": {
-      "decision": "UNKNOWN",
-      "rawDecision": "unknown"
-    },
-    "speedometer": "16"
-  },
-  "eth": {
-    "name": "ETH",
-    "today": "1,611$",
-    "maxPain": "1,800$",
-    "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,53 +15,71 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "22"
+    "speedometer": "17"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "1,570$",
+    "maxPain": "1,800$",
+    "short": {
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
+    },
+    "mid": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+    },
+    "long": {
+      "decision": "BUY",
+      "rawDecision": "buy"
+    },
+    "speedometer": "26"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "411.68%"
+        "performance": "357.33%"
       },
       {
         "symbol": "DEXE",
-        "performance": "137.89%"
+        "performance": "146.88%"
       },
       {
         "symbol": "WLD",
-        "performance": "103.38%"
+        "performance": "86.47%"
       },
       {
         "symbol": "HYPE",
-        "performance": "84.28%"
+        "performance": "78.20%"
       },
       {
         "symbol": "NEAR",
-        "performance": "67.74%"
-      },
-      {
-        "symbol": "ONDO",
-        "performance": "41.15%"
+        "performance": "62.84%"
       },
       {
         "symbol": "XLM",
-        "performance": "39.68%"
+        "performance": "50.69%"
+      },
+      {
+        "symbol": "ONDO",
+        "performance": "33.68%"
       },
       {
         "symbol": "ZEC",
-        "performance": "27.76%"
+        "performance": "27.96%"
       },
       {
         "symbol": "U",
-        "performance": "23.64%"
+        "performance": "25.36%"
       },
       {
         "symbol": "DAI",
-        "performance": "23.45%"
+        "performance": "25.25%"
       }
     ]
   },
-  "marketpulseCrypto": "13%",
-  "lastUpdated": "2026-06-30T06:29:13.766Z"
+  "marketpulseCrypto": "10%",
+  "lastUpdated": "2026-07-01T08:49:55.189Z"
 }
