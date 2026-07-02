@@ -1,11 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "58,541$",
-    "maxPain": "65,000$",
+    "today": "59,962$",
+    "maxPain": "64,000$",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -19,7 +19,7 @@
   },
   "eth": {
     "name": "ETH",
-    "today": "1,570$",
+    "today": "1,608$",
     "maxPain": "1,800$",
     "short": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,53 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "26"
+    "speedometer": "27"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "357.33%"
+        "performance": "404.35%"
       },
       {
         "symbol": "DEXE",
-        "performance": "146.88%"
+        "performance": "148.33%"
       },
       {
         "symbol": "WLD",
-        "performance": "86.47%"
+        "performance": "80.06%"
       },
       {
         "symbol": "HYPE",
-        "performance": "78.20%"
+        "performance": "76.76%"
       },
       {
         "symbol": "NEAR",
-        "performance": "62.84%"
+        "performance": "72.37%"
       },
       {
         "symbol": "XLM",
-        "performance": "50.69%"
+        "performance": "47.58%"
       },
       {
         "symbol": "ONDO",
-        "performance": "33.68%"
+        "performance": "38.29%"
+      },
+      {
+        "symbol": "MORPHO",
+        "performance": "36.60%"
       },
       {
         "symbol": "ZEC",
-        "performance": "27.96%"
+        "performance": "26.76%"
       },
       {
         "symbol": "U",
-        "performance": "25.36%"
-      },
-      {
-        "symbol": "DAI",
-        "performance": "25.25%"
+        "performance": "23.37%"
       }
     ]
   },
-  "marketpulseCrypto": "10%",
-  "lastUpdated": "2026-07-01T08:49:55.189Z"
+  "marketpulseCrypto": "11%",
+  "lastUpdated": "2026-07-02T05:55:33.869Z"
 }
