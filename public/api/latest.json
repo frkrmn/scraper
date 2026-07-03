@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "59,962$",
+    "today": "61,492$",
     "maxPain": "64,000$",
     "short": {
       "decision": "SELL",
@@ -15,11 +15,11 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "17"
+    "speedometer": "22"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,608$",
+    "today": "1,699$",
     "maxPain": "1,800$",
     "short": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,53 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "27"
+    "speedometer": "31"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "407.06%"
+        "performance": "434.66%"
       },
       {
         "symbol": "DEXE",
-        "performance": "142.59%"
-      },
-      {
-        "symbol": "HYPE",
-        "performance": "77.67%"
+        "performance": "139.93%"
       },
       {
         "symbol": "WLD",
-        "performance": "76.12%"
+        "performance": "99.29%"
+      },
+      {
+        "symbol": "HYPE",
+        "performance": "84.87%"
       },
       {
         "symbol": "NEAR",
-        "performance": "73.75%"
+        "performance": "76.45%"
       },
       {
         "symbol": "XLM",
-        "performance": "47.60%"
-      },
-      {
-        "symbol": "ONDO",
-        "performance": "38.51%"
-      },
-      {
-        "symbol": "MORPHO",
-        "performance": "32.57%"
+        "performance": "49.60%"
       },
       {
         "symbol": "ZEC",
-        "performance": "27.02%"
+        "performance": "29.06%"
       },
       {
-        "symbol": "U",
-        "performance": "23.27%"
+        "symbol": "ONDO",
+        "performance": "26.95%"
+      },
+      {
+        "symbol": "MORPHO",
+        "performance": "23.10%"
+      },
+      {
+        "symbol": "DAI",
+        "performance": "22.84%"
       }
     ]
   },
-  "marketpulseCrypto": "11%",
-  "lastUpdated": "2026-07-02T09:31:58.785Z"
+  "marketpulseCrypto": "12%",
+  "lastUpdated": "2026-07-03T08:19:56.890Z"
 }
