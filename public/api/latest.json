@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "61,492$",
+    "today": "62,531$",
     "maxPain": "64,000$",
     "short": {
       "decision": "SELL",
@@ -19,7 +19,7 @@
   },
   "eth": {
     "name": "ETH",
-    "today": "1,699$",
+    "today": "1,757$",
     "maxPain": "1,800$",
     "short": {
       "decision": "STRONG_SELL",
@@ -30,56 +30,56 @@
       "rawDecision": "İşlem yok"
     },
     "long": {
-      "decision": "BUY",
-      "rawDecision": "buy"
+      "decision": "HOLD",
+      "rawDecision": "Hold"
     },
-    "speedometer": "31"
+    "speedometer": "34"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "424.90%"
+        "performance": "443.89%"
       },
       {
         "symbol": "DEXE",
-        "performance": "141.14%"
+        "performance": "138.43%"
       },
       {
         "symbol": "WLD",
-        "performance": "100.34%"
+        "performance": "96.06%"
       },
       {
         "symbol": "HYPE",
-        "performance": "85.64%"
+        "performance": "84.72%"
       },
       {
         "symbol": "NEAR",
-        "performance": "77.56%"
+        "performance": "75.08%"
       },
       {
         "symbol": "XLM",
-        "performance": "51.52%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "29.92%"
+        "performance": "52.24%"
       },
       {
         "symbol": "ONDO",
-        "performance": "26.87%"
+        "performance": "28.77%"
       },
       {
         "symbol": "DAI",
-        "performance": "22.93%"
+        "performance": "23.50%"
       },
       {
         "symbol": "U",
-        "performance": "22.91%"
+        "performance": "23.50%"
+      },
+      {
+        "symbol": "SOL",
+        "performance": "18.49%"
       }
     ]
   },
-  "marketpulseCrypto": "12%",
-  "lastUpdated": "2026-07-03T09:34:59.038Z"
+  "marketpulseCrypto": "15%",
+  "lastUpdated": "2026-07-04T07:33:58.764Z"
 }
