@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "443.89%"
+        "performance": "455.67%"
       },
       {
         "symbol": "DEXE",
-        "performance": "138.43%"
+        "performance": "137.56%"
       },
       {
         "symbol": "WLD",
-        "performance": "96.06%"
+        "performance": "95.87%"
       },
       {
         "symbol": "HYPE",
-        "performance": "84.72%"
+        "performance": "83.70%"
       },
       {
         "symbol": "NEAR",
-        "performance": "75.08%"
+        "performance": "74.82%"
       },
       {
         "symbol": "XLM",
-        "performance": "52.24%"
+        "performance": "52.57%"
       },
       {
         "symbol": "ONDO",
-        "performance": "28.77%"
+        "performance": "28.85%"
       },
       {
         "symbol": "DAI",
-        "performance": "23.50%"
+        "performance": "23.41%"
       },
       {
         "symbol": "U",
-        "performance": "23.50%"
+        "performance": "23.38%"
       },
       {
         "symbol": "SOL",
-        "performance": "18.49%"
+        "performance": "18.54%"
       }
     ]
   },
   "marketpulseCrypto": "15%",
-  "lastUpdated": "2026-07-04T07:33:58.764Z"
+  "lastUpdated": "2026-07-04T08:51:05.319Z"
 }
