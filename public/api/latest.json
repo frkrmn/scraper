@@ -1,11 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "62,531$",
+    "today": "63,090$",
     "maxPain": "64,000$",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -15,11 +15,11 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "22"
+    "speedometer": "24"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,757$",
+    "today": "1,779$",
     "maxPain": "1,800$",
     "short": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "34"
+    "speedometer": "35"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "455.67%"
+        "performance": "445.18%"
       },
       {
         "symbol": "DEXE",
-        "performance": "137.56%"
+        "performance": "131.29%"
       },
       {
         "symbol": "WLD",
-        "performance": "95.87%"
+        "performance": "85.20%"
       },
       {
         "symbol": "HYPE",
-        "performance": "83.70%"
+        "performance": "81.91%"
       },
       {
         "symbol": "NEAR",
-        "performance": "74.82%"
+        "performance": "51.62%"
       },
       {
         "symbol": "XLM",
-        "performance": "52.57%"
+        "performance": "46.77%"
       },
       {
         "symbol": "ONDO",
-        "performance": "28.85%"
+        "performance": "23.65%"
       },
       {
         "symbol": "DAI",
-        "performance": "23.41%"
+        "performance": "22.91%"
       },
       {
         "symbol": "U",
-        "performance": "23.38%"
+        "performance": "22.88%"
       },
       {
-        "symbol": "SOL",
-        "performance": "18.54%"
+        "symbol": "AAVE",
+        "performance": "17.03%"
       }
     ]
   },
-  "marketpulseCrypto": "15%",
-  "lastUpdated": "2026-07-04T08:51:05.319Z"
+  "marketpulseCrypto": "16%",
+  "lastUpdated": "2026-07-05T09:22:57.159Z"
 }
