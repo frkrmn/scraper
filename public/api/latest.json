@@ -39,47 +39,47 @@
     "period": "60",
     "data": [
       {
-        "symbol": "BEAT",
-        "performance": "437.93%"
-      },
-      {
         "symbol": "DEXE",
-        "performance": "154.85%"
+        "performance": "155.92%"
       },
       {
         "symbol": "HYPE",
-        "performance": "85.81%"
+        "performance": "86.68%"
       },
       {
         "symbol": "WLD",
-        "performance": "66.79%"
+        "performance": "65.87%"
       },
       {
         "symbol": "NEAR",
-        "performance": "49.90%"
+        "performance": "48.39%"
       },
       {
         "symbol": "XLM",
-        "performance": "40.03%"
+        "performance": "39.37%"
       },
       {
         "symbol": "U",
-        "performance": "21.25%"
+        "performance": "21.13%"
       },
       {
         "symbol": "AAVE",
-        "performance": "19.31%"
+        "performance": "20.15%"
       },
       {
         "symbol": "MORPHO",
-        "performance": "16.12%"
+        "performance": "16.00%"
       },
       {
         "symbol": "TRX",
-        "performance": "15.38%"
+        "performance": "15.57%"
+      },
+      {
+        "symbol": "OKB",
+        "performance": "12.76%"
       }
     ]
   },
   "marketpulseCrypto": "15%",
-  "lastUpdated": "2026-07-07T08:22:29.174Z"
+  "lastUpdated": "2026-07-07T10:01:03.496Z"
 }
