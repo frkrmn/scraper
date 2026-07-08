@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "64,005$",
+    "today": "63,323$",
     "maxPain": "64,000$",
     "short": {
       "decision": "STRONG_SELL",
@@ -15,11 +15,11 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "29"
+    "speedometer": "31"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,799$",
+    "today": "1,770$",
     "maxPain": "1,800$",
     "short": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,52 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "38"
+    "speedometer": "42"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "DEXE",
-        "performance": "155.92%"
+        "performance": "157.22%"
       },
       {
         "symbol": "HYPE",
-        "performance": "86.68%"
+        "performance": "82.04%"
       },
       {
         "symbol": "WLD",
-        "performance": "65.87%"
+        "performance": "60.10%"
       },
       {
         "symbol": "NEAR",
-        "performance": "48.39%"
+        "performance": "43.34%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "37.10%"
       },
       {
         "symbol": "XLM",
-        "performance": "39.37%"
+        "performance": "35.91%"
       },
       {
         "symbol": "U",
-        "performance": "21.13%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "20.15%"
+        "performance": "23.12%"
       },
       {
         "symbol": "MORPHO",
-        "performance": "16.00%"
+        "performance": "22.15%"
       },
       {
         "symbol": "TRX",
-        "performance": "15.57%"
+        "performance": "16.49%"
       },
       {
-        "symbol": "OKB",
-        "performance": "12.76%"
+        "symbol": "AAVE",
+        "performance": "14.30%"
       }
     ]
   },
-  "marketpulseCrypto": "15%",
-  "lastUpdated": "2026-07-07T10:01:03.496Z"
-}
+  "marketpulseCrypto": "14%",
+  "lastUpdated": "2026-07-08T11:03:08.777Z"
