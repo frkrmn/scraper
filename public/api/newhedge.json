@@ -1,11 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-    "sthRealizedPrice": "$69,013.21",
-    "lthRealizedPrice": "$49,828.79",
+    "sthRealizedPrice": "$68,948.9",
+    "lthRealizedPrice": "$49,852.44",
     "sopr": "1.0",
-    "wma200": "$62,650.00",
-    "realizedPrice": "$53,089.41"
+    "wma200": "$62,681.74",
+    "realizedPrice": "$53,085.98"
   },
-  "lastUpdated": "2026-07-07T10:02:02.841Z"
+  "lastUpdated": "2026-07-08T06:54:47.896Z"
 }
