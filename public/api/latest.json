@@ -1,25 +1,25 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "63,323$",
+    "today": "62,241$",
     "maxPain": "64,000$",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "31"
+    "speedometer": "29"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,770$",
+    "today": "1,742$",
     "maxPain": "1,800$",
     "short": {
       "decision": "STRONG_SELL",
@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "DEXE",
-        "performance": "157.22%"
+        "performance": "154.42%"
       },
       {
         "symbol": "HYPE",
-        "performance": "82.04%"
+        "performance": "82.49%"
       },
       {
         "symbol": "WLD",
-        "performance": "60.10%"
+        "performance": "63.15%"
       },
       {
         "symbol": "NEAR",
-        "performance": "43.34%"
+        "performance": "46.55%"
       },
       {
         "symbol": "JST",
-        "performance": "37.10%"
+        "performance": "35.49%"
       },
       {
         "symbol": "XLM",
-        "performance": "35.91%"
+        "performance": "30.94%"
       },
       {
         "symbol": "U",
-        "performance": "23.12%"
+        "performance": "22.09%"
       },
       {
         "symbol": "MORPHO",
-        "performance": "22.15%"
+        "performance": "18.36%"
+      },
+      {
+        "symbol": "LEO",
+        "performance": "16.68%"
       },
       {
         "symbol": "TRX",
-        "performance": "16.49%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "14.30%"
+        "performance": "16.30%"
       }
     ]
   },
-  "marketpulseCrypto": "14%",
-  "lastUpdated": "2026-07-08T11:03:08.777Z"
+  "marketpulseCrypto": "11%",
+  "lastUpdated": "2026-07-09T07:06:38.332Z"
 }
