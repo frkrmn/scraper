@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "63,180$",
+    "today": "64,130$",
     "maxPain": "64,000$",
     "short": {
       "decision": "SELL",
@@ -12,14 +12,14 @@
       "rawDecision": "İşlem yok"
     },
     "long": {
-      "decision": "BUY",
-      "rawDecision": "buy"
+      "decision": "HOLD",
+      "rawDecision": "Hold"
     },
-    "speedometer": "32"
+    "speedometer": "38"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,744$",
+    "today": "1,796$",
     "maxPain": "1,800$",
     "short": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "44"
+    "speedometer": "45"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
+        "symbol": "BEAT",
+        "performance": "394.14%"
+      },
+      {
         "symbol": "DEXE",
-        "performance": "191.56%"
+        "performance": "194.59%"
       },
       {
         "symbol": "HYPE",
-        "performance": "83.33%"
+        "performance": "85.36%"
       },
       {
         "symbol": "WLD",
-        "performance": "58.44%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "46.54%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "36.22%"
+        "performance": "66.08%"
       },
       {
         "symbol": "XLM",
-        "performance": "34.02%"
+        "performance": "37.86%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "37.23%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "34.39%"
       },
       {
         "symbol": "MORPHO",
-        "performance": "30.24%"
+        "performance": "22.02%"
       },
       {
         "symbol": "U",
-        "performance": "21.74%"
+        "performance": "20.52%"
       },
       {
-        "symbol": "TRX",
-        "performance": "16.67%"
-      },
-      {
-        "symbol": "LEO",
-        "performance": "15.11%"
+        "symbol": "AAVE",
+        "performance": "18.88%"
       }
     ]
   },
   "marketpulseCrypto": "13%",
-  "lastUpdated": "2026-07-10T06:15:00.315Z"
+  "lastUpdated": "2026-07-11T06:11:34.851Z"
 }
