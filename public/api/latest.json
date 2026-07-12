@@ -4,16 +4,16 @@
     "today": "63,782$",
     "maxPain": "64,000$",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "unknown"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "mid": {
       "decision": "UNKNOWN",
-      "rawDecision": "unknown"
+      "rawDecision": "İşlem yok"
     },
     "long": {
-      "decision": "UNKNOWN",
-      "rawDecision": "unknown"
+      "decision": "HOLD",
+      "rawDecision": "Hold"
     },
     "speedometer": "39"
   },
@@ -27,11 +27,11 @@
     },
     "mid": {
       "decision": "UNKNOWN",
-      "rawDecision": "unknown"
+      "rawDecision": "İşlem yok"
     },
     "long": {
-      "decision": "UNKNOWN",
-      "rawDecision": "unknown"
+      "decision": "HOLD",
+      "rawDecision": "Hold"
     },
     "speedometer": "49"
   },
@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "DEXE",
-        "performance": "277.96%"
+        "performance": "318.45%"
       },
       {
         "symbol": "HYPE",
-        "performance": "90.52%"
+        "performance": "94.14%"
       },
       {
         "symbol": "WLD",
-        "performance": "79.98%"
+        "performance": "88.67%"
       },
       {
         "symbol": "NEAR",
-        "performance": "38.95%"
+        "performance": "41.52%"
       },
       {
         "symbol": "XLM",
-        "performance": "36.35%"
+        "performance": "38.52%"
       },
       {
         "symbol": "JST",
-        "performance": "30.63%"
+        "performance": "30.06%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "21.79%"
       },
       {
         "symbol": "AAVE",
-        "performance": "21.40%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "20.01%"
-      },
-      {
-        "symbol": "U",
-        "performance": "19.83%"
+        "performance": "21.71%"
       },
       {
         "symbol": "MORPHO",
-        "performance": "19.46%"
+        "performance": "21.02%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "20.68%"
       }
     ]
   },
   "marketpulseCrypto": "14%",
-  "lastUpdated": "2026-07-12T10:13:51.063Z"
+  "lastUpdated": "2026-07-12T20:03:31.907Z"
 }
