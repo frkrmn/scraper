@@ -23,9 +23,21 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install Chrome dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser xvfb libgbm-dev libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libpango-1.0-0 libcairo2 libasound2
+
+      - name: Start Xvfb
+        run: |
+          Xvfb :99 -screen 0 1920x1080x24 -ac +extension GLX +render -noreset &
+          echo "DISPLAY=:99" >> $GITHUB_ENV
+          sleep 3
+
       - name: Run KMquant scraper
         run: npx tsx scrape-kmquant.ts
         env:
+          DISPLAY: :99
           KMQUANT_EMAIL: ${{ secrets.KMQUANT_EMAIL }}
           KMQUANT_PASSWORD: ${{ secrets.KMQUANT_PASSWORD }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
@@ -33,6 +45,8 @@ jobs:
 
       - name: Run NewHedge scraper
         run: npx tsx scrape-newhedge.ts
+        env:
+          DISPLAY: :99
 
       - name: Commit and push updated data
         run: |
