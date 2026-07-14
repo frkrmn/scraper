@@ -1,85 +1,85 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "63,746$",
+    "today": "62,266$",
     "maxPain": "64,000$",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "BUY",
-      "rawDecision": "Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "39"
+    "speedometer": "41"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,806$",
+    "today": "1,775$",
     "maxPain": "1,800$",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "54"
+    "speedometer": "53"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "343.22%"
+        "performance": "348.77%"
       },
       {
         "symbol": "DEXE",
-        "performance": "241.98%"
+        "performance": "218.70%"
       },
       {
         "symbol": "WLD",
-        "performance": "79.31%"
+        "performance": "83.45%"
       },
       {
         "symbol": "HYPE",
-        "performance": "63.37%"
+        "performance": "65.08%"
       },
       {
         "symbol": "NEAR",
-        "performance": "47.90%"
+        "performance": "49.49%"
       },
       {
         "symbol": "XLM",
-        "performance": "36.92%"
+        "performance": "36.95%"
       },
       {
         "symbol": "JST",
-        "performance": "31.78%"
+        "performance": "32.25%"
       },
       {
         "symbol": "MORPHO",
-        "performance": "27.97%"
+        "performance": "28.86%"
       },
       {
         "symbol": "AAVE",
-        "performance": "24.46%"
+        "performance": "24.63%"
       },
       {
-        "symbol": "U",
-        "performance": "21.11%"
+        "symbol": "UNI",
+        "performance": "21.22%"
       }
     ]
   },
   "marketpulseCrypto": "12%",
-  "lastUpdated": "2026-07-14T03:31:46.756Z"
+  "lastUpdated": "2026-07-14T05:41:17.153Z"
 }
