@@ -1,85 +1,85 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "62,266$",
+    "today": "64,995$",
     "maxPain": "64,000$",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "41"
+    "speedometer": "45"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,775$",
+    "today": "1,891$",
     "maxPain": "1,800$",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "53"
+    "speedometer": "60"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
-        "symbol": "BEAT",
-        "performance": "348.77%"
-      },
-      {
         "symbol": "DEXE",
-        "performance": "218.70%"
+        "performance": "228.42%"
       },
       {
         "symbol": "WLD",
-        "performance": "83.45%"
+        "performance": "87.17%"
       },
       {
         "symbol": "HYPE",
-        "performance": "65.08%"
+        "performance": "76.39%"
       },
       {
         "symbol": "NEAR",
-        "performance": "49.49%"
+        "performance": "51.76%"
       },
       {
         "symbol": "XLM",
-        "performance": "36.95%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "32.25%"
+        "performance": "37.76%"
       },
       {
         "symbol": "MORPHO",
-        "performance": "28.86%"
+        "performance": "30.84%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "26.56%"
       },
       {
         "symbol": "AAVE",
-        "performance": "24.63%"
+        "performance": "25.62%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "25.33%"
       },
       {
         "symbol": "UNI",
-        "performance": "21.22%"
+        "performance": "21.91%"
       }
     ]
   },
-  "marketpulseCrypto": "12%",
-  "lastUpdated": "2026-07-14T05:41:17.153Z"
+  "marketpulseCrypto": "13%",
+  "lastUpdated": "2026-07-15T05:31:52.612Z"
 }
