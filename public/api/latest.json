@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "64,995$",
+    "today": "64,716$",
     "maxPain": "64,000$",
     "short": {
       "decision": "STRONG_SELL",
@@ -15,11 +15,11 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "45"
+    "speedometer": "53"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,891$",
+    "today": "1,917$",
     "maxPain": "1,800$",
     "short": {
       "decision": "STRONG_SELL",
@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "DEXE",
-        "performance": "228.42%"
+        "performance": "191.26%"
       },
       {
         "symbol": "WLD",
-        "performance": "87.17%"
+        "performance": "83.94%"
       },
       {
         "symbol": "HYPE",
-        "performance": "76.39%"
+        "performance": "61.01%"
       },
       {
         "symbol": "NEAR",
-        "performance": "51.76%"
+        "performance": "51.24%"
       },
       {
         "symbol": "XLM",
-        "performance": "37.76%"
+        "performance": "41.53%"
       },
       {
         "symbol": "MORPHO",
-        "performance": "30.84%"
+        "performance": "37.44%"
       },
       {
         "symbol": "JST",
-        "performance": "26.56%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "25.62%"
+        "performance": "27.97%"
       },
       {
         "symbol": "ZEC",
-        "performance": "25.33%"
+        "performance": "23.36%"
       },
       {
-        "symbol": "UNI",
-        "performance": "21.91%"
+        "symbol": "AAVE",
+        "performance": "23.27%"
+      },
+      {
+        "symbol": "ONDO",
+        "performance": "22.69%"
       }
     ]
   },
   "marketpulseCrypto": "13%",
-  "lastUpdated": "2026-07-15T05:31:52.612Z"
+  "lastUpdated": "2026-07-16T06:00:27.451Z"
 }
