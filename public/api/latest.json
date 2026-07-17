@@ -1,85 +1,85 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "64,716$",
+    "today": "63,782$",
     "maxPain": "64,000$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
     },
     "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "53"
+    "speedometer": "47"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,917$",
+    "today": "1,863$",
     "maxPain": "1,800$",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "60"
+    "speedometer": "58"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
+        "symbol": "BEAT",
+        "performance": "330.85%"
+      },
+      {
         "symbol": "DEXE",
-        "performance": "191.26%"
+        "performance": "175.28%"
       },
       {
         "symbol": "WLD",
-        "performance": "83.94%"
+        "performance": "76.42%"
       },
       {
         "symbol": "HYPE",
-        "performance": "61.01%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "51.24%"
+        "performance": "46.23%"
       },
       {
         "symbol": "XLM",
-        "performance": "41.53%"
+        "performance": "43.40%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "42.14%"
       },
       {
         "symbol": "MORPHO",
-        "performance": "37.44%"
+        "performance": "36.66%"
       },
       {
         "symbol": "JST",
-        "performance": "27.97%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "23.36%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "23.27%"
+        "performance": "26.71%"
       },
       {
         "symbol": "ONDO",
-        "performance": "22.69%"
+        "performance": "22.17%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "20.17%"
       }
     ]
   },
   "marketpulseCrypto": "13%",
-  "lastUpdated": "2026-07-16T06:00:27.451Z"
+  "lastUpdated": "2026-07-17T05:31:46.389Z"
 }
