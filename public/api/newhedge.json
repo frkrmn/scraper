@@ -4,8 +4,15 @@
     "sthRealizedPrice": "$68,006",
     "lthRealizedPrice": "$49,924.61",
     "sopr": "1.0",
+<<<<<<< Updated upstream
     "wma200": "$63,021.53",
     "realizedPrice": "$52,877.92"
   },
   "lastUpdated": "2026-07-19T08:33:38.029Z"
+=======
+    "wma200": "$63,053.85",
+    "realizedPrice": "$52,877.92"
+  },
+  "lastUpdated": "2026-07-20T05:32:45.760Z"
+>>>>>>> Stashed changes
 }

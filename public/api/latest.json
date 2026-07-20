@@ -1,11 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "64,796$",
+    "today": "64,682$",
     "maxPain": "64,000$",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "mid": {
       "decision": "STRONG_SELL",
@@ -15,19 +15,19 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "49"
+    "speedometer": "50"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,862$",
+    "today": "1,871$",
     "maxPain": "1,800$",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
-    },
-    "mid": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
+    },
+    "mid": {
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "long": {
       "decision": "HOLD",
@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "DEXE",
-        "performance": "169.95%"
+        "performance": "162.32%"
       },
       {
         "symbol": "WLD",
-        "performance": "66.20%"
+        "performance": "50.64%"
       },
       {
         "symbol": "XLM",
-        "performance": "46.39%"
+        "performance": "43.81%"
       },
       {
-        "symbol": "HYPE",
-        "performance": "33.67%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "30.43%"
-      },
-      {
-        "symbol": "MORPHO",
-        "performance": "22.87%"
+        "symbol": "PUMP",
+        "performance": "25.28%"
       },
       {
         "symbol": "JST",
-        "performance": "22.02%"
+        "performance": "23.48%"
+      },
+      {
+        "symbol": "HYPE",
+        "performance": "21.48%"
       },
       {
         "symbol": "AAVE",
-        "performance": "18.11%"
+        "performance": "18.36%"
       },
       {
         "symbol": "U",
-        "performance": "16.75%"
+        "performance": "17.38%"
+      },
+      {
+        "symbol": "MORPHO",
+        "performance": "16.95%"
       },
       {
         "symbol": "OKB",
-        "performance": "16.54%"
+        "performance": "16.15%"
       }
     ]
   },
-  "marketpulseCrypto": "11%",
-  "lastUpdated": "2026-07-19T05:31:41.677Z"
+  "marketpulseCrypto": "12%",
+  "lastUpdated": "2026-07-20T05:31:42.692Z"
 }
