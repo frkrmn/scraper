@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "65,212$",
+    "today": "66,518$",
     "maxPain": "64,000$",
     "short": {
       "decision": "STRONG_SELL",
@@ -15,11 +15,11 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "52"
+    "speedometer": "57"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,904$",
+    "today": "1,929$",
     "maxPain": "1,800$",
     "short": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "63"
+    "speedometer": "66"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
-        "symbol": "DEXE",
-        "performance": "167.62%"
+        "symbol": "XLM",
+        "performance": "41.38%"
       },
       {
         "symbol": "WLD",
-        "performance": "50.76%"
-      },
-      {
-        "symbol": "XLM",
-        "performance": "44.07%"
-      },
-      {
-        "symbol": "PUMP",
-        "performance": "31.22%"
-      },
-      {
-        "symbol": "HYPE",
-        "performance": "27.77%"
+        "performance": "36.92%"
       },
       {
         "symbol": "JST",
-        "performance": "21.99%"
+        "performance": "25.05%"
+      },
+      {
+        "symbol": "PUMP",
+        "performance": "24.70%"
       },
       {
         "symbol": "AAVE",
-        "performance": "21.58%"
+        "performance": "22.79%"
       },
       {
         "symbol": "UNI",
-        "performance": "19.60%"
+        "performance": "17.84%"
       },
       {
-        "symbol": "MORPHO",
-        "performance": "14.98%"
+        "symbol": "U",
+        "performance": "14.44%"
+      },
+      {
+        "symbol": "HYPE",
+        "performance": "13.99%"
       },
       {
         "symbol": "OKB",
-        "performance": "13.79%"
+        "performance": "13.48%"
+      },
+      {
+        "symbol": "LEO",
+        "performance": "12.60%"
       }
     ]
   },
-  "marketpulseCrypto": "13%",
-  "lastUpdated": "2026-07-21T07:03:40.843Z"
+  "marketpulseCrypto": "12%",
+  "lastUpdated": "2026-07-22T05:31:45.067Z"
 }
