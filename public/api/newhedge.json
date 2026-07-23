@@ -1,18 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-    "sthRealizedPrice": "$68,133.87",
-    "lthRealizedPrice": "$49,942.57",
-    "sopr": "1.01",
-<<<<<<< Updated upstream
-    "wma200": "$63,120.48",
-    "realizedPrice": "$52,913.21"
-  },
-  "lastUpdated": "2026-07-22T08:44:08.570Z"
-=======
+    "sthRealizedPrice": "$68,126.53",
+    "lthRealizedPrice": "$49,946.92",
+    "sopr": "0.99",
     "wma200": "$63,154.45",
-    "realizedPrice": "$52,913.21"
+    "realizedPrice": "$52,906.82"
   },
-  "lastUpdated": "2026-07-23T05:32:06.229Z"
->>>>>>> Stashed changes
+  "lastUpdated": "2026-07-23T06:26:08.743Z"
 }
