@@ -1,29 +1,15 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "65,051$",
+=======
+    "today": "64,088$",
+>>>>>>> Stashed changes
     "maxPain": "64,000$",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
-    },
-    "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
-    },
-    "long": {
-      "decision": "HOLD",
-      "rawDecision": "Hold"
-    },
-    "speedometer": "60"
-  },
-  "eth": {
-    "name": "ETH",
-    "today": "1,877$",
-    "maxPain": "1,800$",
-    "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,13 +19,44 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
+    "speedometer": "60"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "1,877$",
+=======
+    "speedometer": "56"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "1,860$",
+>>>>>>> Stashed changes
+    "maxPain": "1,800$",
+    "short": {
+      "decision": "SELL",
+      "rawDecision": "Sat"
+    },
+    "mid": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+    },
+    "long": {
+      "decision": "HOLD",
+      "rawDecision": "Hold"
+    },
+<<<<<<< Updated upstream
     "speedometer": "67"
+=======
+    "speedometer": "65"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "BEAT",
+<<<<<<< Updated upstream
         "performance": "229.23%"
       },
       {
@@ -77,9 +94,52 @@
       {
         "symbol": "HYPE",
         "performance": "10.92%"
+=======
+        "performance": "234.76%"
+      },
+      {
+        "symbol": "XLM",
+        "performance": "36.24%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "28.51%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "25.32%"
+      },
+      {
+        "symbol": "AAVE",
+        "performance": "21.54%"
+      },
+      {
+        "symbol": "U",
+        "performance": "15.66%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "13.53%"
+      },
+      {
+        "symbol": "LEO",
+        "performance": "12.65%"
+      },
+      {
+        "symbol": "HYPE",
+        "performance": "11.74%"
+      },
+      {
+        "symbol": "ONDO",
+        "performance": "6.55%"
+>>>>>>> Stashed changes
       }
     ]
   },
   "marketpulseCrypto": "12%",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-07-24T06:38:29.602Z"
+=======
+  "lastUpdated": "2026-07-25T05:31:40.041Z"
+>>>>>>> Stashed changes
 }
