@@ -1,29 +1,29 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "64,088$",
+    "today": "64,310$",
     "maxPain": "64,000$",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "56"
+    "speedometer": "58"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,860$",
+    "today": "1,873$",
     "maxPain": "1,800$",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "65"
+    "speedometer": "64"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "237.99%"
-      },
-      {
-        "symbol": "XLM",
-        "performance": "35.54%"
+        "performance": "227.26%"
       },
       {
         "symbol": "UNI",
-        "performance": "28.71%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "25.00%"
+        "performance": "26.43%"
       },
       {
         "symbol": "AAVE",
-        "performance": "21.26%"
+        "performance": "24.45%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "22.72%"
+      },
+      {
+        "symbol": "XLM",
+        "performance": "21.39%"
+      },
+      {
+        "symbol": "SHIB",
+        "performance": "18.63%"
       },
       {
         "symbol": "U",
-        "performance": "15.85%"
+        "performance": "14.38%"
       },
       {
         "symbol": "LEO",
-        "performance": "12.83%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "12.28%"
+        "performance": "11.83%"
       },
       {
         "symbol": "HYPE",
-        "performance": "11.62%"
+        "performance": "11.63%"
       },
       {
         "symbol": "ONDO",
-        "performance": "7.18%"
+        "performance": "11.52%"
       }
     ]
   },
-  "marketpulseCrypto": "12%",
-  "lastUpdated": "2026-07-25T07:16:03.815Z"
+  "marketpulseCrypto": "10%",
+  "lastUpdated": "2026-07-26T07:20:45.302Z"
 }
