@@ -15,71 +15,71 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "58"
+    "speedometer": "61"
   },
   "eth": {
     "name": "ETH",
     "today": "1,873$",
     "maxPain": "1,800$",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "64"
+    "speedometer": "66"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "227.26%"
+        "performance": "255.62%"
       },
       {
         "symbol": "UNI",
-        "performance": "26.43%"
+        "performance": "38.38%"
       },
       {
         "symbol": "AAVE",
-        "performance": "24.45%"
+        "performance": "35.81%"
+      },
+      {
+        "symbol": "WLD",
+        "performance": "35.54%"
       },
       {
         "symbol": "JST",
-        "performance": "22.72%"
-      },
-      {
-        "symbol": "XLM",
-        "performance": "21.39%"
-      },
-      {
-        "symbol": "SHIB",
-        "performance": "18.63%"
-      },
-      {
-        "symbol": "U",
-        "performance": "14.38%"
-      },
-      {
-        "symbol": "LEO",
-        "performance": "11.83%"
-      },
-      {
-        "symbol": "HYPE",
-        "performance": "11.63%"
+        "performance": "23.70%"
       },
       {
         "symbol": "ONDO",
-        "performance": "11.52%"
+        "performance": "21.44%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "13.01%"
+      },
+      {
+        "symbol": "U",
+        "performance": "11.04%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "10.50%"
+      },
+      {
+        "symbol": "HYPE",
+        "performance": "10.11%"
       }
     ]
   },
   "marketpulseCrypto": "10%",
-  "lastUpdated": "2026-07-26T07:20:45.302Z"
+  "lastUpdated": "2026-07-27T07:04:08.596Z"
 }
