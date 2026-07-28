@@ -1,25 +1,25 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "64,310$",
-    "maxPain": "64,000$",
+    "today": "63,701$",
+    "maxPain": "64,500$",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "61"
+    "speedometer": "58"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,873$",
+    "today": "1,891$",
     "maxPain": "1,800$",
     "short": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "66"
+    "speedometer": "69"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "255.62%"
+        "performance": "174.91%"
       },
       {
         "symbol": "UNI",
-        "performance": "38.38%"
+        "performance": "37.51%"
       },
       {
         "symbol": "AAVE",
-        "performance": "35.81%"
+        "performance": "32.20%"
       },
       {
-        "symbol": "WLD",
-        "performance": "35.54%"
+        "symbol": "PUMP",
+        "performance": "29.92%"
       },
       {
         "symbol": "JST",
-        "performance": "23.70%"
+        "performance": "22.01%"
       },
       {
         "symbol": "ONDO",
-        "performance": "21.44%"
+        "performance": "21.71%"
       },
       {
-        "symbol": "ENA",
-        "performance": "13.01%"
+        "symbol": "WLD",
+        "performance": "21.70%"
       },
       {
         "symbol": "U",
-        "performance": "11.04%"
+        "performance": "13.73%"
       },
       {
-        "symbol": "XMR",
-        "performance": "10.50%"
+        "symbol": "OKB",
+        "performance": "13.32%"
       },
       {
-        "symbol": "HYPE",
-        "performance": "10.11%"
+        "symbol": "LEO",
+        "performance": "11.29%"
       }
     ]
   },
-  "marketpulseCrypto": "10%",
-  "lastUpdated": "2026-07-27T07:04:08.596Z"
+  "marketpulseCrypto": "11%",
+  "lastUpdated": "2026-07-28T05:36:28.350Z"
 }
