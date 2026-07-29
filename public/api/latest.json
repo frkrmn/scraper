@@ -1,8 +1,8 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "63,701$",
-    "maxPain": "64,500$",
+    "today": "63,851$",
+    "maxPain": "64,000$",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
@@ -15,71 +15,71 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "58"
+    "speedometer": "55"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,891$",
+    "today": "1,920$",
     "maxPain": "1,800$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
     },
     "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "69"
+    "speedometer": "63"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "174.91%"
+        "performance": "234.54%"
       },
       {
         "symbol": "UNI",
-        "performance": "37.51%"
+        "performance": "37.78%"
       },
       {
         "symbol": "AAVE",
-        "performance": "32.20%"
-      },
-      {
-        "symbol": "PUMP",
-        "performance": "29.92%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "22.01%"
+        "performance": "31.51%"
       },
       {
         "symbol": "ONDO",
-        "performance": "21.71%"
+        "performance": "24.80%"
       },
       {
-        "symbol": "WLD",
-        "performance": "21.70%"
+        "symbol": "JST",
+        "performance": "17.32%"
       },
       {
         "symbol": "U",
-        "performance": "13.73%"
-      },
-      {
-        "symbol": "OKB",
-        "performance": "13.32%"
+        "performance": "13.38%"
       },
       {
         "symbol": "LEO",
-        "performance": "11.29%"
+        "performance": "10.29%"
+      },
+      {
+        "symbol": "ETH",
+        "performance": "7.75%"
+      },
+      {
+        "symbol": "OKB",
+        "performance": "7.71%"
+      },
+      {
+        "symbol": "TRX",
+        "performance": "7.07%"
       }
     ]
   },
-  "marketpulseCrypto": "11%",
-  "lastUpdated": "2026-07-28T05:36:28.350Z"
+  "marketpulseCrypto": "10%",
+  "lastUpdated": "2026-07-29T06:03:57.292Z"
 }
