@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "228.55%"
+        "performance": "241.70%"
       },
       {
         "symbol": "UNI",
-        "performance": "45.71%"
+        "performance": "45.63%"
       },
       {
         "symbol": "AAVE",
-        "performance": "30.45%"
+        "performance": "31.86%"
       },
       {
         "symbol": "ONDO",
-        "performance": "24.20%"
+        "performance": "25.31%"
       },
       {
         "symbol": "JST",
-        "performance": "19.49%"
+        "performance": "18.75%"
       },
       {
         "symbol": "U",
         "performance": "13.19%"
       },
       {
-        "symbol": "LEO",
-        "performance": "10.72%"
+        "symbol": "XMR",
+        "performance": "11.21%"
       },
       {
-        "symbol": "XMR",
-        "performance": "10.51%"
+        "symbol": "LEO",
+        "performance": "10.69%"
       },
       {
         "symbol": "ETH",
-        "performance": "8.01%"
+        "performance": "8.09%"
       },
       {
         "symbol": "TRX",
-        "performance": "6.28%"
+        "performance": "6.81%"
       }
     ]
   },
   "marketpulseCrypto": "8%",
-  "lastUpdated": "2026-07-30T05:31:41.484Z"
+  "lastUpdated": "2026-07-30T07:55:17.185Z"
 }
