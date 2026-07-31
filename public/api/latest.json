@@ -1,26 +1,26 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "63,900$",
+    "today": "64,726$",
     "maxPain": "64,000$",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "53"
+    "speedometer": "60"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,908$",
-    "maxPain": "1,800$",
+    "today": "1,917$",
+    "maxPain": "1,850$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "64"
+    "speedometer": "69"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "BEAT",
-        "performance": "241.70%"
+        "performance": "243.56%"
       },
       {
         "symbol": "UNI",
-        "performance": "45.63%"
+        "performance": "61.20%"
       },
       {
         "symbol": "AAVE",
-        "performance": "31.86%"
+        "performance": "34.06%"
       },
       {
         "symbol": "ONDO",
-        "performance": "25.31%"
+        "performance": "23.50%"
+      },
+      {
+        "symbol": "PUMP",
+        "performance": "20.33%"
       },
       {
         "symbol": "JST",
-        "performance": "18.75%"
-      },
-      {
-        "symbol": "U",
-        "performance": "13.19%"
+        "performance": "16.65%"
       },
       {
         "symbol": "XMR",
-        "performance": "11.21%"
+        "performance": "10.96%"
+      },
+      {
+        "symbol": "U",
+        "performance": "9.93%"
       },
       {
         "symbol": "LEO",
-        "performance": "10.69%"
+        "performance": "7.61%"
       },
       {
-        "symbol": "ETH",
-        "performance": "8.09%"
-      },
-      {
-        "symbol": "TRX",
-        "performance": "6.81%"
+        "symbol": "MORPHO",
+        "performance": "5.75%"
       }
     ]
   },
-  "marketpulseCrypto": "8%",
-  "lastUpdated": "2026-07-30T07:55:17.185Z"
+  "marketpulseCrypto": "9%",
+  "lastUpdated": "2026-07-31T05:31:41.489Z"
 }
