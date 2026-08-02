@@ -46,7 +46,7 @@ const PAGE_CONFIGS: Record<keyof typeof NEWHEDGE_PAGES, PageConfig> = {
   },
   BTC_200_WEEK_MOVING_AVERAGE_HEATMAP_PAGE: {
     url: NEWHEDGE_PAGES.BTC_200_WEEK_MOVING_AVERAGE_HEATMAP_PAGE,
-    needle: "200WMA",
+    needle: "Wma 200 Btc",
     cssSelector: "p[class*='200wma-selector']",
   },
   BTC_REALIZED_PRICE_PAGE: {
