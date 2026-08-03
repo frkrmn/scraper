@@ -1,6 +1,7 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "sthRealizedPrice": "$67,684.83",
     "lthRealizedPrice": "unknown",
     "sopr": "0.96",
@@ -8,4 +9,13 @@
     "realizedPrice": "$52,816.12"
   },
   "lastUpdated": "2026-08-02T08:37:27.833Z"
+=======
+    "sthRealizedPrice": "unknown",
+    "lthRealizedPrice": "unknown",
+    "sopr": "unknown",
+    "wma200": "unknown",
+    "realizedPrice": "unknown"
+  },
+  "lastUpdated": "2026-08-03T05:32:37.120Z"
+>>>>>>> Stashed changes
 }
