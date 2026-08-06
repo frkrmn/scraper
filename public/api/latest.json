@@ -1,25 +1,25 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "64,052$",
+    "today": "64,603$",
     "maxPain": "63,000$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
     },
     "mid": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "48"
+    "speedometer": "49"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,868$",
+    "today": "1,907$",
     "maxPain": "1,850$",
     "short": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,54 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "65"
+    "speedometer": "67"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
-        "symbol": "PUMP",
-        "performance": "69.62%"
+        "symbol": "UNI",
+        "performance": "56.63%"
       },
       {
-        "symbol": "UNI",
-        "performance": "56.06%"
+        "symbol": "PUMP",
+        "performance": "52.74%"
       },
       {
         "symbol": "AAVE",
-        "performance": "46.38%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "41.28%"
+        "performance": "37.92%"
       },
       {
         "symbol": "JST",
-        "performance": "20.24%"
+        "performance": "30.83%"
       },
       {
         "symbol": "OKB",
-        "performance": "18.01%"
+        "performance": "16.55%"
       },
       {
-        "symbol": "ADA",
-        "performance": "15.89%"
+        "symbol": "ZEC",
+        "performance": "15.70%"
       },
       {
         "symbol": "XMR",
-        "performance": "14.63%"
+        "performance": "15.35%"
       },
       {
         "symbol": "ETH",
-        "performance": "14.21%"
+        "performance": "12.68%"
+      },
+      {
+        "symbol": "ADA",
+        "performance": "12.58%"
       },
       {
         "symbol": "SOL",
-        "performance": "13.81%"
+        "performance": "9.73%"
       }
     ]
   },
-  "marketpulseCrypto": "7%",
-  "lastUpdated": "2026-08-05T05:31:36.402Z"
+  "marketpulseCrypto": "10%",
+  "lastUpdated": "2026-08-06T06:26:47.869Z"
+}
 }
