@@ -1,42 +1,25 @@
 {
   "btc": {
     "name": "BTC",
-<<<<<<< Updated upstream
-    "today": "64,603$",
-=======
     "today": "64,269$",
->>>>>>> Stashed changes
     "maxPain": "63,000$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
     },
     "mid": {
-<<<<<<< Updated upstream
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
-=======
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
->>>>>>> Stashed changes
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-<<<<<<< Updated upstream
-    "speedometer": "49"
-  },
-  "eth": {
-    "name": "ETH",
-    "today": "1,907$",
-=======
     "speedometer": "46"
   },
   "eth": {
     "name": "ETH",
     "today": "1,903$",
->>>>>>> Stashed changes
     "maxPain": "1,850$",
     "short": {
       "decision": "STRONG_SELL",
@@ -50,103 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-<<<<<<< Updated upstream
-    "speedometer": "67"
-=======
     "speedometer": "68"
->>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "UNI",
-<<<<<<< Updated upstream
-        "performance": "56.63%"
+        "performance": "54.59%"
       },
       {
         "symbol": "PUMP",
-        "performance": "52.74%"
+        "performance": "39.60%"
       },
       {
         "symbol": "AAVE",
-        "performance": "37.92%"
+        "performance": "39.23%"
       },
       {
         "symbol": "JST",
-        "performance": "30.83%"
+        "performance": "29.99%"
       },
       {
         "symbol": "OKB",
-        "performance": "16.55%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "15.70%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "15.35%"
-      },
-      {
-        "symbol": "ETH",
-        "performance": "12.68%"
+        "performance": "19.23%"
       },
       {
         "symbol": "ADA",
-        "performance": "12.58%"
-      },
-      {
-        "symbol": "SOL",
-        "performance": "9.73%"
-      }
-    ]
-  },
-  "marketpulseCrypto": "10%",
-  "lastUpdated": "2026-08-06T06:26:47.869Z"
-}
-=======
-        "performance": "53.35%"
-      },
-      {
-        "symbol": "PUMP",
-        "performance": "39.14%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "38.48%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "31.06%"
-      },
-      {
-        "symbol": "OKB",
-        "performance": "19.36%"
+        "performance": "17.12%"
       },
       {
         "symbol": "XMR",
-        "performance": "16.29%"
-      },
-      {
-        "symbol": "ADA",
-        "performance": "16.11%"
+        "performance": "16.28%"
       },
       {
         "symbol": "ETH",
-        "performance": "11.15%"
+        "performance": "11.36%"
       },
       {
         "symbol": "SOL",
-        "performance": "6.44%"
+        "performance": "6.76%"
       },
       {
         "symbol": "ZEC",
-        "performance": "5.33%"
+        "performance": "6.17%"
       }
     ]
   },
   "marketpulseCrypto": "11%",
-  "lastUpdated": "2026-08-07T05:31:37.423Z"
+  "lastUpdated": "2026-08-07T06:39:44.914Z"
 }
->>>>>>> Stashed changes
