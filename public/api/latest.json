@@ -1,15 +1,15 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "64,269$",
+    "today": "64,885$",
     "maxPain": "63,000$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
@@ -19,7 +19,7 @@
   },
   "eth": {
     "name": "ETH",
-    "today": "1,903$",
+    "today": "1,913$",
     "maxPain": "1,850$",
     "short": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "68"
+    "speedometer": "69"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "UNI",
-        "performance": "54.59%"
+        "performance": "55.89%"
       },
       {
         "symbol": "PUMP",
-        "performance": "39.60%"
+        "performance": "44.04%"
       },
       {
         "symbol": "AAVE",
-        "performance": "39.23%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "29.99%"
+        "performance": "39.88%"
       },
       {
         "symbol": "OKB",
-        "performance": "19.23%"
+        "performance": "25.28%"
       },
       {
-        "symbol": "ADA",
-        "performance": "17.12%"
+        "symbol": "JST",
+        "performance": "22.28%"
       },
       {
         "symbol": "XMR",
-        "performance": "16.28%"
+        "performance": "19.16%"
+      },
+      {
+        "symbol": "ADA",
+        "performance": "14.97%"
       },
       {
         "symbol": "ETH",
-        "performance": "11.36%"
+        "performance": "10.84%"
       },
       {
         "symbol": "SOL",
-        "performance": "6.76%"
+        "performance": "9.22%"
       },
       {
         "symbol": "ZEC",
-        "performance": "6.17%"
+        "performance": "8.78%"
       }
     ]
   },
   "marketpulseCrypto": "11%",
-  "lastUpdated": "2026-08-07T06:39:44.914Z"
+  "lastUpdated": "2026-08-08T05:31:36.989Z"
 }
