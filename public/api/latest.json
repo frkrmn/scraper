@@ -1,11 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "64,885$",
+    "today": "64,908$",
     "maxPain": "63,000$",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
       "decision": "STRONG_SELL",
@@ -15,11 +15,11 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "46"
+    "speedometer": "47"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,913$",
+    "today": "1,915$",
     "maxPain": "1,850$",
     "short": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "69"
+    "speedometer": "73"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
-        "symbol": "UNI",
-        "performance": "55.89%"
+        "symbol": "PUMP",
+        "performance": "73.48%"
       },
       {
-        "symbol": "PUMP",
-        "performance": "44.04%"
+        "symbol": "UNI",
+        "performance": "60.75%"
       },
       {
         "symbol": "AAVE",
-        "performance": "39.88%"
+        "performance": "42.95%"
       },
       {
         "symbol": "OKB",
-        "performance": "25.28%"
+        "performance": "29.18%"
       },
       {
         "symbol": "JST",
-        "performance": "22.28%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "19.16%"
-      },
-      {
-        "symbol": "ADA",
-        "performance": "14.97%"
-      },
-      {
-        "symbol": "ETH",
-        "performance": "10.84%"
-      },
-      {
-        "symbol": "SOL",
-        "performance": "9.22%"
+        "performance": "25.36%"
       },
       {
         "symbol": "ZEC",
-        "performance": "8.78%"
+        "performance": "18.61%"
+      },
+      {
+        "symbol": "ADA",
+        "performance": "18.38%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "18.36%"
+      },
+      {
+        "symbol": "SOL",
+        "performance": "15.02%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "12.74%"
       }
     ]
   },
-  "marketpulseCrypto": "11%",
-  "lastUpdated": "2026-08-08T05:31:36.989Z"
+  "marketpulseCrypto": "13%",
+  "lastUpdated": "2026-08-09T05:31:37.202Z"
 }
