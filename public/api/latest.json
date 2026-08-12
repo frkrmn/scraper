@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "63,917$",
+    "today": "63,539$",
     "maxPain": "63,000$",
     "short": {
       "decision": "STRONG_SELL",
@@ -15,15 +15,15 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "49"
+    "speedometer": "50"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,872$",
+    "today": "1,881$",
     "maxPain": "1,850$",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "BUY",
+      "rawDecision": "Al"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "66"
+    "speedometer": "64"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
-        "performance": "87.81%"
+        "performance": "79.30%"
       },
       {
         "symbol": "UNI",
-        "performance": "58.16%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "36.47%"
-      },
-      {
-        "symbol": "OKB",
-        "performance": "29.13%"
+        "performance": "48.64%"
       },
       {
         "symbol": "JST",
-        "performance": "28.99%"
+        "performance": "36.49%"
+      },
+      {
+        "symbol": "AAVE",
+        "performance": "36.24%"
+      },
+      {
+        "symbol": "OKB",
+        "performance": "28.39%"
       },
       {
         "symbol": "ZEC",
-        "performance": "17.60%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "14.25%"
-      },
-      {
-        "symbol": "SOL",
-        "performance": "13.04%"
+        "performance": "17.16%"
       },
       {
         "symbol": "XMR",
-        "performance": "11.78%"
+        "performance": "13.94%"
       },
       {
         "symbol": "ETH",
-        "performance": "11.70%"
+        "performance": "13.42%"
+      },
+      {
+        "symbol": "SOL",
+        "performance": "12.42%"
+      },
+      {
+        "symbol": "CHAINLINK",
+        "performance": "9.94%"
       }
     ]
   },
-  "marketpulseCrypto": "12%",
-  "lastUpdated": "2026-08-11T06:13:42.130Z"
+  "marketpulseCrypto": "13%",
+  "lastUpdated": "2026-08-12T05:31:45.733Z"
 }
