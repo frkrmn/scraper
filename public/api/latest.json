@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "63,539$",
+    "today": "63,413$",
     "maxPain": "63,000$",
     "short": {
       "decision": "STRONG_SELL",
@@ -15,11 +15,11 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "50"
+    "speedometer": "51"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,881$",
+    "today": "1,878$",
     "maxPain": "1,850$",
     "short": {
       "decision": "BUY",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "64"
+    "speedometer": "63"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
-        "performance": "79.30%"
+        "performance": "81.58%"
       },
       {
         "symbol": "UNI",
-        "performance": "48.64%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "36.49%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "36.24%"
+        "performance": "43.25%"
       },
       {
         "symbol": "OKB",
-        "performance": "28.39%"
+        "performance": "40.47%"
       },
       {
-        "symbol": "ZEC",
-        "performance": "17.16%"
+        "symbol": "AAVE",
+        "performance": "34.77%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "31.65%"
       },
       {
         "symbol": "XMR",
-        "performance": "13.94%"
+        "performance": "17.12%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "16.89%"
       },
       {
         "symbol": "ETH",
-        "performance": "13.42%"
+        "performance": "13.78%"
       },
       {
         "symbol": "SOL",
-        "performance": "12.42%"
+        "performance": "12.93%"
       },
       {
         "symbol": "CHAINLINK",
-        "performance": "9.94%"
+        "performance": "12.26%"
       }
     ]
   },
-  "marketpulseCrypto": "13%",
-  "lastUpdated": "2026-08-12T05:31:45.733Z"
+  "marketpulseCrypto": "12%",
+  "lastUpdated": "2026-08-13T05:45:15.668Z"
 }
