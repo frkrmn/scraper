@@ -1,11 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-<<<<<<< Updated upstream
-    "today": "63,413$",
-=======
     "today": "63,427$",
->>>>>>> Stashed changes
     "maxPain": "63,000$",
     "short": {
       "decision": "SELL",
@@ -19,19 +15,11 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-<<<<<<< Updated upstream
-    "speedometer": "51"
-  },
-  "eth": {
-    "name": "ETH",
-    "today": "1,878$",
-=======
     "speedometer": "48"
   },
   "eth": {
     "name": "ETH",
     "today": "1,885$",
->>>>>>> Stashed changes
     "maxPain": "1,850$",
     "short": {
       "decision": "BUY",
@@ -45,67 +33,18 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-<<<<<<< Updated upstream
-    "speedometer": "63"
-=======
     "speedometer": "58"
->>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
-<<<<<<< Updated upstream
-        "performance": "81.58%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "43.25%"
-      },
-      {
-        "symbol": "OKB",
-        "performance": "40.47%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "34.77%"
+        "performance": "87.36%"
       },
       {
         "symbol": "JST",
-        "performance": "31.65%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "17.12%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "16.89%"
-      },
-      {
-        "symbol": "ETH",
-        "performance": "13.78%"
-      },
-      {
-        "symbol": "SOL",
-        "performance": "12.93%"
-      },
-      {
-        "symbol": "CHAINLINK",
-        "performance": "12.26%"
-      }
-    ]
-  },
-  "marketpulseCrypto": "12%",
-  "lastUpdated": "2026-08-13T05:45:15.668Z"
-}
-=======
-        "performance": "87.40%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "39.45%"
+        "performance": "39.44%"
       },
       {
         "symbol": "OKB",
@@ -113,35 +52,34 @@
       },
       {
         "symbol": "UNI",
-        "performance": "33.79%"
+        "performance": "34.24%"
       },
       {
         "symbol": "AAVE",
-        "performance": "23.08%"
+        "performance": "23.27%"
       },
       {
         "symbol": "CHAINLINK",
-        "performance": "9.80%"
+        "performance": "9.78%"
       },
       {
         "symbol": "XMR",
-        "performance": "9.28%"
+        "performance": "9.61%"
       },
       {
         "symbol": "TRX",
-        "performance": "9.21%"
+        "performance": "9.16%"
       },
       {
         "symbol": "ETH",
-        "performance": "8.44%"
+        "performance": "8.45%"
       },
       {
         "symbol": "SOL",
-        "performance": "6.05%"
+        "performance": "6.01%"
       }
     ]
   },
   "marketpulseCrypto": "11%",
-  "lastUpdated": "2026-08-14T05:31:49.098Z"
+  "lastUpdated": "2026-08-14T05:53:24.816Z"
 }
->>>>>>> Stashed changes
