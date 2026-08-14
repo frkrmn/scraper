@@ -1,25 +1,37 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "63,413$",
+=======
+    "today": "63,427$",
+>>>>>>> Stashed changes
     "maxPain": "63,000$",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "51"
   },
   "eth": {
     "name": "ETH",
     "today": "1,878$",
+=======
+    "speedometer": "48"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "1,885$",
+>>>>>>> Stashed changes
     "maxPain": "1,850$",
     "short": {
       "decision": "BUY",
@@ -33,13 +45,18 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "63"
+=======
+    "speedometer": "58"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
+<<<<<<< Updated upstream
         "performance": "81.58%"
       },
       {
@@ -83,3 +100,48 @@
   "marketpulseCrypto": "12%",
   "lastUpdated": "2026-08-13T05:45:15.668Z"
 }
+=======
+        "performance": "87.40%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "39.45%"
+      },
+      {
+        "symbol": "OKB",
+        "performance": "39.24%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "33.79%"
+      },
+      {
+        "symbol": "AAVE",
+        "performance": "23.08%"
+      },
+      {
+        "symbol": "CHAINLINK",
+        "performance": "9.80%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "9.28%"
+      },
+      {
+        "symbol": "TRX",
+        "performance": "9.21%"
+      },
+      {
+        "symbol": "ETH",
+        "performance": "8.44%"
+      },
+      {
+        "symbol": "SOL",
+        "performance": "6.05%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "11%",
+  "lastUpdated": "2026-08-14T05:31:49.098Z"
+}
+>>>>>>> Stashed changes
