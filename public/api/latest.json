@@ -1,85 +1,85 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "63,427$",
+    "today": "62,981$",
     "maxPain": "63,000$",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "48"
+    "speedometer": "52"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,885$",
+    "today": "1,880$",
     "maxPain": "1,850$",
     "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
-    },
-    "mid": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
+    },
+    "mid": {
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "58"
+    "speedometer": "59"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
-        "performance": "87.36%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "39.44%"
+        "performance": "85.05%"
       },
       {
         "symbol": "OKB",
-        "performance": "39.24%"
+        "performance": "43.79%"
       },
       {
-        "symbol": "UNI",
-        "performance": "34.24%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "23.27%"
-      },
-      {
-        "symbol": "CHAINLINK",
-        "performance": "9.78%"
+        "symbol": "JST",
+        "performance": "34.52%"
       },
       {
         "symbol": "XMR",
-        "performance": "9.61%"
+        "performance": "18.54%"
+      },
+      {
+        "symbol": "AAVE",
+        "performance": "17.93%"
+      },
+      {
+        "symbol": "CHAINLINK",
+        "performance": "17.85%"
       },
       {
         "symbol": "TRX",
-        "performance": "9.16%"
+        "performance": "9.23%"
       },
       {
         "symbol": "ETH",
-        "performance": "8.45%"
+        "performance": "8.90%"
+      },
+      {
+        "symbol": "ADA",
+        "performance": "7.00%"
       },
       {
         "symbol": "SOL",
-        "performance": "6.01%"
+        "performance": "5.91%"
       }
     ]
   },
   "marketpulseCrypto": "11%",
-  "lastUpdated": "2026-08-14T05:53:24.816Z"
+  "lastUpdated": "2026-08-15T05:31:47.220Z"
 }
