@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "62,981$",
+    "today": "63,022$",
     "maxPain": "63,000$",
     "short": {
       "decision": "SELL",
@@ -15,11 +15,11 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "52"
+    "speedometer": "55"
   },
   "eth": {
     "name": "ETH",
-    "today": "1,880$",
+    "today": "1,881$",
     "maxPain": "1,850$",
     "short": {
       "decision": "UNKNOWN",
@@ -33,14 +33,14 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "59"
+    "speedometer": "61"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
-        "performance": "85.05%"
+        "performance": "90.41%"
       },
       {
         "symbol": "OKB",
@@ -48,11 +48,11 @@
       },
       {
         "symbol": "JST",
-        "performance": "34.52%"
+        "performance": "32.96%"
       },
       {
         "symbol": "XMR",
-        "performance": "18.54%"
+        "performance": "23.52%"
       },
       {
         "symbol": "AAVE",
@@ -60,26 +60,26 @@
       },
       {
         "symbol": "CHAINLINK",
-        "performance": "17.85%"
-      },
-      {
-        "symbol": "TRX",
-        "performance": "9.23%"
+        "performance": "17.54%"
       },
       {
         "symbol": "ETH",
-        "performance": "8.90%"
+        "performance": "9.74%"
       },
       {
         "symbol": "ADA",
-        "performance": "7.00%"
+        "performance": "7.88%"
       },
       {
         "symbol": "SOL",
-        "performance": "5.91%"
+        "performance": "6.57%"
+      },
+      {
+        "symbol": "TRX",
+        "performance": "5.47%"
       }
     ]
   },
-  "marketpulseCrypto": "11%",
-  "lastUpdated": "2026-08-15T05:31:47.220Z"
+  "marketpulseCrypto": "10%",
+  "lastUpdated": "2026-08-16T07:19:38.392Z"
 }
