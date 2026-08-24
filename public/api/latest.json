@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "77,062$",
+    "today": "77,718$",
     "maxPain": "67,000$",
     "short": {
       "decision": "STRONG_SELL",
@@ -15,71 +15,71 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "61"
+    "speedometer": "62"
   },
   "eth": {
     "name": "ETH",
-    "today": "2,422$",
+    "today": "2,463$",
     "maxPain": "1,950$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "56"
+    "speedometer": "58"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
-        "performance": "271.11%"
+        "performance": "295.48%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "97.37%"
       },
       {
         "symbol": "ZEC",
-        "performance": "70.48%"
+        "performance": "80.73%"
       },
       {
         "symbol": "ENA",
-        "performance": "58.17%"
+        "performance": "77.33%"
       },
       {
         "symbol": "AAVE",
-        "performance": "33.18%"
+        "performance": "45.98%"
       },
       {
         "symbol": "PEPE",
-        "performance": "28.68%"
+        "performance": "43.13%"
+      },
+      {
+        "symbol": "MORPHO",
+        "performance": "32.04%"
       },
       {
         "symbol": "CHAINLINK",
-        "performance": "27.97%"
-      },
-      {
-        "symbol": "ADA",
-        "performance": "24.86%"
+        "performance": "30.38%"
       },
       {
         "symbol": "ETH",
-        "performance": "23.29%"
+        "performance": "27.10%"
       },
       {
-        "symbol": "POL",
-        "performance": "19.17%"
-      },
-      {
-        "symbol": "OKB",
-        "performance": "19.14%"
+        "symbol": "UNI",
+        "performance": "26.93%"
       }
     ]
   },
-  "marketpulseCrypto": "39%",
-  "lastUpdated": "2026-08-23T07:52:57.229Z"
+  "marketpulseCrypto": "41%",
+  "lastUpdated": "2026-08-24T06:25:25.066Z"
 }
