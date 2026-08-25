@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "77,718$",
+    "today": "78,977$",
     "maxPain": "68,000$",
     "short": {
       "decision": "STRONG_SELL",
@@ -15,15 +15,15 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "62"
+    "speedometer": "65"
   },
   "eth": {
     "name": "ETH",
-    "today": "2,463$",
+    "today": "2,482$",
     "maxPain": "1,950$",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "58"
+    "speedometer": "61"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
-        "performance": "295.48%"
-      },
-      {
-        "symbol": "LIT",
-        "performance": "97.37%"
+        "performance": "237.29%"
       },
       {
         "symbol": "ZEC",
-        "performance": "80.73%"
+        "performance": "66.89%"
       },
       {
         "symbol": "ENA",
-        "performance": "77.33%"
+        "performance": "60.87%"
       },
       {
-        "symbol": "AAVE",
-        "performance": "45.98%"
+        "symbol": "LIT",
+        "performance": "58.67%"
       },
       {
         "symbol": "PEPE",
-        "performance": "43.13%"
+        "performance": "41.11%"
       },
       {
-        "symbol": "MORPHO",
-        "performance": "32.04%"
+        "symbol": "POL",
+        "performance": "34.82%"
       },
       {
         "symbol": "CHAINLINK",
-        "performance": "30.38%"
+        "performance": "26.08%"
       },
       {
         "symbol": "ETH",
-        "performance": "27.10%"
+        "performance": "24.49%"
       },
       {
-        "symbol": "UNI",
-        "performance": "26.93%"
+        "symbol": "OKB",
+        "performance": "21.41%"
+      },
+      {
+        "symbol": "MORPHO",
+        "performance": "19.74%"
       }
     ]
   },
-  "marketpulseCrypto": "41%",
-  "lastUpdated": "2026-08-24T06:25:25.066Z"
+  "marketpulseCrypto": "39%",
+  "lastUpdated": "2026-08-25T06:21:55.376Z"
 }
