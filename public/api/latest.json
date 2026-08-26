@@ -20,7 +20,7 @@
   "eth": {
     "name": "ETH",
     "today": "2,442$",
-    "maxPain": "1,950$",
+    "maxPain": "2,000$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
