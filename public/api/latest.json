@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "78,977$",
+    "today": "78,522$",
     "maxPain": "68,000$",
     "short": {
       "decision": "STRONG_SELL",
@@ -15,15 +15,15 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "65"
+    "speedometer": "66"
   },
   "eth": {
     "name": "ETH",
-    "today": "2,482$",
-    "maxPain": "2,000$",
+    "today": "2,442$",
+    "maxPain": "1,950$",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "mid": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "61"
+    "speedometer": "62"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
-        "performance": "237.29%"
+        "performance": "208.90%"
       },
       {
         "symbol": "ZEC",
-        "performance": "66.89%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "60.87%"
+        "performance": "65.10%"
       },
       {
         "symbol": "LIT",
-        "performance": "58.67%"
+        "performance": "65.08%"
       },
       {
-        "symbol": "PEPE",
-        "performance": "41.11%"
+        "symbol": "ENA",
+        "performance": "51.33%"
       },
       {
         "symbol": "POL",
-        "performance": "34.82%"
+        "performance": "40.21%"
       },
       {
-        "symbol": "CHAINLINK",
-        "performance": "26.08%"
+        "symbol": "PEPE",
+        "performance": "29.21%"
       },
       {
         "symbol": "ETH",
-        "performance": "24.49%"
+        "performance": "24.68%"
+      },
+      {
+        "symbol": "CHAINLINK",
+        "performance": "23.99%"
+      },
+      {
+        "symbol": "M",
+        "performance": "21.77%"
       },
       {
         "symbol": "OKB",
-        "performance": "21.41%"
-      },
-      {
-        "symbol": "MORPHO",
-        "performance": "19.74%"
+        "performance": "14.30%"
       }
     ]
   },
-  "marketpulseCrypto": "39%",
-  "lastUpdated": "2026-08-25T06:21:55.376Z"
+  "marketpulseCrypto": "35%",
+  "lastUpdated": "2026-08-26T05:35:27.251Z"
 }
