@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "78,522$",
+    "today": "79,022$",
     "maxPain": "68,000$",
     "short": {
       "decision": "STRONG_SELL",
@@ -15,15 +15,15 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "66"
+    "speedometer": "67"
   },
   "eth": {
     "name": "ETH",
-    "today": "2,442$",
-    "maxPain": "2,000$",
+    "today": "2,507$",
+    "maxPain": "2,020$",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
       "decision": "STRONG_SELL",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "62"
+    "speedometer": "64"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
-        "performance": "208.90%"
+        "performance": "193.34%"
       },
       {
         "symbol": "ZEC",
-        "performance": "65.10%"
-      },
-      {
-        "symbol": "LIT",
-        "performance": "65.08%"
+        "performance": "73.39%"
       },
       {
         "symbol": "ENA",
-        "performance": "51.33%"
-      },
-      {
-        "symbol": "POL",
-        "performance": "40.21%"
-      },
-      {
-        "symbol": "PEPE",
-        "performance": "29.21%"
-      },
-      {
-        "symbol": "ETH",
-        "performance": "24.68%"
+        "performance": "66.24%"
       },
       {
         "symbol": "CHAINLINK",
-        "performance": "23.99%"
+        "performance": "28.55%"
+      },
+      {
+        "symbol": "PEPE",
+        "performance": "28.31%"
+      },
+      {
+        "symbol": "ETH",
+        "performance": "26.28%"
       },
       {
         "symbol": "M",
-        "performance": "21.77%"
+        "performance": "22.76%"
       },
       {
-        "symbol": "OKB",
-        "performance": "14.30%"
+        "symbol": "UNI",
+        "performance": "18.79%"
+      },
+      {
+        "symbol": "POL",
+        "performance": "18.61%"
+      },
+      {
+        "symbol": "MORPHO",
+        "performance": "18.56%"
       }
     ]
   },
-  "marketpulseCrypto": "35%",
-  "lastUpdated": "2026-08-26T05:35:27.251Z"
+  "marketpulseCrypto": "37%",
+  "lastUpdated": "2026-08-27T07:56:33.017Z"
 }
