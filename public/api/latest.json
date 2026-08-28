@@ -1,8 +1,13 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "79,022$",
     "maxPain": "68,000$",
+=======
+    "today": "80,271$",
+    "maxPain": "69,000$",
+>>>>>>> Stashed changes
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
@@ -15,12 +20,21 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "67"
   },
   "eth": {
     "name": "ETH",
     "today": "2,507$",
     "maxPain": "2,020$",
+=======
+    "speedometer": "72"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "2,511$",
+    "maxPain": "2,050$",
+>>>>>>> Stashed changes
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
@@ -33,13 +47,18 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "64"
+=======
+    "speedometer": "66"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
+<<<<<<< Updated upstream
         "performance": "193.34%"
       },
       {
@@ -83,3 +102,48 @@
   "marketpulseCrypto": "37%",
   "lastUpdated": "2026-08-27T07:56:33.017Z"
 }
+=======
+        "performance": "185.98%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "72.63%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "61.64%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "61.31%"
+      },
+      {
+        "symbol": "M",
+        "performance": "44.47%"
+      },
+      {
+        "symbol": "PEPE",
+        "performance": "28.27%"
+      },
+      {
+        "symbol": "CHAINLINK",
+        "performance": "25.49%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "25.03%"
+      },
+      {
+        "symbol": "ETH",
+        "performance": "21.70%"
+      },
+      {
+        "symbol": "POL",
+        "performance": "16.86%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "42%",
+  "lastUpdated": "2026-08-28T05:31:35.087Z"
+}
+>>>>>>> Stashed changes
