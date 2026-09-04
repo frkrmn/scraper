@@ -2,7 +2,7 @@
   "btc": {
     "name": "BTC",
     "today": "77,308$",
-    "maxPain": "70,000$",
+    "maxPain": "72,000$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
