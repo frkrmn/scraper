@@ -1,8 +1,13 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "77,308$",
     "maxPain": "70,000$",
+=======
+    "today": "81,265$",
+    "maxPain": "72,000$",
+>>>>>>> Stashed changes
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
@@ -15,31 +20,44 @@
       "decision": "SELL",
       "rawDecision": "sell"
     },
+<<<<<<< Updated upstream
     "speedometer": "81"
   },
   "eth": {
     "name": "ETH",
     "today": "2,391$",
+=======
+    "speedometer": "82"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "2,508$",
+>>>>>>> Stashed changes
     "maxPain": "2,150$",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "71"
+=======
+    "speedometer": "74"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
+<<<<<<< Updated upstream
         "performance": "147.68%"
       },
       {
@@ -82,4 +100,48 @@
   },
   "marketpulseCrypto": "36%",
   "lastUpdated": "2026-09-03T11:11:04.158Z"
+=======
+        "performance": "138.79%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "83.82%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "82.75%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "67.70%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "39.92%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "27.45%"
+      },
+      {
+        "symbol": "CHAINLINK",
+        "performance": "21.83%"
+      },
+      {
+        "symbol": "AAVE",
+        "performance": "13.12%"
+      },
+      {
+        "symbol": "ETH",
+        "performance": "13.09%"
+      },
+      {
+        "symbol": "OKB",
+        "performance": "10.61%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "46%",
+  "lastUpdated": "2026-09-04T05:31:41.397Z"
+>>>>>>> Stashed changes
 }
