@@ -1,8 +1,43 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "79,839$",
     "maxPain": "72,000$",
+    "short": {
+      "decision": "SELL",
+      "rawDecision": "Sat"
+=======
+    "today": "80,343$",
+    "maxPain": "78,000$",
+    "short": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+>>>>>>> Stashed changes
+    },
+    "mid": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+    },
+    "long": {
+      "decision": "HOLD",
+      "rawDecision": "Hold"
+    },
+<<<<<<< Updated upstream
+    "speedometer": "69"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "2,480$",
+    "maxPain": "2,150$",
+=======
+    "speedometer": "66"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "2,515$",
+    "maxPain": "2,200$",
+>>>>>>> Stashed changes
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
@@ -15,31 +50,18 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "69"
-  },
-  "eth": {
-    "name": "ETH",
-    "today": "2,480$",
-    "maxPain": "2,150$",
-    "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
-    },
-    "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
-    },
-    "long": {
-      "decision": "HOLD",
-      "rawDecision": "Hold"
-    },
+<<<<<<< Updated upstream
     "speedometer": "71"
+=======
+    "speedometer": "70"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
+<<<<<<< Updated upstream
         "performance": "138.12%"
       },
       {
@@ -83,3 +105,48 @@
   "marketpulseCrypto": "50%",
   "lastUpdated": "2026-09-06T08:01:47.047Z"
 }
+=======
+        "performance": "151.17%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "121.98%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "101.56%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "79.21%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "63.81%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "59.34%"
+      },
+      {
+        "symbol": "CHAINLINK",
+        "performance": "44.58%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "44.22%"
+      },
+      {
+        "symbol": "MNT",
+        "performance": "25.76%"
+      },
+      {
+        "symbol": "AAVE",
+        "performance": "23.09%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "54%",
+  "lastUpdated": "2026-09-07T05:31:41.621Z"
+}
+>>>>>>> Stashed changes
