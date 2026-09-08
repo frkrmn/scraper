@@ -1,15 +1,15 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "80,343$",
-    "maxPain": "78,000$",
+    "today": "79,095$",
+    "maxPain": "72,000$",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
@@ -19,67 +19,67 @@
   },
   "eth": {
     "name": "ETH",
-    "today": "2,515$",
-    "maxPain": "2,200$",
+    "today": "2,490$",
+    "maxPain": "2,150$",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "70"
+    "speedometer": "71"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
-        "performance": "149.14%"
+        "performance": "171.60%"
       },
       {
         "symbol": "ZEC",
-        "performance": "121.72%"
+        "performance": "99.63%"
       },
       {
         "symbol": "ENA",
-        "performance": "101.93%"
+        "performance": "82.13%"
       },
       {
         "symbol": "UNI",
-        "performance": "79.90%"
+        "performance": "75.31%"
       },
       {
         "symbol": "ARB",
-        "performance": "63.35%"
+        "performance": "63.44%"
       },
       {
         "symbol": "LIT",
-        "performance": "61.88%"
-      },
-      {
-        "symbol": "CHAINLINK",
-        "performance": "47.68%"
+        "performance": "56.88%"
       },
       {
         "symbol": "XMR",
-        "performance": "44.29%"
+        "performance": "37.16%"
+      },
+      {
+        "symbol": "CHAINLINK",
+        "performance": "36.63%"
       },
       {
         "symbol": "MNT",
-        "performance": "27.31%"
+        "performance": "21.51%"
       },
       {
-        "symbol": "AAVE",
-        "performance": "23.28%"
+        "symbol": "OKB",
+        "performance": "20.01%"
       }
     ]
   },
-  "marketpulseCrypto": "54%",
-  "lastUpdated": "2026-09-07T05:48:08.558Z"
+  "marketpulseCrypto": "55%",
+  "lastUpdated": "2026-09-08T05:08:29.458Z"
 }
