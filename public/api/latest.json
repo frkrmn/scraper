@@ -1,11 +1,19 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "79,095$",
     "maxPain": "72,000$",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
+=======
+    "today": "78,448$",
+    "maxPain": "72,000$",
+    "short": {
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
+>>>>>>> Stashed changes
     },
     "mid": {
       "decision": "STRONG_SELL",
@@ -15,11 +23,15 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "66"
+    "speedometer": "70"
   },
   "eth": {
     "name": "ETH",
+<<<<<<< Updated upstream
     "today": "2,490$",
+=======
+    "today": "2,485$",
+>>>>>>> Stashed changes
     "maxPain": "2,150$",
     "short": {
       "decision": "SELL",
@@ -33,13 +45,18 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "71"
+=======
+    "speedometer": "74"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
+<<<<<<< Updated upstream
         "performance": "171.60%"
       },
       {
@@ -83,3 +100,48 @@
   "marketpulseCrypto": "55%",
   "lastUpdated": "2026-09-08T05:08:29.458Z"
 }
+=======
+        "performance": "191.53%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "122.09%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "115.47%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "75.75%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "74.92%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "58.56%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "47.97%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "33.83%"
+      },
+      {
+        "symbol": "CHAINLINK",
+        "performance": "32.77%"
+      },
+      {
+        "symbol": "MNT",
+        "performance": "24.40%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "56%",
+  "lastUpdated": "2026-09-09T05:31:39.056Z"
+}
+>>>>>>> Stashed changes
