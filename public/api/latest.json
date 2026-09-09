@@ -1,19 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-<<<<<<< Updated upstream
-    "today": "79,095$",
-    "maxPain": "72,000$",
-    "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
-=======
     "today": "78,448$",
     "maxPain": "72,000$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
->>>>>>> Stashed changes
     },
     "mid": {
       "decision": "STRONG_SELL",
@@ -27,11 +19,7 @@
   },
   "eth": {
     "name": "ETH",
-<<<<<<< Updated upstream
-    "today": "2,490$",
-=======
     "today": "2,485$",
->>>>>>> Stashed changes
     "maxPain": "2,150$",
     "short": {
       "decision": "SELL",
@@ -45,103 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-<<<<<<< Updated upstream
-    "speedometer": "71"
-=======
     "speedometer": "74"
->>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
-<<<<<<< Updated upstream
-        "performance": "171.60%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "99.63%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "82.13%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "75.31%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "63.44%"
-      },
-      {
-        "symbol": "LIT",
-        "performance": "56.88%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "37.16%"
-      },
-      {
-        "symbol": "CHAINLINK",
-        "performance": "36.63%"
-      },
-      {
-        "symbol": "MNT",
-        "performance": "21.51%"
-      },
-      {
-        "symbol": "OKB",
-        "performance": "20.01%"
-      }
-    ]
-  },
-  "marketpulseCrypto": "55%",
-  "lastUpdated": "2026-09-08T05:08:29.458Z"
-}
-=======
-        "performance": "191.53%"
+        "performance": "190.49%"
       },
       {
         "symbol": "VVV",
-        "performance": "122.09%"
+        "performance": "120.34%"
       },
       {
         "symbol": "ZEC",
-        "performance": "115.47%"
+        "performance": "108.51%"
       },
       {
         "symbol": "LIT",
-        "performance": "75.75%"
+        "performance": "76.67%"
       },
       {
         "symbol": "ENA",
-        "performance": "74.92%"
+        "performance": "74.38%"
       },
       {
         "symbol": "UNI",
-        "performance": "58.56%"
+        "performance": "57.62%"
       },
       {
         "symbol": "ARB",
-        "performance": "47.97%"
+        "performance": "46.86%"
       },
       {
         "symbol": "XMR",
-        "performance": "33.83%"
+        "performance": "33.72%"
       },
       {
         "symbol": "CHAINLINK",
-        "performance": "32.77%"
+        "performance": "31.95%"
       },
       {
         "symbol": "MNT",
-        "performance": "24.40%"
+        "performance": "24.38%"
       }
     ]
   },
   "marketpulseCrypto": "56%",
-  "lastUpdated": "2026-09-09T05:31:39.056Z"
+  "lastUpdated": "2026-09-09T05:53:34.777Z"
 }
->>>>>>> Stashed changes
