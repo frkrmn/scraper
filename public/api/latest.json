@@ -1,7 +1,11 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "78,293$",
+=======
+    "today": "76,539$",
+>>>>>>> Stashed changes
     "maxPain": "72,000$",
     "short": {
       "decision": "STRONG_SELL",
@@ -15,12 +19,17 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "67"
+    "speedometer": "64"
   },
   "eth": {
     "name": "ETH",
+<<<<<<< Updated upstream
     "today": "2,468$",
     "maxPain": "2,150$",
+=======
+    "today": "2,437$",
+    "maxPain": "2,200$",
+>>>>>>> Stashed changes
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
@@ -30,16 +39,21 @@
       "rawDecision": "Güçlü Sat"
     },
     "long": {
-      "decision": "HOLD",
-      "rawDecision": "Hold"
+      "decision": "SELL",
+      "rawDecision": "sell"
     },
+<<<<<<< Updated upstream
     "speedometer": "75"
+=======
+    "speedometer": "78"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
+<<<<<<< Updated upstream
         "performance": "152.70%"
       },
       {
@@ -83,3 +97,48 @@
   "marketpulseCrypto": "55%",
   "lastUpdated": "2026-09-10T05:54:53.425Z"
 }
+=======
+        "performance": "128.32%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "103.23%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "95.51%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "68.04%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "63.29%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "51.59%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "35.49%"
+      },
+      {
+        "symbol": "CHAINLINK",
+        "performance": "22.50%"
+      },
+      {
+        "symbol": "GT",
+        "performance": "18.19%"
+      },
+      {
+        "symbol": "ETH",
+        "performance": "15.20%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "44%",
+  "lastUpdated": "2026-09-11T05:31:36.941Z"
+}
+>>>>>>> Stashed changes
