@@ -1,25 +1,33 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "76,539$",
+=======
+    "today": "77,210$",
+>>>>>>> Stashed changes
     "maxPain": "72,000$",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "64"
+    "speedometer": "65"
   },
   "eth": {
     "name": "ETH",
+<<<<<<< Updated upstream
     "today": "2,437$",
+=======
+    "today": "2,516$",
+>>>>>>> Stashed changes
     "maxPain": "2,200$",
     "short": {
       "decision": "STRONG_SELL",
@@ -33,13 +41,18 @@
       "decision": "SELL",
       "rawDecision": "sell"
     },
+<<<<<<< Updated upstream
     "speedometer": "78"
+=======
+    "speedometer": "84"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "PUMP",
+<<<<<<< Updated upstream
         "performance": "121.85%"
       },
       {
@@ -82,4 +95,48 @@
   },
   "marketpulseCrypto": "44%",
   "lastUpdated": "2026-09-11T11:16:50.307Z"
+=======
+        "performance": "126.15%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "92.89%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "90.33%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "47.36%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "46.70%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "45.88%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "44.67%"
+      },
+      {
+        "symbol": "OKB",
+        "performance": "21.78%"
+      },
+      {
+        "symbol": "GT",
+        "performance": "20.77%"
+      },
+      {
+        "symbol": "CHAINLINK",
+        "performance": "19.05%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "45%",
+  "lastUpdated": "2026-09-12T05:31:38.569Z"
+>>>>>>> Stashed changes
 }
