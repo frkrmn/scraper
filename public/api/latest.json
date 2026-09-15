@@ -1,11 +1,15 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "76,804$",
+=======
+    "today": "78,193$",
+>>>>>>> Stashed changes
     "maxPain": "72,000$",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
       "decision": "STRONG_SELL",
@@ -15,15 +19,23 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "63"
   },
   "eth": {
     "name": "ETH",
     "today": "2,476$",
+=======
+    "speedometer": "59"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "2,516$",
+>>>>>>> Stashed changes
     "maxPain": "2,200$",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,12 +45,17 @@
       "decision": "SELL",
       "rawDecision": "sell"
     },
+<<<<<<< Updated upstream
     "speedometer": "81"
+=======
+    "speedometer": "80"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
+<<<<<<< Updated upstream
         "symbol": "ZEC",
         "performance": "88.99%"
       },
@@ -83,3 +100,49 @@
   "marketpulseCrypto": "53%",
   "lastUpdated": "2026-09-14T05:43:21.727Z"
 }
+=======
+        "symbol": "PUMP",
+        "performance": "98.23%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "89.47%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "78.56%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "69.85%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "65.10%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "50.52%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "34.22%"
+      },
+      {
+        "symbol": "AAVE",
+        "performance": "19.68%"
+      },
+      {
+        "symbol": "OKB",
+        "performance": "18.36%"
+      },
+      {
+        "symbol": "GT",
+        "performance": "18.17%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "54%",
+  "lastUpdated": "2026-09-15T05:31:46.017Z"
+}
+>>>>>>> Stashed changes
