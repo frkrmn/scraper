@@ -39,94 +39,47 @@
     "period": "60",
     "data": [
       {
-<<<<<<< Updated upstream
-        "symbol": "PUMP",
-        "performance": "97.10%"
-      },
-      {
         "symbol": "ZEC",
-        "performance": "90.13%"
-      },
-      {
-        "symbol": "LIT",
-        "performance": "73.12%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "69.99%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "61.73%"
+        "performance": "157.05%"
       },
       {
         "symbol": "ARB",
-        "performance": "56.65%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "55.95%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "33.77%"
-      },
-      {
-        "symbol": "OKB",
-        "performance": "18.58%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "17.22%"
-      }
-    ]
-  },
-  "marketpulseCrypto": "43%",
-  "lastUpdated": "2026-09-16T06:16:55.684Z"
-}
-=======
-        "symbol": "ZEC",
-        "performance": "156.42%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "118.54%"
+        "performance": "117.93%"
       },
       {
         "symbol": "UNI",
-        "performance": "116.62%"
+        "performance": "116.63%"
       },
       {
         "symbol": "LIT",
-        "performance": "105.51%"
+        "performance": "108.44%"
       },
       {
         "symbol": "VVV",
-        "performance": "95.86%"
+        "performance": "98.51%"
       },
       {
         "symbol": "PUMP",
-        "performance": "90.15%"
+        "performance": "93.05%"
       },
       {
         "symbol": "ENA",
-        "performance": "76.34%"
+        "performance": "77.72%"
       },
       {
         "symbol": "NEAR",
-        "performance": "56.01%"
+        "performance": "55.88%"
       },
       {
         "symbol": "XMR",
-        "performance": "35.57%"
+        "performance": "38.17%"
       },
       {
         "symbol": "AAVE",
-        "performance": "30.34%"
+        "performance": "29.86%"
       }
     ]
   },
   "marketpulseCrypto": "50%",
-  "lastUpdated": "2026-09-18T05:31:49.847Z"
+  "lastUpdated": "2026-09-18T06:06:12.887Z"
 }
->>>>>>> Stashed changes
