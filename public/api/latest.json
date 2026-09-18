@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "ZEC",
-        "performance": "157.05%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "117.93%"
+        "performance": "149.31%"
       },
       {
         "symbol": "UNI",
-        "performance": "116.63%"
-      },
-      {
-        "symbol": "LIT",
-        "performance": "108.44%"
+        "performance": "128.53%"
       },
       {
         "symbol": "VVV",
-        "performance": "98.51%"
+        "performance": "112.44%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "111.61%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "110.72%"
       },
       {
         "symbol": "PUMP",
-        "performance": "93.05%"
+        "performance": "92.14%"
       },
       {
         "symbol": "ENA",
-        "performance": "77.72%"
+        "performance": "79.03%"
       },
       {
         "symbol": "NEAR",
-        "performance": "55.88%"
+        "performance": "58.87%"
       },
       {
         "symbol": "XMR",
-        "performance": "38.17%"
+        "performance": "39.64%"
       },
       {
         "symbol": "AAVE",
-        "performance": "29.86%"
+        "performance": "30.78%"
       }
     ]
   },
   "marketpulseCrypto": "50%",
-  "lastUpdated": "2026-09-18T06:06:12.887Z"
+  "lastUpdated": "2026-09-18T11:10:08.752Z"
 }
