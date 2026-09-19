@@ -40,91 +40,46 @@
     "data": [
       {
         "symbol": "ZEC",
-<<<<<<< Updated upstream
-        "performance": "149.31%"
+        "performance": "172.41%"
       },
       {
         "symbol": "UNI",
-        "performance": "128.53%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "112.44%"
+        "performance": "125.30%"
       },
       {
         "symbol": "ARB",
-        "performance": "111.61%"
+        "performance": "117.00%"
       },
       {
-        "symbol": "LIT",
-        "performance": "110.72%"
-      },
-      {
-        "symbol": "PUMP",
-        "performance": "92.14%"
+        "symbol": "VVV",
+        "performance": "97.81%"
       },
       {
         "symbol": "ENA",
-        "performance": "79.03%"
+        "performance": "96.60%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "87.26%"
+      },
+      {
+        "symbol": "PUMP",
+        "performance": "79.57%"
       },
       {
         "symbol": "NEAR",
-        "performance": "58.87%"
+        "performance": "65.85%"
       },
       {
         "symbol": "XMR",
-        "performance": "39.64%"
+        "performance": "41.45%"
       },
       {
         "symbol": "AAVE",
-        "performance": "30.78%"
-      }
-    ]
-  },
-  "marketpulseCrypto": "50%",
-  "lastUpdated": "2026-09-18T11:10:08.752Z"
-=======
-        "performance": "168.67%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "120.44%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "115.26%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "99.98%"
-      },
-      {
-        "symbol": "PUMP",
-        "performance": "81.31%"
-      },
-      {
-        "symbol": "LIT",
-        "performance": "80.49%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "80.34%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "69.35%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "39.01%"
-      },
-      {
-        "symbol": "HYPE",
-        "performance": "30.32%"
+        "performance": "30.30%"
       }
     ]
   },
   "marketpulseCrypto": "63%",
-  "lastUpdated": "2026-09-19T05:31:37.720Z"
->>>>>>> Stashed changes
+  "lastUpdated": "2026-09-19T09:32:57.057Z"
 }
