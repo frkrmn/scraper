@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "80,878$",
+    "today": "81,241$",
     "maxPain": "72,000$",
     "short": {
       "decision": "STRONG_SELL",
@@ -15,71 +15,71 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "66"
+    "speedometer": "67"
   },
   "eth": {
     "name": "ETH",
-    "today": "2,612$",
+    "today": "2,632$",
     "maxPain": "2,200$",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "SELL",
       "rawDecision": "sell"
     },
-    "speedometer": "80"
+    "speedometer": "78"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "ZEC",
-        "performance": "170.26%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "121.71%"
+        "performance": "158.43%"
       },
       {
         "symbol": "ARB",
-        "performance": "116.93%"
+        "performance": "108.54%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "107.17%"
       },
       {
         "symbol": "VVV",
-        "performance": "101.44%"
+        "performance": "100.45%"
       },
       {
         "symbol": "ENA",
-        "performance": "99.18%"
-      },
-      {
-        "symbol": "LIT",
-        "performance": "94.36%"
+        "performance": "88.21%"
       },
       {
         "symbol": "PUMP",
-        "performance": "81.50%"
+        "performance": "86.15%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "83.30%"
       },
       {
         "symbol": "NEAR",
-        "performance": "67.66%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "44.35%"
+        "performance": "61.84%"
       },
       {
         "symbol": "HYPE",
-        "performance": "29.50%"
+        "performance": "31.37%"
+      },
+      {
+        "symbol": "GT",
+        "performance": "30.96%"
       }
     ]
   },
-  "marketpulseCrypto": "63%",
-  "lastUpdated": "2026-09-19T10:54:48.591Z"
+  "marketpulseCrypto": "64%",
+  "lastUpdated": "2026-09-20T06:48:27.342Z"
 }
