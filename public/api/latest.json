@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "81,241$",
+    "today": "81,163$",
     "maxPain": "72,000$",
     "short": {
       "decision": "STRONG_SELL",
@@ -15,15 +15,15 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "67"
+    "speedometer": "68"
   },
   "eth": {
     "name": "ETH",
-    "today": "2,632$",
+    "today": "2,644$",
     "maxPain": "2,200$",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,53 +33,53 @@
       "decision": "SELL",
       "rawDecision": "sell"
     },
-    "speedometer": "78"
+    "speedometer": "77"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "ZEC",
-        "performance": "158.63%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "113.34%"
+        "performance": "172.59%"
       },
       {
         "symbol": "VVV",
-        "performance": "109.86%"
+        "performance": "153.43%"
       },
       {
-        "symbol": "UNI",
-        "performance": "107.72%"
+        "symbol": "ARB",
+        "performance": "120.48%"
       },
       {
         "symbol": "ENA",
-        "performance": "97.79%"
-      },
-      {
-        "symbol": "PUMP",
-        "performance": "89.23%"
+        "performance": "116.28%"
       },
       {
         "symbol": "LIT",
-        "performance": "82.14%"
+        "performance": "103.32%"
       },
       {
         "symbol": "NEAR",
-        "performance": "68.58%"
+        "performance": "103.08%"
       },
       {
-        "symbol": "HYPE",
-        "performance": "31.27%"
+        "symbol": "PUMP",
+        "performance": "102.67%"
       },
       {
-        "symbol": "GT",
-        "performance": "30.12%"
+        "symbol": "UNI",
+        "performance": "102.37%"
+      },
+      {
+        "symbol": "AVAX",
+        "performance": "52.06%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "48.38%"
       }
     ]
   },
-  "marketpulseCrypto": "64%",
-  "lastUpdated": "2026-09-20T11:18:54.117Z"
+  "marketpulseCrypto": "65%",
+  "lastUpdated": "2026-09-21T07:15:37.347Z"
 }
