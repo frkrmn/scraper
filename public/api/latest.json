@@ -1,8 +1,13 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "84,380$",
     "maxPain": "76,000$",
+=======
+    "today": "84,384$",
+    "maxPain": "78,000$",
+>>>>>>> Stashed changes
     "short": {
       "decision": "BUY",
       "rawDecision": "Al"
@@ -15,15 +20,20 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "62"
+    "speedometer": "61"
   },
   "eth": {
     "name": "ETH",
+<<<<<<< Updated upstream
     "today": "2,684$",
     "maxPain": "2,300$",
+=======
+    "today": "2,687$",
+    "maxPain": "2,350$",
+>>>>>>> Stashed changes
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "BUY",
+      "rawDecision": "Al"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,13 +43,18 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "72"
+=======
+    "speedometer": "70"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "ZEC",
+<<<<<<< Updated upstream
         "performance": "179.05%"
       },
       {
@@ -83,3 +98,48 @@
   "marketpulseCrypto": "67%",
   "lastUpdated": "2026-09-24T06:26:45.327Z"
 }
+=======
+        "performance": "186.16%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "143.23%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "129.22%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "123.14%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "110.80%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "110.46%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "94.51%"
+      },
+      {
+        "symbol": "PUMP",
+        "performance": "51.87%"
+      },
+      {
+        "symbol": "MNT",
+        "performance": "37.30%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "32.06%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "71%",
+  "lastUpdated": "2026-09-25T05:31:37.630Z"
+}
+>>>>>>> Stashed changes
