@@ -1,13 +1,8 @@
 {
   "btc": {
     "name": "BTC",
-<<<<<<< Updated upstream
-    "today": "84,380$",
-    "maxPain": "76,000$",
-=======
     "today": "84,384$",
     "maxPain": "78,000$",
->>>>>>> Stashed changes
     "short": {
       "decision": "BUY",
       "rawDecision": "Al"
@@ -24,13 +19,8 @@
   },
   "eth": {
     "name": "ETH",
-<<<<<<< Updated upstream
-    "today": "2,684$",
-    "maxPain": "2,300$",
-=======
     "today": "2,687$",
     "maxPain": "2,350$",
->>>>>>> Stashed changes
     "short": {
       "decision": "BUY",
       "rawDecision": "Al"
@@ -43,103 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-<<<<<<< Updated upstream
-    "speedometer": "72"
-=======
     "speedometer": "70"
->>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "ZEC",
-<<<<<<< Updated upstream
-        "performance": "179.05%"
+        "performance": "185.39%"
       },
       {
         "symbol": "ARB",
-        "performance": "133.61%"
-      },
-      {
-        "symbol": "LIT",
-        "performance": "119.18%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "116.47%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "110.13%"
+        "performance": "140.99%"
       },
       {
         "symbol": "NEAR",
-        "performance": "109.16%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "92.58%"
-      },
-      {
-        "symbol": "PUMP",
-        "performance": "80.69%"
-      },
-      {
-        "symbol": "MNT",
-        "performance": "30.89%"
-      },
-      {
-        "symbol": "GT",
-        "performance": "28.71%"
-      }
-    ]
-  },
-  "marketpulseCrypto": "67%",
-  "lastUpdated": "2026-09-24T06:26:45.327Z"
-}
-=======
-        "performance": "186.16%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "143.23%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "129.22%"
+        "performance": "127.62%"
       },
       {
         "symbol": "ENA",
-        "performance": "123.14%"
+        "performance": "122.52%"
       },
       {
         "symbol": "VVV",
-        "performance": "110.80%"
+        "performance": "110.10%"
       },
       {
         "symbol": "UNI",
-        "performance": "110.46%"
+        "performance": "109.64%"
       },
       {
         "symbol": "LIT",
-        "performance": "94.51%"
+        "performance": "91.96%"
       },
       {
         "symbol": "PUMP",
-        "performance": "51.87%"
+        "performance": "50.44%"
       },
       {
         "symbol": "MNT",
-        "performance": "37.30%"
+        "performance": "37.07%"
       },
       {
-        "symbol": "XMR",
-        "performance": "32.06%"
+        "symbol": "QNT",
+        "performance": "36.55%"
       }
     ]
   },
   "marketpulseCrypto": "71%",
-  "lastUpdated": "2026-09-25T05:31:37.630Z"
+  "lastUpdated": "2026-09-25T07:12:37.541Z"
 }
->>>>>>> Stashed changes
