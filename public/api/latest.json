@@ -1,26 +1,26 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "84,384$",
-    "maxPain": "78,000$",
+    "today": "84,088$",
+    "maxPain": "74,000$",
     "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
-    },
-    "mid": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
+    },
+    "mid": {
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "61"
+    "speedometer": "62"
   },
   "eth": {
     "name": "ETH",
-    "today": "2,687$",
-    "maxPain": "2,350$",
+    "today": "2,691$",
+    "maxPain": "2,450$",
     "short": {
       "decision": "BUY",
       "rawDecision": "Al"
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "70"
+    "speedometer": "67"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "ZEC",
-        "performance": "185.39%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "140.99%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "127.62%"
+        "performance": "195.57%"
       },
       {
         "symbol": "ENA",
-        "performance": "122.52%"
+        "performance": "189.28%"
       },
       {
-        "symbol": "VVV",
-        "performance": "110.10%"
+        "symbol": "NEAR",
+        "performance": "167.44%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "152.47%"
       },
       {
         "symbol": "UNI",
-        "performance": "109.64%"
-      },
-      {
-        "symbol": "LIT",
-        "performance": "91.96%"
+        "performance": "119.13%"
       },
       {
         "symbol": "PUMP",
-        "performance": "50.44%"
+        "performance": "100.99%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "97.20%"
+      },
+      {
+        "symbol": "LIT",
+        "performance": "82.76%"
       },
       {
         "symbol": "MNT",
-        "performance": "37.07%"
+        "performance": "41.04%"
       },
       {
-        "symbol": "QNT",
-        "performance": "36.55%"
+        "symbol": "CHAINLINK",
+        "performance": "36.24%"
       }
     ]
   },
-  "marketpulseCrypto": "71%",
-  "lastUpdated": "2026-09-25T07:12:37.541Z"
+  "marketpulseCrypto": "72%",
+  "lastUpdated": "2026-09-26T07:19:52.715Z"
 }
