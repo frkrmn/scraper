@@ -1,11 +1,23 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "84,088$",
     "maxPain": "74,000$",
     "short": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
+=======
+    "today": "84,422$",
+    "maxPain": "74,000$",
+    "short": {
+      "decision": "SELL",
+      "rawDecision": "Sat"
+    },
+    "mid": {
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
+>>>>>>> Stashed changes
     },
     "mid": {
       "decision": "STRONG_SELL",
@@ -15,11 +27,19 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "62"
   },
   "eth": {
     "name": "ETH",
     "today": "2,691$",
+=======
+    "speedometer": "64"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "2,696$",
+>>>>>>> Stashed changes
     "maxPain": "2,450$",
     "short": {
       "decision": "BUY",
@@ -33,13 +53,18 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "67"
+=======
+    "speedometer": "63"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "ZEC",
+<<<<<<< Updated upstream
         "performance": "195.57%"
       },
       {
@@ -83,3 +108,48 @@
   "marketpulseCrypto": "72%",
   "lastUpdated": "2026-09-26T07:19:52.715Z"
 }
+=======
+        "performance": "225.82%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "212.68%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "189.46%"
+      },
+      {
+        "symbol": "QNT",
+        "performance": "175.98%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "154.77%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "121.05%"
+      },
+      {
+        "symbol": "PUMP",
+        "performance": "107.99%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "107.23%"
+      },
+      {
+        "symbol": "KAS",
+        "performance": "41.09%"
+      },
+      {
+        "symbol": "HYPE",
+        "performance": "40.22%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "73%",
+  "lastUpdated": "2026-09-27T05:31:36.377Z"
+}
+>>>>>>> Stashed changes
