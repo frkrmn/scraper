@@ -1,11 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "84,422$",
+    "today": "84,451$",
     "maxPain": "74,000$",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "mid": {
       "decision": "STRONG_SELL",
@@ -19,67 +19,67 @@
   },
   "eth": {
     "name": "ETH",
-    "today": "2,696$",
+    "today": "2,688$",
     "maxPain": "2,450$",
     "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
-    },
-    "mid": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
+    },
+    "mid": {
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "63"
+    "speedometer": "66"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
+        "symbol": "QNT",
+        "performance": "291.35%"
+      },
+      {
         "symbol": "ZEC",
-        "performance": "229.24%"
+        "performance": "201.36%"
       },
       {
         "symbol": "ENA",
-        "performance": "217.56%"
+        "performance": "192.06%"
       },
       {
         "symbol": "NEAR",
-        "performance": "209.83%"
+        "performance": "174.96%"
       },
       {
         "symbol": "ARB",
-        "performance": "163.88%"
-      },
-      {
-        "symbol": "QNT",
-        "performance": "157.61%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "126.01%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "115.30%"
+        "performance": "138.77%"
       },
       {
         "symbol": "PUMP",
-        "performance": "111.38%"
+        "performance": "116.02%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "101.62%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "78.61%"
       },
       {
         "symbol": "SUI",
-        "performance": "50.77%"
+        "performance": "42.36%"
       },
       {
         "symbol": "KAS",
-        "performance": "48.38%"
+        "performance": "41.25%"
       }
     ]
   },
-  "marketpulseCrypto": "73%",
-  "lastUpdated": "2026-09-27T07:45:24.943Z"
+  "marketpulseCrypto": "74%",
+  "lastUpdated": "2026-09-28T08:42:12.473Z"
 }
