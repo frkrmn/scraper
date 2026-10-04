@@ -1,15 +1,33 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "84,501$",
+    "today": "84,741$",
     "maxPain": "78,000$",
+    "short": {
+      "decision": "SELL",
+      "rawDecision": "Sat"
+    },
+    "mid": {
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
+    },
+    "long": {
+      "decision": "HOLD",
+      "rawDecision": "Hold"
+    },
+    "speedometer": "68"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "2,687$",
+    "maxPain": "2,500$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
@@ -17,69 +35,51 @@
     },
     "speedometer": "67"
   },
-  "eth": {
-    "name": "ETH",
-    "today": "2,668$",
-    "maxPain": "2,500$",
-    "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
-    },
-    "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
-    },
-    "long": {
-      "decision": "HOLD",
-      "rawDecision": "Hold"
-    },
-    "speedometer": "65"
-  },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "306.84%"
+        "performance": "304.51%"
       },
       {
         "symbol": "NEAR",
-        "performance": "138.56%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "127.88%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "121.52%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "107.56%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "104.08%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "99.54%"
+        "performance": "150.80%"
       },
       {
         "symbol": "PUMP",
-        "performance": "86.69%"
+        "performance": "131.46%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "126.14%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "125.62%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "120.20%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "118.20%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "90.16%"
       },
       {
         "symbol": "AAVE",
-        "performance": "66.59%"
+        "performance": "71.23%"
       },
       {
         "symbol": "WLD",
-        "performance": "41.11%"
+        "performance": "53.98%"
       }
     ]
   },
-  "marketpulseCrypto": "70%",
-  "lastUpdated": "2026-10-03T07:12:15.283Z"
+  "marketpulseCrypto": "71%",
+  "lastUpdated": "2026-10-04T08:25:50.272Z"
 }
