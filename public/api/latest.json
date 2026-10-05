@@ -1,7 +1,11 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "84,741$",
+=======
+    "today": "86,513$",
+>>>>>>> Stashed changes
     "maxPain": "78,000$",
     "short": {
       "decision": "SELL",
@@ -15,11 +19,19 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "68"
   },
   "eth": {
     "name": "ETH",
     "today": "2,687$",
+=======
+    "speedometer": "69"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "2,727$",
+>>>>>>> Stashed changes
     "maxPain": "2,500$",
     "short": {
       "decision": "STRONG_SELL",
@@ -33,13 +45,18 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "67"
+=======
+    "speedometer": "71"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
+<<<<<<< Updated upstream
         "performance": "304.51%"
       },
       {
@@ -77,9 +94,53 @@
       {
         "symbol": "WLD",
         "performance": "53.98%"
+=======
+        "performance": "294.36%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "167.92%"
+      },
+      {
+        "symbol": "PUMP",
+        "performance": "141.54%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "134.71%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "125.51%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "125.45%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "122.78%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "92.61%"
+      },
+      {
+        "symbol": "AAVE",
+        "performance": "68.52%"
+      },
+      {
+        "symbol": "WLD",
+        "performance": "56.39%"
+>>>>>>> Stashed changes
       }
     ]
   },
   "marketpulseCrypto": "71%",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-10-04T08:25:50.272Z"
 }
+=======
+  "lastUpdated": "2026-10-05T05:31:39.882Z"
+}
+>>>>>>> Stashed changes
