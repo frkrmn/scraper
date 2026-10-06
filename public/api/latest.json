@@ -1,74 +1,74 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "86,513$",
+    "today": "85,749$",
     "maxPain": "78,000$",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "69"
+    "speedometer": "67"
   },
   "eth": {
     "name": "ETH",
-    "today": "2,727$",
+    "today": "2,710$",
     "maxPain": "2,500$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
     },
     "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "71"
+    "speedometer": "67"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "289.14%"
+        "performance": "295.60%"
       },
       {
         "symbol": "NEAR",
-        "performance": "167.21%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "134.82%"
+        "performance": "192.12%"
       },
       {
         "symbol": "PUMP",
-        "performance": "133.81%"
+        "performance": "142.89%"
       },
       {
-        "symbol": "VVV",
-        "performance": "126.81%"
+        "symbol": "ZEC",
+        "performance": "127.32%"
       },
       {
         "symbol": "ENA",
-        "performance": "125.42%"
+        "performance": "124.91%"
       },
       {
         "symbol": "ARB",
-        "performance": "125.18%"
+        "performance": "124.21%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "112.92%"
       },
       {
         "symbol": "UNI",
-        "performance": "91.84%"
+        "performance": "87.65%"
       },
       {
         "symbol": "AAVE",
@@ -76,10 +76,10 @@
       },
       {
         "symbol": "WLD",
-        "performance": "55.87%"
+        "performance": "51.97%"
       }
     ]
   },
-  "marketpulseCrypto": "71%",
-  "lastUpdated": "2026-10-05T06:34:07.959Z"
+  "marketpulseCrypto": "72%",
+  "lastUpdated": "2026-10-06T07:37:39.865Z"
 }
