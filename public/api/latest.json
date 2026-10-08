@@ -40,6 +40,7 @@
     "data": [
       {
         "symbol": "QNT",
+<<<<<<< Updated upstream
         "performance": "283.93%"
       },
       {
@@ -77,9 +78,53 @@
       {
         "symbol": "AAVE",
         "performance": "62.15%"
+=======
+        "performance": "287.65%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "209.85%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "126.05%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "113.74%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "104.27%"
+      },
+      {
+        "symbol": "PUMP",
+        "performance": "98.65%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "84.22%"
+      },
+      {
+        "symbol": "JUP",
+        "performance": "76.80%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "65.11%"
+      },
+      {
+        "symbol": "AAVE",
+        "performance": "62.13%"
+>>>>>>> Stashed changes
       }
     ]
   },
   "marketpulseCrypto": "68%",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-10-08T04:50:56.566Z"
 }
+=======
+  "lastUpdated": "2026-10-08T05:31:54.725Z"
+}
+>>>>>>> Stashed changes
