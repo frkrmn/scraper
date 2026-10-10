@@ -1,11 +1,23 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "81,693$",
     "maxPain": "79,000$",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
+=======
+    "today": "82,559$",
+    "maxPain": "78,000$",
+    "short": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+    },
+    "mid": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+>>>>>>> Stashed changes
     },
     "mid": {
       "decision": "SELL",
@@ -15,15 +27,19 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "70"
+    "speedometer": "66"
   },
   "eth": {
     "name": "ETH",
+<<<<<<< Updated upstream
     "today": "2,473$",
+=======
+    "today": "2,485$",
+>>>>>>> Stashed changes
     "maxPain": "2,500$",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "BUY",
+      "rawDecision": "Al"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,13 +49,18 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "71"
+=======
+    "speedometer": "68"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
+<<<<<<< Updated upstream
         "performance": "292.04%"
       },
       {
@@ -83,3 +104,48 @@
   "marketpulseCrypto": "64%",
   "lastUpdated": "2026-10-09T07:41:24.147Z"
 }
+=======
+        "performance": "298.86%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "198.14%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "126.44%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "116.29%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "106.56%"
+      },
+      {
+        "symbol": "JUP",
+        "performance": "83.20%"
+      },
+      {
+        "symbol": "PUMP",
+        "performance": "71.35%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "69.77%"
+      },
+      {
+        "symbol": "AAVE",
+        "performance": "67.46%"
+      },
+      {
+        "symbol": "AVAX",
+        "performance": "38.27%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "68%",
+  "lastUpdated": "2026-10-10T05:31:45.550Z"
+}
+>>>>>>> Stashed changes
