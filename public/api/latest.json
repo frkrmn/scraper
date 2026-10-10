@@ -1,13 +1,6 @@
 {
   "btc": {
     "name": "BTC",
-<<<<<<< Updated upstream
-    "today": "81,693$",
-    "maxPain": "79,000$",
-    "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
-=======
     "today": "82,559$",
     "maxPain": "78,000$",
     "short": {
@@ -17,11 +10,6 @@
     "mid": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
->>>>>>> Stashed changes
-    },
-    "mid": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
     },
     "long": {
       "decision": "HOLD",
@@ -31,11 +19,7 @@
   },
   "eth": {
     "name": "ETH",
-<<<<<<< Updated upstream
-    "today": "2,473$",
-=======
     "today": "2,485$",
->>>>>>> Stashed changes
     "maxPain": "2,500$",
     "short": {
       "decision": "BUY",
@@ -49,62 +33,13 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-<<<<<<< Updated upstream
-    "speedometer": "71"
-=======
     "speedometer": "68"
->>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-<<<<<<< Updated upstream
-        "performance": "292.04%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "175.87%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "117.65%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "117.57%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "94.43%"
-      },
-      {
-        "symbol": "PUMP",
-        "performance": "72.86%"
-      },
-      {
-        "symbol": "JUP",
-        "performance": "71.27%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "59.09%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "58.65%"
-      },
-      {
-        "symbol": "AVAX",
-        "performance": "32.58%"
-      }
-    ]
-  },
-  "marketpulseCrypto": "64%",
-  "lastUpdated": "2026-10-09T07:41:24.147Z"
-}
-=======
         "performance": "298.86%"
       },
       {
@@ -146,6 +81,5 @@
     ]
   },
   "marketpulseCrypto": "68%",
-  "lastUpdated": "2026-10-10T05:31:45.550Z"
+  "lastUpdated": "2026-10-10T05:34:46.276Z"
 }
->>>>>>> Stashed changes
