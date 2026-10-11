@@ -1,11 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-<<<<<<< Updated upstream
-    "today": "82,559$",
-=======
     "today": "82,909$",
->>>>>>> Stashed changes
     "maxPain": "78,000$",
     "short": {
       "decision": "BUY",
@@ -23,11 +19,7 @@
   },
   "eth": {
     "name": "ETH",
-<<<<<<< Updated upstream
-    "today": "2,485$",
-=======
     "today": "2,504$",
->>>>>>> Stashed changes
     "maxPain": "2,500$",
     "short": {
       "decision": "BUY",
@@ -41,71 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-<<<<<<< Updated upstream
-    "speedometer": "68"
-=======
     "speedometer": "71"
->>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-<<<<<<< Updated upstream
-        "performance": "298.86%"
+        "performance": "276.54%"
       },
       {
         "symbol": "NEAR",
-        "performance": "198.14%"
-=======
-        "performance": "274.32%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "190.56%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "125.48%"
+        "performance": "190.21%"
       },
       {
         "symbol": "ARB",
-        "performance": "123.75%"
->>>>>>> Stashed changes
+        "performance": "126.33%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "126.00%"
       },
       {
         "symbol": "ZEC",
-        "performance": "117.98%"
+        "performance": "118.42%"
       },
       {
         "symbol": "UNI",
-        "performance": "81.24%"
+        "performance": "81.66%"
       },
       {
         "symbol": "JUP",
-        "performance": "78.51%"
+        "performance": "79.76%"
       },
       {
         "symbol": "PUMP",
-        "performance": "70.89%"
+        "performance": "71.39%"
       },
       {
         "symbol": "AAVE",
-        "performance": "58.80%"
+        "performance": "58.11%"
       },
       {
         "symbol": "WLD",
-        "performance": "36.88%"
+        "performance": "35.75%"
       }
     ]
   },
-<<<<<<< Updated upstream
-  "marketpulseCrypto": "68%",
-  "lastUpdated": "2026-10-10T05:34:46.276Z"
-}
-=======
   "marketpulseCrypto": "70%",
-  "lastUpdated": "2026-10-11T05:31:37.038Z"
+  "lastUpdated": "2026-10-11T06:56:24.155Z"
 }
->>>>>>> Stashed changes
