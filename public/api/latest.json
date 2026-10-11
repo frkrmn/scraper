@@ -1,26 +1,12 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "82,559$",
+=======
+    "today": "82,909$",
+>>>>>>> Stashed changes
     "maxPain": "78,000$",
-    "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
-    },
-    "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
-    },
-    "long": {
-      "decision": "HOLD",
-      "rawDecision": "Hold"
-    },
-    "speedometer": "66"
-  },
-  "eth": {
-    "name": "ETH",
-    "today": "2,485$",
-    "maxPain": "2,500$",
     "short": {
       "decision": "BUY",
       "rawDecision": "Al"
@@ -33,53 +19,93 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+    "speedometer": "65"
+  },
+  "eth": {
+    "name": "ETH",
+<<<<<<< Updated upstream
+    "today": "2,485$",
+=======
+    "today": "2,504$",
+>>>>>>> Stashed changes
+    "maxPain": "2,500$",
+    "short": {
+      "decision": "BUY",
+      "rawDecision": "Al"
+    },
+    "mid": {
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
+    },
+    "long": {
+      "decision": "HOLD",
+      "rawDecision": "Hold"
+    },
+<<<<<<< Updated upstream
     "speedometer": "68"
+=======
+    "speedometer": "71"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
+<<<<<<< Updated upstream
         "performance": "298.86%"
       },
       {
         "symbol": "NEAR",
         "performance": "198.14%"
+=======
+        "performance": "274.32%"
       },
       {
-        "symbol": "ZEC",
-        "performance": "126.44%"
+        "symbol": "NEAR",
+        "performance": "190.56%"
       },
       {
         "symbol": "ENA",
-        "performance": "116.29%"
+        "performance": "125.48%"
       },
       {
         "symbol": "ARB",
-        "performance": "106.56%"
+        "performance": "123.75%"
+>>>>>>> Stashed changes
       },
       {
-        "symbol": "JUP",
-        "performance": "83.20%"
-      },
-      {
-        "symbol": "PUMP",
-        "performance": "71.35%"
+        "symbol": "ZEC",
+        "performance": "117.98%"
       },
       {
         "symbol": "UNI",
-        "performance": "69.77%"
+        "performance": "81.24%"
+      },
+      {
+        "symbol": "JUP",
+        "performance": "78.51%"
+      },
+      {
+        "symbol": "PUMP",
+        "performance": "70.89%"
       },
       {
         "symbol": "AAVE",
-        "performance": "67.46%"
+        "performance": "58.80%"
       },
       {
-        "symbol": "AVAX",
-        "performance": "38.27%"
+        "symbol": "WLD",
+        "performance": "36.88%"
       }
     ]
   },
+<<<<<<< Updated upstream
   "marketpulseCrypto": "68%",
   "lastUpdated": "2026-10-10T05:34:46.276Z"
 }
+=======
+  "marketpulseCrypto": "70%",
+  "lastUpdated": "2026-10-11T05:31:37.038Z"
+}
+>>>>>>> Stashed changes
