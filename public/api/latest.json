@@ -1,11 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-<<<<<<< Updated upstream
-    "today": "82,909$",
-=======
     "today": "83,682$",
->>>>>>> Stashed changes
     "maxPain": "78,000$",
     "short": {
       "decision": "UNKNOWN",
@@ -23,11 +19,7 @@
   },
   "eth": {
     "name": "ETH",
-<<<<<<< Updated upstream
-    "today": "2,504$",
-=======
     "today": "2,534$",
->>>>>>> Stashed changes
     "maxPain": "2,500$",
     "short": {
       "decision": "BUY",
@@ -41,103 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-<<<<<<< Updated upstream
-    "speedometer": "71"
-=======
     "speedometer": "69"
->>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-<<<<<<< Updated upstream
-        "performance": "276.54%"
+        "performance": "268.04%"
       },
       {
         "symbol": "NEAR",
-        "performance": "190.21%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "126.33%"
+        "performance": "230.41%"
       },
       {
         "symbol": "ENA",
-        "performance": "126.00%"
+        "performance": "151.20%"
       },
       {
         "symbol": "ZEC",
-        "performance": "118.42%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "81.66%"
-      },
-      {
-        "symbol": "JUP",
-        "performance": "79.76%"
-      },
-      {
-        "symbol": "PUMP",
-        "performance": "71.39%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "58.11%"
-      },
-      {
-        "symbol": "WLD",
-        "performance": "35.75%"
-      }
-    ]
-  },
-  "marketpulseCrypto": "70%",
-  "lastUpdated": "2026-10-11T06:56:24.155Z"
-}
-=======
-        "performance": "271.02%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "231.99%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "152.35%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "142.56%"
+        "performance": "142.84%"
       },
       {
         "symbol": "ARB",
-        "performance": "130.90%"
+        "performance": "129.30%"
       },
       {
         "symbol": "UNI",
-        "performance": "91.05%"
+        "performance": "90.43%"
       },
       {
         "symbol": "JUP",
-        "performance": "83.01%"
+        "performance": "82.08%"
       },
       {
         "symbol": "PUMP",
-        "performance": "72.28%"
+        "performance": "72.18%"
       },
       {
         "symbol": "VVV",
-        "performance": "70.24%"
+        "performance": "70.13%"
       },
       {
         "symbol": "AAVE",
-        "performance": "59.32%"
+        "performance": "59.20%"
       }
     ]
   },
   "marketpulseCrypto": "71%",
-  "lastUpdated": "2026-10-12T05:31:56.128Z"
+  "lastUpdated": "2026-10-12T05:43:02.570Z"
 }
->>>>>>> Stashed changes
