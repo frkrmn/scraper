@@ -1,26 +1,8 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "81.577",
+    "today": "82.133",
     "maxPain": "79.000",
-    "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
-    },
-    "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
-    },
-    "long": {
-      "decision": "HOLD",
-      "rawDecision": "Hold"
-    },
-    "speedometer": "58"
-  },
-  "eth": {
-    "name": "ETH",
-    "today": "2.419",
-    "maxPain": "2.500",
     "short": {
       "decision": "BUY",
       "rawDecision": "Al"
@@ -33,53 +15,71 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "63"
+    "speedometer": "53"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "2.439",
+    "maxPain": "2.500",
+    "short": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+    },
+    "mid": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+    },
+    "long": {
+      "decision": "HOLD",
+      "rawDecision": "Hold"
+    },
+    "speedometer": "54"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "212.08%"
+        "performance": "236.19%"
       },
       {
         "symbol": "NEAR",
-        "performance": "160.35%"
+        "performance": "191.02%"
       },
       {
         "symbol": "ARB",
-        "performance": "107.74%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "94.38%"
+        "performance": "132.94%"
       },
       {
         "symbol": "ENA",
-        "performance": "92.60%"
+        "performance": "116.88%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "109.30%"
       },
       {
         "symbol": "UNI",
-        "performance": "79.74%"
+        "performance": "99.84%"
       },
       {
         "symbol": "VVV",
-        "performance": "62.33%"
+        "performance": "63.29%"
       },
       {
         "symbol": "AAVE",
-        "performance": "44.59%"
+        "performance": "53.68%"
       },
       {
         "symbol": "PUMP",
-        "performance": "26.95%"
+        "performance": "34.08%"
       },
       {
-        "symbol": "GT",
-        "performance": "23.30%"
+        "symbol": "AVAX",
+        "performance": "31.48%"
       }
     ]
   },
   "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-10-15T06:57:06.752Z"
+  "lastUpdated": "2026-10-16T06:35:30.696Z"
 }
