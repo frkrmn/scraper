@@ -1,7 +1,7 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "82.133",
+    "today": "81.504",
     "maxPain": "79.000",
     "short": {
       "decision": "BUY",
@@ -15,15 +15,15 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "53"
+    "speedometer": "51"
   },
   "eth": {
     "name": "ETH",
-    "today": "2.439",
+    "today": "2.420",
     "maxPain": "2.500",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "BUY",
+      "rawDecision": "Al"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "54"
+    "speedometer": "49"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "241.59%"
+        "performance": "238.06%"
       },
       {
         "symbol": "NEAR",
-        "performance": "197.89%"
+        "performance": "195.32%"
       },
       {
         "symbol": "ARB",
-        "performance": "138.53%"
+        "performance": "124.84%"
       },
       {
         "symbol": "ENA",
-        "performance": "116.85%"
+        "performance": "111.73%"
       },
       {
         "symbol": "ZEC",
-        "performance": "110.50%"
+        "performance": "104.58%"
       },
       {
         "symbol": "UNI",
-        "performance": "98.33%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "62.22%"
+        "performance": "95.54%"
       },
       {
         "symbol": "AAVE",
-        "performance": "56.37%"
+        "performance": "49.99%"
       },
       {
-        "symbol": "AVAX",
-        "performance": "35.07%"
+        "symbol": "VVV",
+        "performance": "43.53%"
       },
       {
         "symbol": "PUMP",
-        "performance": "31.22%"
+        "performance": "36.65%"
+      },
+      {
+        "symbol": "WLD",
+        "performance": "34.07%"
       }
     ]
   },
   "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-10-16T11:17:38.127Z"
+  "lastUpdated": "2026-10-17T09:29:44.546Z"
 }
