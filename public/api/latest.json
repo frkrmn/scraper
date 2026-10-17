@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "QNT",
-        "performance": "238.06%"
+        "performance": "241.02%"
       },
       {
         "symbol": "NEAR",
-        "performance": "195.32%"
+        "performance": "195.13%"
       },
       {
         "symbol": "ARB",
-        "performance": "124.84%"
+        "performance": "123.51%"
       },
       {
         "symbol": "ENA",
-        "performance": "111.73%"
+        "performance": "111.98%"
       },
       {
         "symbol": "ZEC",
-        "performance": "104.58%"
+        "performance": "105.58%"
       },
       {
         "symbol": "UNI",
-        "performance": "95.54%"
+        "performance": "95.52%"
       },
       {
         "symbol": "AAVE",
-        "performance": "49.99%"
+        "performance": "49.84%"
       },
       {
         "symbol": "VVV",
-        "performance": "43.53%"
+        "performance": "43.23%"
       },
       {
         "symbol": "PUMP",
-        "performance": "36.65%"
+        "performance": "36.11%"
       },
       {
         "symbol": "WLD",
-        "performance": "34.07%"
+        "performance": "33.46%"
       }
     ]
   },
   "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-10-17T09:29:44.546Z"
+  "lastUpdated": "2026-10-17T10:37:20.895Z"
 }
