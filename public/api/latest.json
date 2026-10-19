@@ -1,15 +1,15 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "81.388",
+    "today": "82.012",
     "maxPain": "79.000",
     "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
-    },
-    "mid": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
+    },
+    "mid": {
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "long": {
       "decision": "HOLD",
@@ -19,7 +19,7 @@
   },
   "eth": {
     "name": "ETH",
-    "today": "2.400",
+    "today": "2.408",
     "maxPain": "2.500",
     "short": {
       "decision": "BUY",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "41"
+    "speedometer": "37"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "210.76%"
+        "performance": "207.40%"
       },
       {
         "symbol": "NEAR",
-        "performance": "170.72%"
+        "performance": "177.20%"
       },
       {
         "symbol": "ARB",
-        "performance": "96.99%"
+        "performance": "102.56%"
       },
       {
         "symbol": "ZEC",
-        "performance": "83.78%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "83.68%"
+        "performance": "87.41%"
       },
       {
         "symbol": "UNI",
-        "performance": "80.67%"
+        "performance": "85.57%"
       },
       {
-        "symbol": "AAVE",
-        "performance": "42.05%"
+        "symbol": "ENA",
+        "performance": "57.68%"
       },
       {
         "symbol": "VVV",
-        "performance": "34.76%"
+        "performance": "54.54%"
       },
       {
-        "symbol": "AVAX",
-        "performance": "27.25%"
+        "symbol": "AAVE",
+        "performance": "43.94%"
       },
       {
-        "symbol": "GT",
-        "performance": "27.17%"
+        "symbol": "XMR",
+        "performance": "31.08%"
+      },
+      {
+        "symbol": "SUI",
+        "performance": "24.49%"
       }
     ]
   },
   "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-10-18T07:20:17.640Z"
+  "lastUpdated": "2026-10-19T06:18:15.308Z"
 }
