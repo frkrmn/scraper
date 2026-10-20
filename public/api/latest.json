@@ -1,11 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "82.012",
-    "maxPain": "79.000",
+    "today": "—",
+    "maxPain": "—",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
       "decision": "STRONG_SELL",
@@ -15,11 +15,11 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "46"
+    "speedometer": "49"
   },
   "eth": {
     "name": "ETH",
-    "today": "2.408",
+    "today": "2.405",
     "maxPain": "2.500",
     "short": {
       "decision": "BUY",
@@ -33,53 +33,53 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "37"
+    "speedometer": "36"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "207.40%"
+        "performance": "195.49%"
       },
       {
         "symbol": "NEAR",
-        "performance": "177.20%"
+        "performance": "143.80%"
       },
       {
         "symbol": "ARB",
-        "performance": "102.56%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "87.41%"
+        "performance": "98.08%"
       },
       {
         "symbol": "UNI",
-        "performance": "85.57%"
+        "performance": "73.63%"
       },
       {
-        "symbol": "ENA",
-        "performance": "57.68%"
+        "symbol": "ZEC",
+        "performance": "55.28%"
       },
       {
         "symbol": "VVV",
-        "performance": "54.54%"
-      },
-      {
-        "symbol": "AAVE",
-        "performance": "43.94%"
+        "performance": "49.59%"
       },
       {
         "symbol": "XMR",
-        "performance": "31.08%"
+        "performance": "41.50%"
       },
       {
-        "symbol": "SUI",
-        "performance": "24.49%"
+        "symbol": "WLD",
+        "performance": "32.09%"
+      },
+      {
+        "symbol": "GT",
+        "performance": "29.32%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "28.34%"
       }
     ]
   },
   "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-10-19T06:18:15.308Z"
+  "lastUpdated": "2026-10-20T06:07:30.196Z"
 }
