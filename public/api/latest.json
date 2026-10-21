@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "QNT",
-        "performance": "202.94%"
+        "performance": "204.79%"
       },
       {
         "symbol": "NEAR",
-        "performance": "147.97%"
+        "performance": "156.90%"
       },
       {
         "symbol": "ARB",
-        "performance": "82.29%"
+        "performance": "85.15%"
       },
       {
         "symbol": "UNI",
-        "performance": "62.94%"
+        "performance": "63.09%"
       },
       {
         "symbol": "ZEC",
-        "performance": "43.36%"
+        "performance": "46.22%"
       },
       {
         "symbol": "VVV",
-        "performance": "41.98%"
+        "performance": "42.76%"
       },
       {
         "symbol": "WLD",
-        "performance": "41.67%"
+        "performance": "42.27%"
       },
       {
         "symbol": "XMR",
-        "performance": "28.60%"
+        "performance": "32.65%"
       },
       {
         "symbol": "JST",
-        "performance": "26.41%"
+        "performance": "25.93%"
       },
       {
-        "symbol": "GT",
-        "performance": "22.27%"
+        "symbol": "ENA",
+        "performance": "24.26%"
       }
     ]
   },
-  "marketpulseCrypto": "54",
-  "lastUpdated": "2026-10-21T06:06:13.777Z"
+  "marketpulseCrypto": "unknown",
+  "lastUpdated": "2026-10-21T11:42:56.901Z"
 }
