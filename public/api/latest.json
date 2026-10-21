@@ -1,11 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "—",
-    "maxPain": "—",
+    "today": "82.939",
+    "maxPain": "78.000",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "mid": {
       "decision": "STRONG_SELL",
@@ -19,7 +19,7 @@
   },
   "eth": {
     "name": "ETH",
-    "today": "2.405",
+    "today": "2.447",
     "maxPain": "2.500",
     "short": {
       "decision": "BUY",
@@ -30,56 +30,56 @@
       "rawDecision": "Güçlü Al"
     },
     "long": {
-      "decision": "HOLD",
-      "rawDecision": "Hold"
+      "decision": "BUY",
+      "rawDecision": "buy"
     },
-    "speedometer": "36"
+    "speedometer": "29"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "195.49%"
+        "performance": "202.94%"
       },
       {
         "symbol": "NEAR",
-        "performance": "143.80%"
+        "performance": "147.97%"
       },
       {
         "symbol": "ARB",
-        "performance": "98.08%"
+        "performance": "82.29%"
       },
       {
         "symbol": "UNI",
-        "performance": "73.63%"
+        "performance": "62.94%"
       },
       {
         "symbol": "ZEC",
-        "performance": "55.28%"
+        "performance": "43.36%"
       },
       {
         "symbol": "VVV",
-        "performance": "49.59%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "41.50%"
+        "performance": "41.98%"
       },
       {
         "symbol": "WLD",
-        "performance": "32.09%"
+        "performance": "41.67%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "28.60%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "26.41%"
       },
       {
         "symbol": "GT",
-        "performance": "29.32%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "28.34%"
+        "performance": "22.27%"
       }
     ]
   },
   "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-10-20T06:07:30.196Z"
+  "lastUpdated": "2026-10-21T06:06:13.777Z"
 }
