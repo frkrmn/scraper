@@ -1,6 +1,7 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "82.939",
     "maxPain": "78.000",
     "short": {
@@ -8,8 +9,17 @@
       "rawDecision": "Güçlü Sat"
     },
     "mid": {
+=======
+    "today": "84.021",
+    "maxPain": "78.000",
+    "short": {
+>>>>>>> Stashed changes
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
+    },
+    "mid": {
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "long": {
       "decision": "HOLD",
@@ -19,27 +29,36 @@
   },
   "eth": {
     "name": "ETH",
+<<<<<<< Updated upstream
     "today": "2.447",
+=======
+    "today": "2.472",
+>>>>>>> Stashed changes
     "maxPain": "2.500",
     "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
+<<<<<<< Updated upstream
     "speedometer": "29"
+=======
+    "speedometer": "31"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
+<<<<<<< Updated upstream
         "performance": "204.79%"
       },
       {
@@ -77,9 +96,52 @@
       {
         "symbol": "ENA",
         "performance": "24.26%"
+=======
+        "performance": "197.79%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "146.02%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "73.08%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "58.22%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "50.53%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "44.11%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "39.53%"
+      },
+      {
+        "symbol": "WLD",
+        "performance": "28.38%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "27.81%"
+      },
+      {
+        "symbol": "GT",
+        "performance": "24.12%"
+>>>>>>> Stashed changes
       }
     ]
   },
   "marketpulseCrypto": "unknown",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-10-21T11:42:56.901Z"
+=======
+  "lastUpdated": "2026-10-22T05:31:57.572Z"
+>>>>>>> Stashed changes
 }
