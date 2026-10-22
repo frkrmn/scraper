@@ -1,19 +1,9 @@
 {
   "btc": {
     "name": "BTC",
-<<<<<<< Updated upstream
-    "today": "82.939",
-    "maxPain": "78.000",
-    "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
-    },
-    "mid": {
-=======
     "today": "84.021",
     "maxPain": "78.000",
     "short": {
->>>>>>> Stashed changes
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
     },
@@ -29,11 +19,7 @@
   },
   "eth": {
     "name": "ETH",
-<<<<<<< Updated upstream
-    "today": "2.447",
-=======
     "today": "2.472",
->>>>>>> Stashed changes
     "maxPain": "2.500",
     "short": {
       "decision": "UNKNOWN",
@@ -47,101 +33,53 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-<<<<<<< Updated upstream
-    "speedometer": "29"
-=======
     "speedometer": "31"
->>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-<<<<<<< Updated upstream
-        "performance": "204.79%"
+        "performance": "195.19%"
       },
       {
         "symbol": "NEAR",
-        "performance": "156.90%"
+        "performance": "143.33%"
       },
       {
         "symbol": "ARB",
-        "performance": "85.15%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "63.09%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "46.22%"
+        "performance": "71.00%"
       },
       {
         "symbol": "VVV",
-        "performance": "42.76%"
-      },
-      {
-        "symbol": "WLD",
-        "performance": "42.27%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "32.65%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "25.93%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "24.26%"
-=======
-        "performance": "197.79%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "146.02%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "73.08%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "58.22%"
+        "performance": "55.60%"
       },
       {
         "symbol": "UNI",
-        "performance": "50.53%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "44.11%"
+        "performance": "49.05%"
       },
       {
         "symbol": "XMR",
-        "performance": "39.53%"
+        "performance": "45.22%"
       },
       {
-        "symbol": "WLD",
-        "performance": "28.38%"
+        "symbol": "ZEC",
+        "performance": "42.35%"
       },
       {
         "symbol": "JST",
-        "performance": "27.81%"
+        "performance": "28.06%"
+      },
+      {
+        "symbol": "WLD",
+        "performance": "26.49%"
       },
       {
         "symbol": "GT",
-        "performance": "24.12%"
->>>>>>> Stashed changes
+        "performance": "24.75%"
       }
     ]
   },
-  "marketpulseCrypto": "unknown",
-<<<<<<< Updated upstream
-  "lastUpdated": "2026-10-21T11:42:56.901Z"
-=======
-  "lastUpdated": "2026-10-22T05:31:57.572Z"
->>>>>>> Stashed changes
+  "marketpulseCrypto": "58",
+  "lastUpdated": "2026-10-22T07:16:49.853Z"
 }
