@@ -1,19 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-<<<<<<< Updated upstream
-    "today": "84.021",
-    "maxPain": "78.000",
-    "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
-=======
     "today": "81.312",
     "maxPain": "78.000",
     "short": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
->>>>>>> Stashed changes
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -27,11 +19,7 @@
   },
   "eth": {
     "name": "ETH",
-<<<<<<< Updated upstream
-    "today": "2.472",
-=======
     "today": "2.386",
->>>>>>> Stashed changes
     "maxPain": "2.500",
     "short": {
       "decision": "BUY",
@@ -45,62 +33,13 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-<<<<<<< Updated upstream
-    "speedometer": "31"
-=======
     "speedometer": "30"
->>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-<<<<<<< Updated upstream
-        "performance": "195.19%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "143.33%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "71.00%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "55.60%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "49.05%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "45.22%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "42.35%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "28.06%"
-      },
-      {
-        "symbol": "WLD",
-        "performance": "26.49%"
-      },
-      {
-        "symbol": "GT",
-        "performance": "24.75%"
-      }
-    ]
-  },
-  "marketpulseCrypto": "58",
-  "lastUpdated": "2026-10-22T07:16:49.853Z"
-}
-=======
         "performance": "191.04%"
       },
       {
@@ -141,7 +80,6 @@
       }
     ]
   },
-  "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-10-23T05:31:45.775Z"
+  "marketpulseCrypto": "43",
+  "lastUpdated": "2026-10-23T05:35:15.996Z"
 }
->>>>>>> Stashed changes
