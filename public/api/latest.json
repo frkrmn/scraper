@@ -1,45 +1,62 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "84.021",
     "maxPain": "78.000",
     "short": {
       "decision": "STRONG_SELL",
       "rawDecision": "Güçlü Sat"
+=======
+    "today": "81.312",
+    "maxPain": "78.000",
+    "short": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+>>>>>>> Stashed changes
     },
     "mid": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "49"
+    "speedometer": "46"
   },
   "eth": {
     "name": "ETH",
+<<<<<<< Updated upstream
     "today": "2.472",
+=======
+    "today": "2.386",
+>>>>>>> Stashed changes
     "maxPain": "2.500",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "BUY",
+      "rawDecision": "Al"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
+<<<<<<< Updated upstream
     "speedometer": "31"
+=======
+    "speedometer": "30"
+>>>>>>> Stashed changes
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
+<<<<<<< Updated upstream
         "performance": "195.19%"
       },
       {
@@ -83,3 +100,48 @@
   "marketpulseCrypto": "58",
   "lastUpdated": "2026-10-22T07:16:49.853Z"
 }
+=======
+        "performance": "191.04%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "150.50%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "84.54%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "63.73%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "50.77%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "45.52%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "36.00%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "34.84%"
+      },
+      {
+        "symbol": "WLD",
+        "performance": "31.08%"
+      },
+      {
+        "symbol": "DOT",
+        "performance": "26.97%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "unknown",
+  "lastUpdated": "2026-10-23T05:31:45.775Z"
+}
+>>>>>>> Stashed changes
