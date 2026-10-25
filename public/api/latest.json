@@ -1,7 +1,11 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "81.086",
+=======
+    "today": "80.773",
+>>>>>>> Stashed changes
     "maxPain": "78.000",
     "short": {
       "decision": "UNKNOWN",
@@ -19,7 +23,11 @@
   },
   "eth": {
     "name": "ETH",
+<<<<<<< Updated upstream
     "today": "2.384",
+=======
+    "today": "2.356",
+>>>>>>> Stashed changes
     "maxPain": "2.500",
     "short": {
       "decision": "UNKNOWN",
@@ -33,13 +41,14 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "30"
+    "speedometer": "24"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
+<<<<<<< Updated upstream
         "performance": "179.19%"
       },
       {
@@ -77,9 +86,52 @@
       {
         "symbol": "GT",
         "performance": "22.77%"
+=======
+        "performance": "193.18%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "140.62%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "84.24%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "56.59%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "51.89%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "39.27%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "38.20%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "38.03%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "37.27%"
+      },
+      {
+        "symbol": "GT",
+        "performance": "23.47%"
+>>>>>>> Stashed changes
       }
     ]
   },
   "marketpulseCrypto": "unknown",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-10-24T10:53:38.728Z"
+=======
+  "lastUpdated": "2026-10-25T05:31:49.997Z"
+>>>>>>> Stashed changes
 }
