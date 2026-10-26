@@ -1,20 +1,30 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "80.773",
+=======
+    "today": "80.051",
+>>>>>>> Stashed changes
     "maxPain": "78.000",
     "short": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
     },
     "mid": {
+<<<<<<< Updated upstream
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
+=======
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
+>>>>>>> Stashed changes
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "46"
   },
   "eth": {
@@ -28,18 +38,34 @@
     "mid": {
       "decision": "STRONG_BUY",
       "rawDecision": "Güçlü Al"
+=======
+    "speedometer": "41"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "2.327",
+    "maxPain": "2.500",
+    "short": {
+      "decision": "BUY",
+      "rawDecision": "Al"
+>>>>>>> Stashed changes
+    },
+    "mid": {
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "24"
+    "speedometer": "22"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
+<<<<<<< Updated upstream
         "performance": "189.66%"
       },
       {
@@ -83,3 +109,48 @@
   "marketpulseCrypto": "42",
   "lastUpdated": "2026-10-25T08:48:54.640Z"
 }
+=======
+        "performance": "207.32%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "133.89%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "84.13%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "50.06%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "47.73%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "46.94%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "34.69%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "28.01%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "23.76%"
+      },
+      {
+        "symbol": "AVAX",
+        "performance": "18.22%"
+      }
+    ]
+  },
+  "marketpulseCrypto": "unknown",
+  "lastUpdated": "2026-10-26T05:31:43.265Z"
+}
+>>>>>>> Stashed changes
