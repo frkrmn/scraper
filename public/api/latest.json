@@ -1,44 +1,20 @@
 {
   "btc": {
     "name": "BTC",
-<<<<<<< Updated upstream
-    "today": "80.773",
-=======
     "today": "80.051",
->>>>>>> Stashed changes
     "maxPain": "78.000",
     "short": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
     },
     "mid": {
-<<<<<<< Updated upstream
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
-=======
       "decision": "STRONG_BUY",
       "rawDecision": "Güçlü Al"
->>>>>>> Stashed changes
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-<<<<<<< Updated upstream
-    "speedometer": "46"
-  },
-  "eth": {
-    "name": "ETH",
-    "today": "2.356",
-    "maxPain": "2.500",
-    "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
-    },
-    "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
-=======
     "speedometer": "41"
   },
   "eth": {
@@ -48,7 +24,6 @@
     "short": {
       "decision": "BUY",
       "rawDecision": "Al"
->>>>>>> Stashed changes
     },
     "mid": {
       "decision": "STRONG_BUY",
@@ -65,92 +40,46 @@
     "data": [
       {
         "symbol": "QNT",
-<<<<<<< Updated upstream
-        "performance": "189.66%"
+        "performance": "208.10%"
       },
       {
         "symbol": "NEAR",
-        "performance": "136.63%"
+        "performance": "131.54%"
       },
       {
         "symbol": "ARB",
-        "performance": "81.13%"
+        "performance": "84.81%"
       },
       {
         "symbol": "UNI",
-        "performance": "54.34%"
+        "performance": "50.64%"
       },
       {
         "symbol": "ZEC",
-        "performance": "49.03%"
+        "performance": "47.65%"
       },
       {
         "symbol": "JST",
-        "performance": "37.83%"
+        "performance": "47.14%"
       },
       {
         "symbol": "VVV",
-        "performance": "37.29%"
-      },
-      {
-        "symbol": "ENA",
-        "performance": "37.14%"
+        "performance": "34.85%"
       },
       {
         "symbol": "XMR",
-        "performance": "36.28%"
-      },
-      {
-        "symbol": "GT",
-        "performance": "23.30%"
-      }
-    ]
-  },
-  "marketpulseCrypto": "42",
-  "lastUpdated": "2026-10-25T08:48:54.640Z"
-}
-=======
-        "performance": "207.32%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "133.89%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "84.13%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "50.06%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "47.73%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "46.94%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "34.69%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "28.01%"
+        "performance": "27.78%"
       },
       {
         "symbol": "ENA",
-        "performance": "23.76%"
+        "performance": "24.20%"
       },
       {
         "symbol": "AVAX",
-        "performance": "18.22%"
+        "performance": "17.68%"
       }
     ]
   },
-  "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-10-26T05:31:43.265Z"
+  "marketpulseCrypto": "40",
+  "lastUpdated": "2026-10-26T06:27:38.088Z"
 }
->>>>>>> Stashed changes
