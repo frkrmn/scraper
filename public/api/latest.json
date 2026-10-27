@@ -1,20 +1,30 @@
 {
   "btc": {
     "name": "BTC",
+<<<<<<< Updated upstream
     "today": "80.051",
+=======
+    "today": "80.011",
+>>>>>>> Stashed changes
     "maxPain": "78.000",
     "short": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
     },
     "mid": {
+<<<<<<< Updated upstream
       "decision": "STRONG_BUY",
       "rawDecision": "Güçlü Al"
+=======
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
+>>>>>>> Stashed changes
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
+<<<<<<< Updated upstream
     "speedometer": "41"
   },
   "eth": {
@@ -28,18 +38,34 @@
     "mid": {
       "decision": "STRONG_BUY",
       "rawDecision": "Güçlü Al"
+=======
+    "speedometer": "43"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "2.320",
+    "maxPain": "2.500",
+    "short": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+    },
+    "mid": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+>>>>>>> Stashed changes
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "22"
+    "speedometer": "25"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
+<<<<<<< Updated upstream
         "performance": "245.77%"
       },
       {
@@ -77,9 +103,52 @@
       {
         "symbol": "AVAX",
         "performance": "18.60%"
+=======
+        "performance": "220.35%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "139.85%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "87.67%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "56.78%"
+      },
+      {
+        "symbol": "ZEC",
+        "performance": "49.85%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "48.02%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "38.69%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "25.88%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "25.75%"
+      },
+      {
+        "symbol": "SUI",
+        "performance": "19.85%"
+>>>>>>> Stashed changes
       }
     ]
   },
   "marketpulseCrypto": "unknown",
+<<<<<<< Updated upstream
   "lastUpdated": "2026-10-26T12:53:45.669Z"
+=======
+  "lastUpdated": "2026-10-27T05:31:43.172Z"
+>>>>>>> Stashed changes
 }
