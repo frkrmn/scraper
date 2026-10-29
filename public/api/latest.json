@@ -1,85 +1,85 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "80.805",
+    "today": "81.257",
     "maxPain": "78.000",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "46"
+    "speedometer": "45"
   },
   "eth": {
     "name": "ETH",
-    "today": "2.347",
-    "maxPain": "2.500",
+    "today": "2.357",
+    "maxPain": "2.450",
     "short": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "24"
+    "speedometer": "25"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "226.86%"
+        "performance": "212.90%"
       },
       {
         "symbol": "NEAR",
-        "performance": "148.80%"
+        "performance": "127.65%"
       },
       {
         "symbol": "ARB",
-        "performance": "88.18%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "52.31%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "49.90%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "44.30%"
+        "performance": "81.56%"
       },
       {
         "symbol": "JST",
-        "performance": "38.08%"
+        "performance": "46.70%"
       },
       {
-        "symbol": "XMR",
-        "performance": "28.97%"
+        "symbol": "ZEC",
+        "performance": "43.76%"
       },
       {
-        "symbol": "ENA",
-        "performance": "28.92%"
+        "symbol": "VVV",
+        "performance": "32.79%"
       },
       {
         "symbol": "PEPE",
-        "performance": "25.67%"
+        "performance": "32.18%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "30.94%"
+      },
+      {
+        "symbol": "ENA",
+        "performance": "21.35%"
+      },
+      {
+        "symbol": "SUI",
+        "performance": "19.94%"
       }
     ]
   },
   "marketpulseCrypto": "41",
-  "lastUpdated": "2026-10-28T06:41:09.135Z"
+  "lastUpdated": "2026-10-29T08:03:13.410Z"
 }
