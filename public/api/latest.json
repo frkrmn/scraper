@@ -1,11 +1,11 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "81.257",
+    "today": "77.811",
     "maxPain": "78.000",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -15,71 +15,71 @@
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "45"
+    "speedometer": "44"
   },
   "eth": {
     "name": "ETH",
-    "today": "2.357",
-    "maxPain": "2.450",
+    "today": "2.249",
+    "maxPain": "2.400",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "BUY",
+      "rawDecision": "Al"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "25"
+    "speedometer": "23"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "212.90%"
+        "performance": "222.55%"
       },
       {
         "symbol": "NEAR",
-        "performance": "127.65%"
+        "performance": "129.34%"
       },
       {
         "symbol": "ARB",
-        "performance": "81.56%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "46.70%"
+        "performance": "63.50%"
       },
       {
         "symbol": "ZEC",
-        "performance": "43.76%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "32.79%"
+        "performance": "48.73%"
       },
       {
         "symbol": "PEPE",
-        "performance": "32.18%"
+        "performance": "40.27%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "40.25%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "36.11%"
       },
       {
         "symbol": "UNI",
-        "performance": "30.94%"
+        "performance": "30.92%"
       },
       {
         "symbol": "ENA",
-        "performance": "21.35%"
+        "performance": "27.41%"
       },
       {
         "symbol": "SUI",
-        "performance": "19.94%"
+        "performance": "23.36%"
       }
     ]
   },
-  "marketpulseCrypto": "43",
-  "lastUpdated": "2026-10-29T08:03:13.410Z"
+  "marketpulseCrypto": "27",
+  "lastUpdated": "2026-10-30T06:57:56.575Z"
 }
