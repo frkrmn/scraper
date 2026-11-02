@@ -1,29 +1,29 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "77.447",
+    "today": "78.248",
     "maxPain": "80.000",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "49"
+    "speedometer": "44"
   },
   "eth": {
     "name": "ETH",
-    "today": "2.253",
+    "today": "2.272",
     "maxPain": "2.500",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,53 +33,53 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "29"
+    "speedometer": "30"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "211.47%"
+        "performance": "206.13%"
       },
       {
         "symbol": "NEAR",
-        "performance": "133.99%"
+        "performance": "112.41%"
       },
       {
         "symbol": "ZEC",
-        "performance": "51.42%"
+        "performance": "36.69%"
       },
       {
         "symbol": "VVV",
-        "performance": "45.77%"
-      },
-      {
-        "symbol": "PEPE",
-        "performance": "43.66%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "32.66%"
+        "performance": "36.02%"
       },
       {
         "symbol": "JST",
-        "performance": "26.43%"
+        "performance": "34.60%"
       },
       {
-        "symbol": "ENA",
-        "performance": "24.40%"
+        "symbol": "PEPE",
+        "performance": "32.86%"
       },
       {
-        "symbol": "UNI",
-        "performance": "23.83%"
+        "symbol": "XMR",
+        "performance": "20.31%"
+      },
+      {
+        "symbol": "ARB",
+        "performance": "18.35%"
       },
       {
         "symbol": "AVAX",
-        "performance": "21.56%"
+        "performance": "17.90%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "16.93%"
       }
     ]
   },
-  "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-11-01T13:15:57.337Z"
+  "marketpulseCrypto": "25",
+  "lastUpdated": "2026-11-02T07:10:33.374Z"
 }
