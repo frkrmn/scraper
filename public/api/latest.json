@@ -1,33 +1,33 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "78.248",
+    "today": "76.694",
     "maxPain": "80.000",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "BUY",
+      "rawDecision": "Al"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "44"
+    "speedometer": "41"
   },
   "eth": {
     "name": "ETH",
-    "today": "2.272",
+    "today": "2.250",
     "maxPain": "2.500",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
     },
     "long": {
       "decision": "BUY",
@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "QNT",
-        "performance": "216.46%"
+        "performance": "206.87%"
       },
       {
         "symbol": "NEAR",
-        "performance": "109.18%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "36.38%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "35.75%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "33.50%"
+        "performance": "82.85%"
       },
       {
         "symbol": "PEPE",
-        "performance": "31.14%"
+        "performance": "35.30%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "34.13%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "21.62%"
       },
       {
         "symbol": "XMR",
-        "performance": "20.02%"
-      },
-      {
-        "symbol": "UNI",
-        "performance": "18.82%"
-      },
-      {
-        "symbol": "AVAX",
-        "performance": "18.09%"
+        "performance": "20.06%"
       },
       {
         "symbol": "ARB",
-        "performance": "18.05%"
+        "performance": "19.54%"
+      },
+      {
+        "symbol": "SUI",
+        "performance": "17.71%"
+      },
+      {
+        "symbol": "GT",
+        "performance": "17.46%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "16.46%"
       }
     ]
   },
-  "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-11-02T15:41:58.848Z"
+  "marketpulseCrypto": "21",
+  "lastUpdated": "2026-11-03T07:23:49.774Z"
 }
