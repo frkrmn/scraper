@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "QNT",
-        "performance": "210.81%"
+        "performance": "205.06%"
       },
       {
         "symbol": "NEAR",
-        "performance": "66.94%"
+        "performance": "63.98%"
       },
       {
         "symbol": "PEPE",
-        "performance": "36.48%"
+        "performance": "36.34%"
       },
       {
         "symbol": "VVV",
-        "performance": "29.14%"
+        "performance": "28.37%"
       },
       {
         "symbol": "JST",
-        "performance": "25.51%"
+        "performance": "28.26%"
       },
       {
         "symbol": "XMR",
-        "performance": "18.47%"
+        "performance": "19.71%"
       },
       {
         "symbol": "AERO",
-        "performance": "16.86%"
-      },
-      {
-        "symbol": "SUI",
-        "performance": "12.84%"
-      },
-      {
-        "symbol": "AVAX",
-        "performance": "11.79%"
+        "performance": "16.50%"
       },
       {
         "symbol": "BCH",
-        "performance": "9.22%"
+        "performance": "12.39%"
+      },
+      {
+        "symbol": "SUI",
+        "performance": "12.13%"
+      },
+      {
+        "symbol": "AVAX",
+        "performance": "12.07%"
       }
     ]
   },
-  "marketpulseCrypto": "26",
-  "lastUpdated": "2026-11-05T07:00:25.228Z"
+  "marketpulseCrypto": "unknown",
+  "lastUpdated": "2026-11-05T14:34:01.804Z"
 }
