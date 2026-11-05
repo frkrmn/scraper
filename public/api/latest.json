@@ -1,25 +1,25 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "77.346",
+    "today": "80.429",
     "maxPain": "80.000",
     "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "36"
+    "speedometer": "37"
   },
   "eth": {
     "name": "ETH",
-    "today": "2.272",
+    "today": "2.422",
     "maxPain": "2.450",
     "short": {
       "decision": "UNKNOWN",
@@ -30,56 +30,56 @@
       "rawDecision": "İşlem yok"
     },
     "long": {
-      "decision": "BUY",
-      "rawDecision": "buy"
+      "decision": "HOLD",
+      "rawDecision": "Hold"
     },
-    "speedometer": "32"
+    "speedometer": "33"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "211.00%"
+        "performance": "210.81%"
       },
       {
         "symbol": "NEAR",
-        "performance": "85.75%"
+        "performance": "66.94%"
       },
       {
         "symbol": "PEPE",
-        "performance": "37.35%"
+        "performance": "36.48%"
       },
       {
         "symbol": "VVV",
-        "performance": "36.46%"
+        "performance": "29.14%"
       },
       {
         "symbol": "JST",
-        "performance": "29.47%"
-      },
-      {
-        "symbol": "ZEC",
-        "performance": "28.22%"
+        "performance": "25.51%"
       },
       {
         "symbol": "XMR",
-        "performance": "18.28%"
+        "performance": "18.47%"
       },
       {
         "symbol": "AERO",
-        "performance": "17.62%"
-      },
-      {
-        "symbol": "AVAX",
-        "performance": "15.99%"
+        "performance": "16.86%"
       },
       {
         "symbol": "SUI",
-        "performance": "14.86%"
+        "performance": "12.84%"
+      },
+      {
+        "symbol": "AVAX",
+        "performance": "11.79%"
+      },
+      {
+        "symbol": "BCH",
+        "performance": "9.22%"
       }
     ]
   },
-  "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-11-04T14:26:26.983Z"
+  "marketpulseCrypto": "26",
+  "lastUpdated": "2026-11-05T07:00:25.228Z"
 }
