@@ -1,8 +1,8 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "75.751",
-    "maxPain": "80.000",
+    "today": "0",
+    "maxPain": "0",
     "short": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
@@ -19,8 +19,8 @@
   },
   "eth": {
     "name": "ETH",
-    "today": "2.236",
-    "maxPain": "2.400",
+    "today": "0",
+    "maxPain": "0",
     "short": {
       "decision": "SELL",
       "rawDecision": "Sat"
@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "QNT",
-        "performance": "198.25%"
+        "performance": "196.99%"
       },
       {
         "symbol": "NEAR",
-        "performance": "64.97%"
-      },
-      {
-        "symbol": "PEPE",
-        "performance": "39.36%"
+        "performance": "63.08%"
       },
       {
         "symbol": "JST",
-        "performance": "39.06%"
+        "performance": "40.30%"
+      },
+      {
+        "symbol": "PEPE",
+        "performance": "37.57%"
       },
       {
         "symbol": "XMR",
-        "performance": "26.03%"
+        "performance": "26.40%"
       },
       {
         "symbol": "ZEC",
-        "performance": "17.42%"
+        "performance": "14.65%"
       },
       {
         "symbol": "SUI",
-        "performance": "10.13%"
+        "performance": "9.36%"
       },
       {
         "symbol": "GT",
-        "performance": "7.47%"
-      },
-      {
-        "symbol": "AVAX",
-        "performance": "7.15%"
+        "performance": "9.28%"
       },
       {
         "symbol": "UNI",
-        "performance": "7.03%"
+        "performance": "7.79%"
+      },
+      {
+        "symbol": "AVAX",
+        "performance": "6.43%"
       }
     ]
   },
-  "marketpulseCrypto": "18",
-  "lastUpdated": "2026-11-07T09:06:22.804Z"
+  "marketpulseCrypto": "unknown",
+  "lastUpdated": "2026-11-07T12:55:28.326Z"
 }
