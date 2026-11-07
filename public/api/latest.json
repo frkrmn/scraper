@@ -1,85 +1,85 @@
 {
   "btc": {
     "name": "BTC",
-    "today": "75.982",
+    "today": "75.751",
     "maxPain": "80.000",
     "short": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "37"
+    "speedometer": "38"
   },
   "eth": {
     "name": "ETH",
-    "today": "2.235",
-    "maxPain": "2.450",
+    "today": "2.236",
+    "maxPain": "2.400",
     "short": {
+      "decision": "SELL",
+      "rawDecision": "Sat"
+    },
+    "mid": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
     },
-    "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
-    },
     "long": {
-      "decision": "BUY",
-      "rawDecision": "buy"
+      "decision": "HOLD",
+      "rawDecision": "Hold"
     },
-    "speedometer": "32"
+    "speedometer": "34"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "187.08%"
+        "performance": "198.25%"
       },
       {
         "symbol": "NEAR",
-        "performance": "62.22%"
+        "performance": "64.97%"
       },
       {
         "symbol": "PEPE",
-        "performance": "40.16%"
+        "performance": "39.36%"
       },
       {
         "symbol": "JST",
-        "performance": "35.62%"
+        "performance": "39.06%"
       },
       {
         "symbol": "XMR",
-        "performance": "23.72%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "16.46%"
+        "performance": "26.03%"
       },
       {
         "symbol": "ZEC",
-        "performance": "13.14%"
-      },
-      {
-        "symbol": "GT",
-        "performance": "8.11%"
+        "performance": "17.42%"
       },
       {
         "symbol": "SUI",
-        "performance": "8.00%"
+        "performance": "10.13%"
       },
       {
-        "symbol": "BCH",
-        "performance": "6.54%"
+        "symbol": "GT",
+        "performance": "7.47%"
+      },
+      {
+        "symbol": "AVAX",
+        "performance": "7.15%"
+      },
+      {
+        "symbol": "UNI",
+        "performance": "7.03%"
       }
     ]
   },
-  "marketpulseCrypto": "16",
-  "lastUpdated": "2026-11-06T07:36:01.935Z"
+  "marketpulseCrypto": "18",
+  "lastUpdated": "2026-11-07T09:06:22.804Z"
 }
