@@ -4,30 +4,30 @@
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "BUY",
+      "rawDecision": "Al"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "38"
+    "speedometer": "37"
   },
   "eth": {
     "name": "ETH",
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
-    },
-    "mid": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
+    },
+    "mid": {
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
     },
     "long": {
       "decision": "HOLD",
@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "QNT",
-        "performance": "196.99%"
+        "performance": "194.81%"
       },
       {
         "symbol": "NEAR",
-        "performance": "63.08%"
-      },
-      {
-        "symbol": "JST",
-        "performance": "40.30%"
+        "performance": "51.38%"
       },
       {
         "symbol": "PEPE",
-        "performance": "37.57%"
+        "performance": "42.55%"
+      },
+      {
+        "symbol": "JST",
+        "performance": "42.48%"
       },
       {
         "symbol": "XMR",
-        "performance": "26.40%"
+        "performance": "20.15%"
       },
       {
-        "symbol": "ZEC",
-        "performance": "14.65%"
-      },
-      {
-        "symbol": "SUI",
-        "performance": "9.36%"
-      },
-      {
-        "symbol": "GT",
-        "performance": "9.28%"
+        "symbol": "ARB",
+        "performance": "15.72%"
       },
       {
         "symbol": "UNI",
-        "performance": "7.79%"
+        "performance": "13.76%"
       },
       {
-        "symbol": "AVAX",
-        "performance": "6.43%"
+        "symbol": "SUI",
+        "performance": "11.58%"
+      },
+      {
+        "symbol": "GT",
+        "performance": "7.60%"
+      },
+      {
+        "symbol": "AAVE",
+        "performance": "6.88%"
       }
     ]
   },
-  "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-11-07T12:55:28.326Z"
+  "marketpulseCrypto": "15",
+  "lastUpdated": "2026-11-08T08:44:39.992Z"
 }
