@@ -4,18 +4,18 @@
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "HOLD",
       "rawDecision": "Hold"
     },
-    "speedometer": "37"
+    "speedometer": "39"
   },
   "eth": {
     "name": "ETH",
@@ -30,56 +30,56 @@
       "rawDecision": "Güçlü Al"
     },
     "long": {
-      "decision": "HOLD",
-      "rawDecision": "Hold"
+      "decision": "BUY",
+      "rawDecision": "buy"
     },
-    "speedometer": "34"
+    "speedometer": "32"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "194.81%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "51.38%"
+        "performance": "200.74%"
       },
       {
         "symbol": "PEPE",
-        "performance": "42.55%"
+        "performance": "55.11%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "42.60%"
       },
       {
         "symbol": "JST",
-        "performance": "42.48%"
+        "performance": "40.89%"
       },
       {
         "symbol": "XMR",
-        "performance": "20.15%"
+        "performance": "19.75%"
       },
       {
         "symbol": "ARB",
-        "performance": "15.72%"
+        "performance": "19.45%"
       },
       {
         "symbol": "UNI",
-        "performance": "13.76%"
+        "performance": "15.15%"
       },
       {
         "symbol": "SUI",
-        "performance": "11.58%"
+        "performance": "13.64%"
       },
       {
-        "symbol": "GT",
-        "performance": "7.60%"
+        "symbol": "ZEC",
+        "performance": "9.81%"
       },
       {
-        "symbol": "AAVE",
-        "performance": "6.88%"
+        "symbol": "BCH",
+        "performance": "8.61%"
       }
     ]
   },
-  "marketpulseCrypto": "15",
-  "lastUpdated": "2026-11-08T08:44:39.992Z"
+  "marketpulseCrypto": "13",
+  "lastUpdated": "2026-11-09T07:56:57.360Z"
 }
