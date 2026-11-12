@@ -4,18 +4,18 @@
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "BUY",
+      "rawDecision": "Al"
     },
     "mid": {
       "decision": "STRONG_BUY",
       "rawDecision": "Güçlü Al"
     },
     "long": {
-      "decision": "HOLD",
-      "rawDecision": "Hold"
+      "decision": "BUY",
+      "rawDecision": "buy"
     },
-    "speedometer": "33"
+    "speedometer": "31"
   },
   "eth": {
     "name": "ETH",
@@ -33,53 +33,53 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "27"
+    "speedometer": "26"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "182.05%"
+        "performance": "159.87%"
       },
       {
         "symbol": "NEAR",
-        "performance": "65.01%"
+        "performance": "52.68%"
       },
       {
         "symbol": "PEPE",
-        "performance": "50.30%"
+        "performance": "35.48%"
       },
       {
         "symbol": "JST",
-        "performance": "35.07%"
+        "performance": "32.07%"
       },
       {
         "symbol": "AVAX",
-        "performance": "20.22%"
+        "performance": "20.76%"
       },
       {
         "symbol": "SUI",
-        "performance": "19.98%"
+        "performance": "17.53%"
       },
       {
         "symbol": "ARB",
-        "performance": "19.26%"
+        "performance": "12.99%"
+      },
+      {
+        "symbol": "GT",
+        "performance": "11.68%"
       },
       {
         "symbol": "XMR",
-        "performance": "13.34%"
+        "performance": "9.32%"
       },
       {
-        "symbol": "ENA",
-        "performance": "12.88%"
-      },
-      {
-        "symbol": "ONDO",
-        "performance": "11.35%"
+        "symbol": "BCH",
+        "performance": "6.29%"
       }
     ]
   },
-  "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-11-11T14:12:23.183Z"
+  "marketpulseCrypto": "14",
+  "lastUpdated": "2026-11-12T08:38:58.610Z"
 }
