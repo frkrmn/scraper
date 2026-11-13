@@ -8,8 +8,26 @@
       "rawDecision": "Al"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+    },
+    "long": {
+      "decision": "HOLD",
+      "rawDecision": "Hold"
+    },
+    "speedometer": "35"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "0",
+    "maxPain": "0",
+    "short": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
+    },
+    "mid": {
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "BUY",
@@ -17,69 +35,51 @@
     },
     "speedometer": "31"
   },
-  "eth": {
-    "name": "ETH",
-    "today": "0",
-    "maxPain": "0",
-    "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
-    },
-    "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
-    },
-    "long": {
-      "decision": "BUY",
-      "rawDecision": "buy"
-    },
-    "speedometer": "26"
-  },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "159.87%"
+        "performance": "161.35%"
       },
       {
         "symbol": "NEAR",
-        "performance": "52.68%"
-      },
-      {
-        "symbol": "PEPE",
-        "performance": "35.48%"
+        "performance": "52.35%"
       },
       {
         "symbol": "JST",
-        "performance": "32.07%"
+        "performance": "42.71%"
       },
       {
-        "symbol": "AVAX",
-        "performance": "20.76%"
+        "symbol": "PEPE",
+        "performance": "42.64%"
       },
       {
         "symbol": "SUI",
-        "performance": "17.53%"
+        "performance": "20.71%"
+      },
+      {
+        "symbol": "AVAX",
+        "performance": "20.28%"
       },
       {
         "symbol": "ARB",
-        "performance": "12.99%"
+        "performance": "16.62%"
       },
       {
-        "symbol": "GT",
-        "performance": "11.68%"
+        "symbol": "LEO",
+        "performance": "15.59%"
       },
       {
         "symbol": "XMR",
-        "performance": "9.32%"
+        "performance": "15.40%"
       },
       {
-        "symbol": "BCH",
-        "performance": "6.29%"
+        "symbol": "U",
+        "performance": "12.82%"
       }
     ]
   },
-  "marketpulseCrypto": "14",
-  "lastUpdated": "2026-11-12T08:38:58.610Z"
+  "marketpulseCrypto": "12",
+  "lastUpdated": "2026-11-13T07:33:25.897Z"
 }
