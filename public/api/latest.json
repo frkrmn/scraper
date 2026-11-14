@@ -8,22 +8,22 @@
       "rawDecision": "Al"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
     },
     "long": {
-      "decision": "HOLD",
-      "rawDecision": "Hold"
+      "decision": "BUY",
+      "rawDecision": "buy"
     },
-    "speedometer": "35"
+    "speedometer": "28"
   },
   "eth": {
     "name": "ETH",
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,53 +33,53 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "31"
+    "speedometer": "32"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "169.25%"
+        "performance": "166.15%"
       },
       {
         "symbol": "NEAR",
-        "performance": "53.90%"
+        "performance": "53.31%"
       },
       {
         "symbol": "PEPE",
-        "performance": "40.72%"
+        "performance": "39.89%"
       },
       {
         "symbol": "JST",
-        "performance": "40.58%"
+        "performance": "38.70%"
       },
       {
         "symbol": "SUI",
-        "performance": "23.22%"
+        "performance": "22.99%"
       },
       {
         "symbol": "AVAX",
-        "performance": "23.01%"
-      },
-      {
-        "symbol": "ARB",
-        "performance": "18.52%"
+        "performance": "21.40%"
       },
       {
         "symbol": "XMR",
-        "performance": "17.43%"
+        "performance": "16.52%"
       },
       {
         "symbol": "LEO",
-        "performance": "15.06%"
+        "performance": "16.49%"
       },
       {
         "symbol": "U",
-        "performance": "12.58%"
+        "performance": "11.45%"
+      },
+      {
+        "symbol": "ONDO",
+        "performance": "10.31%"
       }
     ]
   },
-  "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-11-13T14:31:02.438Z"
+  "marketpulseCrypto": "11",
+  "lastUpdated": "2026-11-14T08:30:51.023Z"
 }
