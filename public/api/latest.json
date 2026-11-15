@@ -15,71 +15,71 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "28"
+    "speedometer": "23"
   },
   "eth": {
     "name": "ETH",
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
-    },
-    "mid": {
       "decision": "UNKNOWN",
       "rawDecision": "İşlem yok"
+    },
+    "mid": {
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "32"
+    "speedometer": "28"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "168.04%"
+        "performance": "157.01%"
       },
       {
         "symbol": "NEAR",
-        "performance": "54.66%"
-      },
-      {
-        "symbol": "PEPE",
-        "performance": "40.21%"
+        "performance": "37.25%"
       },
       {
         "symbol": "JST",
-        "performance": "40.02%"
+        "performance": "37.14%"
       },
       {
-        "symbol": "SUI",
-        "performance": "22.83%"
+        "symbol": "JUP",
+        "performance": "34.90%"
       },
       {
-        "symbol": "AVAX",
-        "performance": "21.02%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "18.26%"
+        "symbol": "PEPE",
+        "performance": "32.16%"
       },
       {
         "symbol": "LEO",
-        "performance": "16.89%"
+        "performance": "18.04%"
+      },
+      {
+        "symbol": "SUI",
+        "performance": "16.42%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "15.41%"
       },
       {
         "symbol": "U",
-        "performance": "12.06%"
+        "performance": "15.32%"
       },
       {
-        "symbol": "BCH",
-        "performance": "11.47%"
+        "symbol": "SKY",
+        "performance": "13.75%"
       }
     ]
   },
-  "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-11-14T13:27:30.898Z"
+  "marketpulseCrypto": "5",
+  "lastUpdated": "2026-11-15T07:20:01.544Z"
 }
