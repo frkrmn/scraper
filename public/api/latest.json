@@ -15,15 +15,15 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "23"
+    "speedometer": "22"
   },
   "eth": {
     "name": "ETH",
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "BUY",
+      "rawDecision": "Al"
     },
     "mid": {
       "decision": "STRONG_BUY",
@@ -33,53 +33,53 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "28"
+    "speedometer": "26"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "172.53%"
+        "performance": "169.95%"
       },
       {
         "symbol": "JST",
-        "performance": "37.84%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "37.01%"
+        "performance": "40.59%"
       },
       {
         "symbol": "JUP",
-        "performance": "35.56%"
+        "performance": "28.07%"
+      },
+      {
+        "symbol": "NEAR",
+        "performance": "21.17%"
       },
       {
         "symbol": "PEPE",
-        "performance": "32.86%"
-      },
-      {
-        "symbol": "SUI",
-        "performance": "17.02%"
+        "performance": "18.72%"
       },
       {
         "symbol": "LEO",
-        "performance": "16.95%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "16.65%"
+        "performance": "18.46%"
       },
       {
         "symbol": "U",
-        "performance": "13.96%"
+        "performance": "15.13%"
+      },
+      {
+        "symbol": "SUI",
+        "performance": "13.63%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "10.14%"
       },
       {
         "symbol": "AVAX",
-        "performance": "13.09%"
+        "performance": "9.30%"
       }
     ]
   },
-  "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-11-15T13:53:37.196Z"
+  "marketpulseCrypto": "6",
+  "lastUpdated": "2026-11-16T07:46:28.955Z"
 }
