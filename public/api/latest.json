@@ -40,46 +40,46 @@
     "data": [
       {
         "symbol": "QNT",
-        "performance": "162.00%"
+        "performance": "159.45%"
       },
       {
         "symbol": "JST",
-        "performance": "44.51%"
+        "performance": "45.86%"
       },
       {
         "symbol": "LEO",
-        "performance": "24.41%"
-      },
-      {
-        "symbol": "PEPE",
-        "performance": "20.98%"
+        "performance": "25.67%"
       },
       {
         "symbol": "U",
-        "performance": "20.50%"
+        "performance": "21.54%"
+      },
+      {
+        "symbol": "PEPE",
+        "performance": "16.57%"
       },
       {
         "symbol": "TRX",
-        "performance": "10.75%"
-      },
-      {
-        "symbol": "XMR",
-        "performance": "10.17%"
-      },
-      {
-        "symbol": "NEAR",
-        "performance": "9.88%"
-      },
-      {
-        "symbol": "SUI",
-        "performance": "9.36%"
+        "performance": "12.31%"
       },
       {
         "symbol": "PAXG",
-        "performance": "8.74%"
+        "performance": "9.95%"
+      },
+      {
+        "symbol": "XAUt",
+        "performance": "9.82%"
+      },
+      {
+        "symbol": "XMR",
+        "performance": "8.91%"
+      },
+      {
+        "symbol": "SUI",
+        "performance": "8.81%"
       }
     ]
   },
-  "marketpulseCrypto": "6",
-  "lastUpdated": "2026-11-17T08:37:16.236Z"
+  "marketpulseCrypto": "unknown",
+  "lastUpdated": "2026-11-17T15:56:04.356Z"
 }
