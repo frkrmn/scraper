@@ -4,26 +4,26 @@
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "20"
+    "speedometer": "21"
   },
   "eth": {
     "name": "ETH",
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "mid": {
       "decision": "STRONG_BUY",
@@ -33,53 +33,53 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "25"
+    "speedometer": "23"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "159.45%"
+        "performance": "154.88%"
       },
       {
         "symbol": "JST",
-        "performance": "45.86%"
+        "performance": "42.34%"
       },
       {
         "symbol": "LEO",
-        "performance": "25.67%"
+        "performance": "25.01%"
       },
       {
         "symbol": "U",
-        "performance": "21.54%"
+        "performance": "20.20%"
       },
       {
-        "symbol": "PEPE",
-        "performance": "16.57%"
-      },
-      {
-        "symbol": "TRX",
-        "performance": "12.31%"
-      },
-      {
-        "symbol": "PAXG",
-        "performance": "9.95%"
-      },
-      {
-        "symbol": "XAUt",
-        "performance": "9.82%"
+        "symbol": "NEAR",
+        "performance": "16.17%"
       },
       {
         "symbol": "XMR",
-        "performance": "8.91%"
+        "performance": "12.80%"
       },
       {
-        "symbol": "SUI",
-        "performance": "8.81%"
+        "symbol": "TRX",
+        "performance": "11.57%"
+      },
+      {
+        "symbol": "PEPE",
+        "performance": "9.33%"
+      },
+      {
+        "symbol": "PAXG",
+        "performance": "6.55%"
+      },
+      {
+        "symbol": "XAUt",
+        "performance": "6.32%"
       }
     ]
   },
-  "marketpulseCrypto": "unknown",
-  "lastUpdated": "2026-11-17T15:56:04.356Z"
+  "marketpulseCrypto": "6",
+  "lastUpdated": "2026-11-18T07:32:35.698Z"
 }
