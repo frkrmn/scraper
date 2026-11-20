@@ -15,6 +15,7 @@ export const login = async ({ page }: { page: PageWithCursor }) => {
   // The first page load establishes the browser challenge session on KMQuant.
   await new Promise(resolve => setTimeout(resolve, 5000));
   await page.reload({ waitUntil: "domcontentloaded", timeout: 30000 });
+  await new Promise(resolve => setTimeout(resolve, 5000));
   await page.waitForSelector('input[name="email"]', { timeout: 15000 });
   await page.waitForFunction(() =>
     Boolean((document.querySelector('[name="cf-turnstile-response"]') as HTMLInputElement | null)?.value),
@@ -27,10 +28,12 @@ export const login = async ({ page }: { page: PageWithCursor }) => {
   await page.type('input[name="email"]', process.env.KMQUANT_EMAIL, {
     delay: 2,
   });
+  await new Promise(resolve => setTimeout(resolve, 1000));
   console.log("Filling password...");
   await page.type('input[name="password"]', process.env.KMQUANT_PASSWORD, {
     delay: 2,
   });
+  await new Promise(resolve => setTimeout(resolve, 1500));
   console.log("Clicking login button...");
   await Promise.all([
     page.waitForNavigation({ waitUntil: "domcontentloaded", timeout: 30000 }),
