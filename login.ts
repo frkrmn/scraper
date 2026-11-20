@@ -15,6 +15,11 @@ export const login = async ({ page }: { page: PageWithCursor }) => {
   await page.waitForFunction(() =>
     Boolean((document.querySelector('[name="cf-turnstile-response"]') as HTMLInputElement | null)?.value),
     { timeout: 60000 });
+  await page.reload({ waitUntil: "domcontentloaded", timeout: 30000 });
+  await page.waitForSelector('input[name="email"]', { timeout: 15000 });
+  await page.waitForFunction(() =>
+    Boolean((document.querySelector('[name="cf-turnstile-response"]') as HTMLInputElement | null)?.value),
+    { timeout: 60000 });
 
   if (!process.env.KMQUANT_EMAIL || !process.env.KMQUANT_PASSWORD) {
     throw new Error("KMQUANT_EMAIL and KMQUANT_PASSWORD are required");
