@@ -1,5 +1,4 @@
 import { PageWithCursor } from "puppeteer-real-browser";
-import { sleep } from "moderndash";
 
 export type NormalizedDecision =
   | "STRONG_BUY"
@@ -46,14 +45,16 @@ export async function getAlgoData({
 }): Promise<AlgoData> {
   console.log(`Navigating to ${url}...`);
   await page.goto(url, { waitUntil: "domcontentloaded" });
-  await sleep(5000);
+  await page.waitForFunction(() => {
+    const value = document.querySelector("#decision-section .kpi-value")?.textContent?.trim();
+    return Boolean(value && value !== "unknown");
+  }, { timeout: 30000 });
 
   const getValue = async (selector: string) =>
-    page
-      .$eval(selector, (el) => el.textContent?.trim() || "unknown")
-      .catch(() => "unknown");
+    page.$eval(selector, (el) => el.textContent?.trim() || "unknown");
 
   const rawDecision = await getValue("#decision-section .kpi-value");
+  if (rawDecision === "unknown") throw new Error(`Missing decision at ${url}`);
 
   return {
     decision: normalizeDecision(rawDecision),

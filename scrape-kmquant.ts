@@ -2,10 +2,8 @@ import dotenv from "dotenv";
 import * as fs from "fs";
 import * as path from "path";
 import { connect } from "puppeteer-real-browser";
-import isCI from "is-ci";
 import { getTodayAndMaxPainCryptoData } from "./getTodayAndMaxPainCryptoData";
 import { getAlgoData } from "./getAlgoData";
-import { sleep } from "moderndash";
 import { getSpeedometerData } from "./getSpeedometerData";
 import { login } from "./login";
 import {
@@ -16,8 +14,33 @@ import { getMarketPulseCryptoData } from "./getMarketPulseCryptoData";
 import { NormalizedDecision } from "./getAlgoData";
 import { createClient } from "@supabase/supabase-js";
 
-if (!isCI) {
-  dotenv.config({ path: ".env.local" });
+dotenv.config({ path: process.env.KMQUANT_ENV_FILE || ".env.local", quiet: true });
+
+const log = (event: string, fields: Record<string, unknown> = {}) =>
+  console.log(JSON.stringify({ time: new Date().toISOString(), event, ...fields }));
+
+function validate(data: KmquantData) {
+  const price = (value: string) => Number(value.replace(/[^\d.,-]/g, "").replace(/,/g, ""));
+  for (const asset of [data.btc, data.eth]) {
+    for (const field of ["today", "maxPain"] as const) {
+      if (!Number.isFinite(price(asset[field])) || price(asset[field]) <= 0)
+        throw new Error(`Invalid ${asset.name}.${field}`);
+    }
+    for (const field of ["short", "mid", "long"] as const) {
+      if (!asset[field].rawDecision || asset[field].rawDecision === "unknown")
+        throw new Error(`Missing ${asset.name}.${field} decision`);
+    }
+    if (!asset.speedometer || asset.speedometer === "unknown")
+      throw new Error(`Missing ${asset.name}.speedometer`);
+  }
+  if (!data.marketpulseCrypto || data.marketpulseCrypto === "unknown")
+    throw new Error("Missing marketpulseCrypto");
+  if (!data.topAltcoinPerformance.period || data.topAltcoinPerformance.data.length === 0)
+    throw new Error("Missing altcoin performance");
+  if (data.topAltcoinPerformance.data.some(row => !row.symbol || !row.performance))
+    throw new Error("Incomplete altcoin performance");
+  if (Date.now() - Date.parse(data.lastUpdated) > 15 * 60_000)
+    throw new Error("Stale KMQuant data");
 }
 
 type CryptoPosition = {
@@ -67,7 +90,7 @@ async function main(): Promise<KmquantData> {
     headless: false,
     args: [],
     customConfig: {},
-    turnstile: true,
+    turnstile: false,
     connectOption: {},
     disableXvfb: false,
     ignoreAllFlags: false,
@@ -86,19 +109,13 @@ async function main(): Promise<KmquantData> {
       });
     }
 
-    await sleep(6000);
-
     const { btc: btcTodayAndMaxPain, eth: ethTodayAndMaxPain } =
       await getTodayAndMaxPainCryptoData({ page });
 
     const marketpulseCrypto = await getMarketPulseCryptoData({ page });
 
-    await sleep(4000);
-
     const { btc: btcSpeedometerData, eth: ethSpeedometerData } =
       await getSpeedometerData({ page });
-
-    await sleep(4000);
 
     const topAltcoinPerformanceResult = await getTopAltcoinPerformanceData({
       page,
@@ -145,7 +162,22 @@ async function main(): Promise<KmquantData> {
 }
 
 async function run() {
-  const res = await main();
+  if (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY)
+    throw new Error("Supabase credentials are required");
+  let res: KmquantData | undefined;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      log("scrape_start", { attempt });
+      res = await main();
+      validate(res);
+      break;
+    } catch (error) {
+      log("scrape_failed", { attempt, error: String(error) });
+      if (attempt === 3) throw error;
+      await new Promise(resolve => setTimeout(resolve, attempt * 10_000));
+    }
+  }
+  if (!res) throw new Error("No KMQuant data");
 
   // 1. JSON dosyasına kaydet (anlık veri için)
   const apiDir = path.join(process.cwd(), "public", "api");
@@ -153,16 +185,9 @@ async function run() {
     fs.mkdirSync(apiDir, { recursive: true });
   }
   const filePath = path.join(apiDir, "latest.json");
-  fs.writeFileSync(filePath, JSON.stringify(res, null, 2), "utf-8");
-  console.log("✓ Data saved to", filePath);
-
-  // 2. Supabase max_pain_history tablosuna günlük kayıt at
-  const supabaseUrl = process.env.SUPABASE_URL;
-  const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
-
-  if (supabaseUrl && supabaseKey) {
-    const supabase = createClient(supabaseUrl, supabaseKey);
-    const today = new Date().toISOString().split("T")[0]; // "2026-06-22"
+  {
+    const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);
+    const today = new Date().toISOString().split("T")[0];
 
     const { error } = await supabase
       .from("max_pain_history")
@@ -177,16 +202,13 @@ async function run() {
         { onConflict: "date" } // aynı güne iki kez yazılmasın
       );
 
-    if (error) {
-      console.error("✗ Failed to save to Supabase max_pain_history:", error);
-    } else {
-      console.log(`✓ Max pain history saved for ${today}`);
-    }
-  } else {
-    console.warn("⚠ SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY not set, skipping Supabase write.");
+    if (error) throw new Error(`Supabase max_pain_history: ${error.message}`);
+    log("supabase_saved", { date: today });
   }
-
-  console.log("Final data:", res);
+  const tempPath = `${filePath}.${process.pid}.tmp`;
+  fs.writeFileSync(tempPath, JSON.stringify(res, null, 2), "utf-8");
+  fs.renameSync(tempPath, filePath);
+  log("data_saved", { filePath });
 }
 
-run().catch(console.error);
+run().catch(error => { log("fatal", { error: String(error) }); process.exitCode = 1; });

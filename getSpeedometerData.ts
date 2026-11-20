@@ -1,6 +1,5 @@
 import { KMAQUANT_PAGES } from "./scrape-kmquant";
 import { PageWithCursor } from "puppeteer-real-browser";
-import { sleep } from "moderndash";
 
 type SpeedometerData = {
   btc: string;
@@ -16,7 +15,10 @@ export const getSpeedometerData = async ({
   await page.goto(KMAQUANT_PAGES.SPEEDOMETER_PAGE, {
     waitUntil: "domcontentloaded",
   });
-  await sleep(4000);
+  await page.waitForFunction(() =>
+    ["#container-speed1 .highcharts-data-label text", "#container-speed2 .highcharts-data-label text"]
+      .every(selector => Boolean(document.querySelector(selector)?.textContent?.trim())),
+    { timeout: 30000 });
 
   const btcValue = await page
     .$eval(

@@ -1,4 +1,4 @@
-name: Daily Crypto Data Scrape
+name: Daily KMQuant Scrape
 
 on:
   schedule:
@@ -8,9 +8,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: kmquant-daily
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -21,23 +26,23 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Type check
+        run: npm run check
 
       - name: Run KMquant scraper
-        run: npx tsx scrape-kmquant.ts
+        run: npm run scrape:kmquant
         env:
           KMQUANT_EMAIL: ${{ secrets.KMQUANT_EMAIL }}
           KMQUANT_PASSWORD: ${{ secrets.KMQUANT_PASSWORD }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 
-      - name: Run NewHedge scraper
-        run: npx tsx scrape-newhedge.ts
-
       - name: Commit and push updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/api/latest.json public/api/newhedge.json
+          git add public/api/latest.json
           git diff --staged --quiet || git commit -m "Daily data update"
           git push

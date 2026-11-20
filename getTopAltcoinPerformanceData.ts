@@ -1,6 +1,5 @@
 import { KMAQUANT_PAGES } from "./scrape-kmquant";
 import { PageWithCursor } from "puppeteer-real-browser";
-import { sleep } from "moderndash";
 
 export type TopAltcoinPerformance = {
   period: string; // day
@@ -24,10 +23,11 @@ export const getTopAltcoinPerformanceData = async ({
     waitUntil: "domcontentloaded",
   });
 
-  await sleep(5000);
-
   // Wait for chart container
-  await page.waitForSelector("#chartContainer svg", { timeout: 10000 });
+  await page.waitForFunction(() =>
+    document.querySelectorAll(".highcharts-xaxis-labels text").length > 0 &&
+    document.querySelectorAll(".highcharts-data-labels .highcharts-data-label text").length > 0,
+    { timeout: 30000 });
 
   const performanceData = await page.evaluate(() => {
     const data: { symbol: string; performance: string }[] = [];

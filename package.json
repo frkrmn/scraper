@@ -5,14 +5,11 @@
   "type": "module",
   "scripts": {
     "scrape:kmquant": "tsx scrape-kmquant.ts",
-    "scrape:newhedge": "tsx scrape-newhedge.ts"
+    "check": "tsc --noEmit"
   },
   "dependencies": {
     "@supabase/supabase-js": "latest",
-    "cheerio": "latest",
     "dotenv": "latest",
-    "is-ci": "latest",
-    "moderndash": "latest",
     "puppeteer-real-browser": "latest"
   },
   "devDependencies": {
