@@ -90,7 +90,7 @@ async function main(): Promise<KmquantData> {
     headless: false,
     args: [],
     customConfig: {},
-    turnstile: false,
+    turnstile: true,
     connectOption: {},
     disableXvfb: false,
     ignoreAllFlags: false,

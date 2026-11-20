@@ -12,6 +12,9 @@ export const login = async ({ page }: { page: PageWithCursor }) => {
   await page.waitForSelector('input[name="email"]', {
     timeout: 15000,
   });
+  await page.waitForFunction(() =>
+    Boolean((document.querySelector('[name="cf-turnstile-response"]') as HTMLInputElement | null)?.value),
+    { timeout: 60000 });
 
   if (!process.env.KMQUANT_EMAIL || !process.env.KMQUANT_PASSWORD) {
     throw new Error("KMQUANT_EMAIL and KMQUANT_PASSWORD are required");
@@ -32,4 +35,6 @@ export const login = async ({ page }: { page: PageWithCursor }) => {
   const verificationFailed = await page.evaluate(() =>
     document.body.innerText.includes("Doğrulama başarısız"));
   if (verificationFailed) throw new Error("KMQuant login verification failed");
+  if (await page.$('input[name="email"]'))
+    throw new Error("KMQuant login did not authenticate; check account access");
 };
