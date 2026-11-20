@@ -12,9 +12,8 @@ export const login = async ({ page }: { page: PageWithCursor }) => {
   await page.waitForSelector('input[name="email"]', {
     timeout: 15000,
   });
-  await page.waitForFunction(() =>
-    Boolean((document.querySelector('[name="cf-turnstile-response"]') as HTMLInputElement | null)?.value),
-    { timeout: 60000 });
+  // The first page load establishes the browser challenge session on KMQuant.
+  await new Promise(resolve => setTimeout(resolve, 5000));
   await page.reload({ waitUntil: "domcontentloaded", timeout: 30000 });
   await page.waitForSelector('input[name="email"]', { timeout: 15000 });
   await page.waitForFunction(() =>
