@@ -99,15 +99,11 @@ async function main(): Promise<KmquantData> {
   try {
     await login({ page });
 
-    const currentUrl = page.url();
-    console.log("Current URL after login:", currentUrl);
-
-    if (!currentUrl.includes("/app/")) {
-      console.log("Navigating to app page...");
-      await page.goto(KMAQUANT_PAGES.APP_PAGE, {
-        waitUntil: "domcontentloaded",
-      });
-    }
+    log("login_complete", { path: new URL(page.url()).pathname });
+    await page.goto(KMAQUANT_PAGES.APP_PAGE, {
+      waitUntil: "domcontentloaded",
+      timeout: 30000,
+    });
     if (await page.$('input[name="email"]'))
       throw new Error("KMQuant login verification failed: redirected to login");
 
