@@ -176,8 +176,6 @@ async function run() {
       break;
     } catch (error) {
       log("scrape_failed", { attempt, error: String(error) });
-      if (String(error).includes("login verification failed") ||
-          String(error).includes("login did not authenticate")) throw error;
       if (attempt === 3) throw error;
       await new Promise(resolve => setTimeout(resolve, attempt * 10_000));
     }
