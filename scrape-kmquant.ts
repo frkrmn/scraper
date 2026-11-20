@@ -164,7 +164,8 @@ async function main(): Promise<KmquantData> {
 }
 
 async function run() {
-  if (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY)
+  const dryRun = process.env.KMQUANT_DRY_RUN === "1";
+  if (!dryRun && (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY))
     throw new Error("Supabase credentials are required");
   let res: KmquantData | undefined;
   for (let attempt = 1; attempt <= 3; attempt++) {
@@ -182,6 +183,11 @@ async function run() {
     }
   }
   if (!res) throw new Error("No KMQuant data");
+  if (dryRun) {
+    log("validated", { btcPrice: res.btc.today, ethPrice: res.eth.today,
+      altcoinCount: res.topAltcoinPerformance.data.length, lastUpdated: res.lastUpdated });
+    return;
+  }
 
   // 1. JSON dosyasına kaydet (anlık veri için)
   const apiDir = path.join(process.cwd(), "public", "api");
@@ -190,7 +196,7 @@ async function run() {
   }
   const filePath = path.join(apiDir, "latest.json");
   {
-    const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_ROLE_KEY);
+    const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_SERVICE_ROLE_KEY!);
     const today = new Date().toISOString().split("T")[0];
 
     const { error } = await supabase
