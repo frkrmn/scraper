@@ -29,4 +29,7 @@ export const login = async ({ page }: { page: PageWithCursor }) => {
     page.waitForNavigation({ waitUntil: "domcontentloaded", timeout: 30000 }),
     page.click('button[name="login"]'),
   ]);
+  const verificationFailed = await page.evaluate(() =>
+    document.body.innerText.includes("Doğrulama başarısız"));
+  if (verificationFailed) throw new Error("KMQuant login verification failed");
 };

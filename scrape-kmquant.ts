@@ -108,6 +108,8 @@ async function main(): Promise<KmquantData> {
         waitUntil: "domcontentloaded",
       });
     }
+    if (await page.$('input[name="email"]'))
+      throw new Error("KMQuant login verification failed: redirected to login");
 
     const { btc: btcTodayAndMaxPain, eth: ethTodayAndMaxPain } =
       await getTodayAndMaxPainCryptoData({ page });
@@ -173,6 +175,7 @@ async function run() {
       break;
     } catch (error) {
       log("scrape_failed", { attempt, error: String(error) });
+      if (String(error).includes("login verification failed")) throw error;
       if (attempt === 3) throw error;
       await new Promise(resolve => setTimeout(resolve, attempt * 10_000));
     }
