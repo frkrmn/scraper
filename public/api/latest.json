@@ -4,6 +4,24 @@
     "today": "0",
     "maxPain": "0",
     "short": {
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
+    },
+    "mid": {
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
+    },
+    "long": {
+      "decision": "BUY",
+      "rawDecision": "buy"
+    },
+    "speedometer": "9"
+  },
+  "eth": {
+    "name": "ETH",
+    "today": "0",
+    "maxPain": "0",
+    "short": {
       "decision": "BUY",
       "rawDecision": "Al"
     },
@@ -15,71 +33,53 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "14"
-  },
-  "eth": {
-    "name": "ETH",
-    "today": "0",
-    "maxPain": "0",
-    "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
-    },
-    "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
-    },
-    "long": {
-      "decision": "BUY",
-      "rawDecision": "buy"
-    },
-    "speedometer": "20"
+    "speedometer": "15"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "143.46%"
+        "performance": "113.29%"
       },
       {
         "symbol": "JST",
-        "performance": "60.54%"
+        "performance": "57.25%"
       },
       {
         "symbol": "LEO",
-        "performance": "33.03%"
+        "performance": "33.64%"
       },
       {
         "symbol": "U",
-        "performance": "28.99%"
+        "performance": "32.95%"
       },
       {
         "symbol": "TRX",
-        "performance": "18.97%"
-      },
-      {
-        "symbol": "KCS",
-        "performance": "12.60%"
-      },
-      {
-        "symbol": "PAXG",
-        "performance": "10.89%"
-      },
-      {
-        "symbol": "XAUt",
-        "performance": "10.88%"
+        "performance": "21.64%"
       },
       {
         "symbol": "XMR",
-        "performance": "10.84%"
+        "performance": "15.72%"
+      },
+      {
+        "symbol": "PAXG",
+        "performance": "13.82%"
+      },
+      {
+        "symbol": "XAUt",
+        "performance": "13.72%"
       },
       {
         "symbol": "WLFI",
-        "performance": "9.18%"
+        "performance": "8.15%"
+      },
+      {
+        "symbol": "BGB",
+        "performance": "5.80%"
       }
     ]
   },
-  "marketpulseCrypto": "6",
-  "lastUpdated": "2026-11-20T07:53:22.479Z"
+  "marketpulseCrypto": "5",
+  "lastUpdated": "2026-11-21T11:03:39.446Z"
 }
