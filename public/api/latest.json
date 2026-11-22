@@ -15,71 +15,71 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "9"
+    "speedometer": "6"
   },
   "eth": {
     "name": "ETH",
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "BUY",
-      "rawDecision": "Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "15"
+    "speedometer": "18"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "113.29%"
+        "performance": "125.40%"
       },
       {
         "symbol": "JST",
-        "performance": "57.25%"
+        "performance": "61.57%"
       },
       {
         "symbol": "LEO",
-        "performance": "33.64%"
+        "performance": "31.44%"
       },
       {
         "symbol": "U",
-        "performance": "32.95%"
+        "performance": "29.96%"
       },
       {
         "symbol": "TRX",
-        "performance": "21.64%"
+        "performance": "19.08%"
       },
       {
         "symbol": "XMR",
-        "performance": "15.72%"
+        "performance": "17.53%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "15.30%"
       },
       {
         "symbol": "PAXG",
-        "performance": "13.82%"
+        "performance": "12.35%"
       },
       {
         "symbol": "XAUt",
-        "performance": "13.72%"
+        "performance": "12.25%"
       },
       {
-        "symbol": "WLFI",
-        "performance": "8.15%"
-      },
-      {
-        "symbol": "BGB",
-        "performance": "5.80%"
+        "symbol": "KCS",
+        "performance": "10.86%"
       }
     ]
   },
   "marketpulseCrypto": "5",
-  "lastUpdated": "2026-11-21T11:03:39.446Z"
+  "lastUpdated": "2026-11-22T08:11:38.809Z"
 }
