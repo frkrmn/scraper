@@ -4,26 +4,26 @@
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "6"
+    "speedometer": "8"
   },
   "eth": {
     "name": "ETH",
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,53 +33,53 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "18"
+    "speedometer": "21"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "125.40%"
+        "performance": "95.58%"
       },
       {
         "symbol": "JST",
-        "performance": "61.57%"
+        "performance": "56.59%"
       },
       {
         "symbol": "LEO",
-        "performance": "31.44%"
+        "performance": "29.89%"
       },
       {
         "symbol": "U",
-        "performance": "29.96%"
+        "performance": "27.67%"
       },
       {
         "symbol": "TRX",
-        "performance": "19.08%"
+        "performance": "17.25%"
       },
       {
         "symbol": "XMR",
-        "performance": "17.53%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "15.30%"
+        "performance": "15.28%"
       },
       {
         "symbol": "PAXG",
-        "performance": "12.35%"
+        "performance": "11.74%"
       },
       {
         "symbol": "XAUt",
-        "performance": "12.25%"
+        "performance": "11.71%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "9.74%"
       },
       {
         "symbol": "KCS",
-        "performance": "10.86%"
+        "performance": "9.55%"
       }
     ]
   },
-  "marketpulseCrypto": "5",
-  "lastUpdated": "2026-11-22T08:11:38.809Z"
+  "marketpulseCrypto": "4",
+  "lastUpdated": "2026-11-23T08:27:03.103Z"
 }
