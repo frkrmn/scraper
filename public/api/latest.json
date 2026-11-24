@@ -8,22 +8,22 @@
       "rawDecision": "İşlem yok"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "8"
+    "speedometer": "5"
   },
   "eth": {
     "name": "ETH",
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "STRONG_SELL",
+      "rawDecision": "Güçlü Sat"
     },
     "mid": {
       "decision": "UNKNOWN",
@@ -33,53 +33,53 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "21"
+    "speedometer": "23"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "QNT",
-        "performance": "95.58%"
+        "performance": "82.98%"
       },
       {
         "symbol": "JST",
-        "performance": "56.59%"
+        "performance": "48.77%"
       },
       {
         "symbol": "LEO",
-        "performance": "29.89%"
+        "performance": "31.57%"
       },
       {
         "symbol": "U",
-        "performance": "27.67%"
+        "performance": "28.11%"
       },
       {
         "symbol": "TRX",
-        "performance": "17.25%"
+        "performance": "19.72%"
       },
       {
         "symbol": "XMR",
-        "performance": "15.28%"
+        "performance": "17.37%"
       },
       {
         "symbol": "PAXG",
-        "performance": "11.74%"
+        "performance": "12.35%"
       },
       {
         "symbol": "XAUt",
-        "performance": "11.71%"
+        "performance": "12.25%"
       },
       {
         "symbol": "VVV",
-        "performance": "9.74%"
+        "performance": "11.99%"
       },
       {
         "symbol": "KCS",
-        "performance": "9.55%"
+        "performance": "8.77%"
       }
     ]
   },
   "marketpulseCrypto": "4",
-  "lastUpdated": "2026-11-23T08:27:03.103Z"
+  "lastUpdated": "2026-11-24T08:03:57.221Z"
 }
