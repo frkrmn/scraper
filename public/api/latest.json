@@ -15,71 +15,71 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "5"
+    "speedometer": "4"
   },
   "eth": {
     "name": "ETH",
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "STRONG_SELL",
-      "rawDecision": "Güçlü Sat"
+      "decision": "SELL",
+      "rawDecision": "Sat"
     },
     "mid": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "STRONG_BUY",
+      "rawDecision": "Güçlü Al"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "23"
+    "speedometer": "22"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
-        "symbol": "QNT",
-        "performance": "82.98%"
+        "symbol": "JST",
+        "performance": "49.70%"
       },
       {
-        "symbol": "JST",
-        "performance": "48.77%"
+        "symbol": "QNT",
+        "performance": "48.41%"
       },
       {
         "symbol": "LEO",
-        "performance": "31.57%"
+        "performance": "30.75%"
       },
       {
         "symbol": "U",
-        "performance": "28.11%"
+        "performance": "29.55%"
       },
       {
         "symbol": "TRX",
-        "performance": "19.72%"
+        "performance": "21.71%"
       },
       {
         "symbol": "XMR",
-        "performance": "17.37%"
-      },
-      {
-        "symbol": "PAXG",
-        "performance": "12.35%"
-      },
-      {
-        "symbol": "XAUt",
-        "performance": "12.25%"
+        "performance": "21.69%"
       },
       {
         "symbol": "VVV",
-        "performance": "11.99%"
+        "performance": "14.59%"
       },
       {
-        "symbol": "KCS",
-        "performance": "8.77%"
+        "symbol": "PAXG",
+        "performance": "11.60%"
+      },
+      {
+        "symbol": "XAUt",
+        "performance": "11.56%"
+      },
+      {
+        "symbol": "PEPE",
+        "performance": "10.94%"
       }
     ]
   },
   "marketpulseCrypto": "4",
-  "lastUpdated": "2026-11-24T08:03:57.221Z"
+  "lastUpdated": "2026-11-25T07:08:25.487Z"
 }
