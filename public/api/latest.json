@@ -4,82 +4,82 @@
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "UNKNOWN",
-      "rawDecision": "İşlem yok"
+      "decision": "BUY",
+      "rawDecision": "Al"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "4"
+    "speedometer": "8"
   },
   "eth": {
     "name": "ETH",
     "today": "0",
     "maxPain": "0",
     "short": {
-      "decision": "SELL",
-      "rawDecision": "Sat"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "mid": {
-      "decision": "STRONG_BUY",
-      "rawDecision": "Güçlü Al"
+      "decision": "UNKNOWN",
+      "rawDecision": "İşlem yok"
     },
     "long": {
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "22"
+    "speedometer": "24"
   },
   "topAltcoinPerformance": {
     "period": "60",
     "data": [
       {
         "symbol": "JST",
-        "performance": "49.70%"
-      },
-      {
-        "symbol": "QNT",
-        "performance": "48.41%"
-      },
-      {
-        "symbol": "LEO",
-        "performance": "30.75%"
+        "performance": "45.70%"
       },
       {
         "symbol": "U",
-        "performance": "29.55%"
+        "performance": "28.47%"
       },
       {
-        "symbol": "TRX",
-        "performance": "21.71%"
+        "symbol": "LEO",
+        "performance": "28.38%"
       },
       {
         "symbol": "XMR",
-        "performance": "21.69%"
+        "performance": "25.04%"
       },
       {
         "symbol": "VVV",
-        "performance": "14.59%"
+        "performance": "20.85%"
+      },
+      {
+        "symbol": "TRX",
+        "performance": "19.62%"
       },
       {
         "symbol": "PAXG",
-        "performance": "11.60%"
+        "performance": "11.81%"
       },
       {
         "symbol": "XAUt",
-        "performance": "11.56%"
+        "performance": "11.76%"
       },
       {
         "symbol": "PEPE",
-        "performance": "10.94%"
+        "performance": "8.74%"
+      },
+      {
+        "symbol": "QNT",
+        "performance": "3.48%"
       }
     ]
   },
-  "marketpulseCrypto": "4",
-  "lastUpdated": "2026-11-25T07:08:25.487Z"
+  "marketpulseCrypto": "8",
+  "lastUpdated": "2026-11-26T06:43:38.996Z"
 }
