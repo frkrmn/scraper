@@ -15,7 +15,7 @@
       "decision": "BUY",
       "rawDecision": "buy"
     },
-    "speedometer": "8"
+    "speedometer": "6"
   },
   "eth": {
     "name": "ETH",
@@ -39,47 +39,47 @@
     "period": "60",
     "data": [
       {
+        "symbol": "NIGHT",
+        "performance": "83.53%"
+      },
+      {
         "symbol": "JST",
-        "performance": "36.91%"
+        "performance": "43.16%"
       },
       {
         "symbol": "U",
-        "performance": "26.13%"
-      },
-      {
-        "symbol": "VVV",
-        "performance": "25.13%"
+        "performance": "28.55%"
       },
       {
         "symbol": "LEO",
-        "performance": "24.78%"
+        "performance": "28.27%"
+      },
+      {
+        "symbol": "VVV",
+        "performance": "25.59%"
       },
       {
         "symbol": "TRX",
-        "performance": "17.10%"
+        "performance": "18.25%"
       },
       {
         "symbol": "XAUt",
-        "performance": "14.30%"
+        "performance": "15.83%"
       },
       {
         "symbol": "PAXG",
-        "performance": "14.09%"
+        "performance": "15.66%"
       },
       {
         "symbol": "PEPE",
-        "performance": "11.98%"
+        "performance": "10.23%"
       },
       {
         "symbol": "XMR",
-        "performance": "11.39%"
-      },
-      {
-        "symbol": "BGB",
-        "performance": "2.24%"
+        "performance": "7.92%"
       }
     ]
   },
   "marketpulseCrypto": "6",
-  "lastUpdated": "2026-11-27T06:03:51.325Z"
+  "lastUpdated": "2026-11-28T07:08:56.703Z"
 }
